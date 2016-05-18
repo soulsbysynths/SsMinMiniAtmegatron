@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>6.2</ProjectVersion>
+    <ToolchainName>com.Atmel.AVRGCC8.CPP</ToolchainName>
+    <ProjectGuid>{07b459b4-8d76-4638-bc6d-a459ba2d616b}</ProjectGuid>
+    <avrdevice>atmega328p</avrdevice>
+    <avrdeviceseries>none</avrdeviceseries>
+    <OutputType>Executable</OutputType>
+    <Language>CPP</Language>
+    <OutputFileName>$(MSBuildProjectName)</OutputFileName>
+    <OutputFileExtension>.elf</OutputFileExtension>
+    <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
+    <AssemblyName>SS_MiniAtmegatron_MiniAtmegatron</AssemblyName>
+    <Name>SsMinMiniatmegatron</Name>
+    <RootNamespace>SS_MiniAtmegatron_MiniAtmegatron</RootNamespace>
+    <ToolchainFlavour>Native</ToolchainFlavour>
+    <KeepTimersRunning>true</KeepTimersRunning>
+    <OverrideVtor>false</OverrideVtor>
+    <OverrideVtorValue>
+    </OverrideVtorValue>
+    <eraseonlaunchrule>0</eraseonlaunchrule>
+    <ProgFlashFromRam>true</ProgFlashFromRam>
+    <RamSnippetAddress>0x20000000</RamSnippetAddress>
+    <CacheFlash>true</CacheFlash>
+    <UncachedRange />
+    <BootSegment>0</BootSegment>
+    <AsfFrameworkConfig>
+      <framework-data>
+  <options />
+  <configurations />
+  <files />
+  <documentation help="" />
+  <offline-documentation help="" />
+  <dependencies>
+    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.10.1" />
+  </dependencies>
+</framework-data>
+    </AsfFrameworkConfig>
+    <preserveEEPROM>true</preserveEEPROM>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <ToolchainSettings>
+      <AvrGccCpp>
+  <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
+  <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
+  <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
+  <avrgcc.common.outputfiles.srec>True</avrgcc.common.outputfiles.srec>
+  <avrgcc.common.outputfiles.usersignatures>False</avrgcc.common.outputfiles.usersignatures>
+  <avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>True</avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>
+  <avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>
+  <avrgcc.compiler.symbols.DefSymbols>
+    <ListValues>
+      <Value>__AVR_ATmega328p__</Value>
+      <Value>__AVR_ATmega328P__</Value>
+      <Value>ARDUINO=165</Value>
+      <Value>ARDUINO_MAIN</Value>
+      <Value>F_CPU=16000000L</Value>
+      <Value>__AVR__</Value>
+      <Value>ARDUINO_AVR_UNO</Value>
+      <Value>ARDUINO_ARCH_AVR</Value>
+    </ListValues>
+  </avrgcc.compiler.symbols.DefSymbols>
+  <avrgcc.compiler.directories.IncludePaths>
+    <ListValues>
+      <Value></Value>
+      <Value>c:/program files (x86)/arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include/</Value>
+      <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/</Value>
+      <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/include/avr/</Value>
+      <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/include/</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries</Value>
+      <Value>C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
+      <Value>C:/Program Files (x86)/Arduino/libraries</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Wavetable/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Wavetable</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Wavecrusher/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Wavecrusher</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Switch/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Switch</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/StepSequencer/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/StepSequencer</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/SsHelpers/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/SsHelpers</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/RotaryEncoder/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/RotaryEncoder</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Pwm/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Pwm</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Portamento/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Portamento</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinHardware/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinHardware</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinEngine/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinEngine</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Min/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Min</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Midi/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Midi</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/MasterClock/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/MasterClock</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Lfo/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Lfo</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/LedRgb/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/LedRgb</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/LedCircular/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/LedCircular</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Led/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Led</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Flanger/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Flanger</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Envelope/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Envelope</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/ClipDistortion/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/ClipDistortion</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/BiquadFilter/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/BiquadFilter</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmPitch/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmPitch</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmPatch/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmPatch</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmOscillator/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmOscillator</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmAudio/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmAudio</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AnalogueControl/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AnalogueControl</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Amplifier/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Amplifier</Value>
+      <Value>../../SsMinMiniatmegatron</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
+    </ListValues>
+  </avrgcc.compiler.directories.IncludePaths>
+  <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
+  <avrgcc.compiler.optimization.PackStructureMembers>True</avrgcc.compiler.optimization.PackStructureMembers>
+  <avrgcc.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcc.compiler.optimization.AllocateBytesNeededForEnum>
+  <avrgcc.compiler.optimization.DebugLevel>Default (-g2)</avrgcc.compiler.optimization.DebugLevel>
+  <avrgcc.compiler.warnings.AllWarnings>True</avrgcc.compiler.warnings.AllWarnings>
+  <avrgcccpp.compiler.general.ChangeDefaultCharTypeUnsigned>True</avrgcccpp.compiler.general.ChangeDefaultCharTypeUnsigned>
+  <avrgcccpp.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcccpp.compiler.general.ChangeDefaultBitFieldUnsigned>
+  <avrgcccpp.compiler.symbols.DefSymbols>
+    <ListValues>
+      <Value>__AVR_ATmega328p__</Value>
+      <Value>__AVR_ATmega328P__</Value>
+      <Value>ARDUINO=165</Value>
+      <Value>ARDUINO_MAIN</Value>
+      <Value>F_CPU=16000000L</Value>
+      <Value>__AVR__</Value>
+      <Value>ARDUINO_AVR_UNO</Value>
+      <Value>ARDUINO_ARCH_AVR</Value>
+    </ListValues>
+  </avrgcccpp.compiler.symbols.DefSymbols>
+  <avrgcccpp.compiler.directories.IncludePaths>
+    <ListValues>
+      <Value></Value>
+      <Value>c:/program files (x86)/arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include/</Value>
+      <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/</Value>
+      <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/include/avr/</Value>
+      <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/include/</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries</Value>
+      <Value>C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
+      <Value>C:/Program Files (x86)/Arduino/libraries</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Wavetable/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Wavetable</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Wavecrusher/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Wavecrusher</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Switch/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Switch</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/StepSequencer/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/StepSequencer</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/SsHelpers/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/SsHelpers</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/RotaryEncoder/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/RotaryEncoder</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Pwm/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Pwm</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Portamento/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Portamento</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinHardware/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinHardware</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinEngine/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinEngine</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Min/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Min</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Midi/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Midi</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/MasterClock/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/MasterClock</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Lfo/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Lfo</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/LedRgb/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/LedRgb</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/LedCircular/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/LedCircular</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Led/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Led</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Flanger/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Flanger</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Envelope/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Envelope</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/ClipDistortion/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/ClipDistortion</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/BiquadFilter/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/BiquadFilter</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmPitch/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmPitch</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmPatch/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmPatch</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmOscillator/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmOscillator</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmAudio/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmAudio</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AnalogueControl/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AnalogueControl</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Amplifier/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Amplifier</Value>
+      <Value>../../SsMinMiniatmegatron</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
+    </ListValues>
+  </avrgcccpp.compiler.directories.IncludePaths>
+  <avrgcccpp.compiler.optimization.level>Optimize (-O1)</avrgcccpp.compiler.optimization.level>
+  <avrgcccpp.compiler.optimization.PackStructureMembers>True</avrgcccpp.compiler.optimization.PackStructureMembers>
+  <avrgcccpp.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcccpp.compiler.optimization.AllocateBytesNeededForEnum>
+  <avrgcccpp.compiler.optimization.DebugLevel>Default (-g2)</avrgcccpp.compiler.optimization.DebugLevel>
+  <avrgcccpp.compiler.warnings.AllWarnings>True</avrgcccpp.compiler.warnings.AllWarnings>
+  <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
+</AvrGccCpp>
+    </ToolchainSettings>
+    <VMSETTING_IncludePaths>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard;../../SS_MiniAtmegatron_MiniAtmegatron;C:/Program Files (x86)/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers;C:/Users/Paul Soulsby/Documents/Arduino/libraries;c:/program files (x86)/arduino/hardware/tools/avr/avr/include/;c:/program files (x86)/arduino/hardware/tools/avr/avr/include/avr/;c:/program files (x86)/arduino/hardware/tools/avr/avr/;c:/program files (x86)/arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include/;;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_PWM;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_PWM/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_ClipDistortion;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_ClipDistortion/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Flanger;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Flanger/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Wavecrusher;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Wavecrusher/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Arpeggiator;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Arpeggiator/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Midi;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Midi/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Atmegatron_Pitch;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Atmegatron_Pitch/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Portamento;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Portamento/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Lfo;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Lfo/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_MasterClock;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_MasterClock/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_BiquadFilter;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_BiquadFilter/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Amplifier;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Amplifier/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Envelope;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Envelope/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Atmegatron_Patch;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Atmegatron_Patch/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Atmegatron_Oscillator;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Atmegatron_Oscillator/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Wavetable;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Wavetable/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Atmegatron_Audio;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Atmegatron_Audio/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Helpers;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Helpers/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_LEDcircular;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_LEDcircular/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_LEDrgb;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_LEDrgb/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_LED;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_LED/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_AnalogueControl;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_AnalogueControl/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Switch;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Switch/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_RotaryEncoder;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_RotaryEncoder/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_MiniAtmegatron;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_MiniAtmegatron/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_MiniAtmegatron_Hardware;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_MiniAtmegatron_Hardware/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_MiniAtmegatron_Engine;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_MiniAtmegatron_Engine/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_MiniAtmegatron_Patch;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_MiniAtmegatron_Patch/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_StepSequencer;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_StepSequencer/utility;../../SsMinMiniatmegatron;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Midi;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Midi/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/PWM;C:/Users/Paul Soulsby/Documents/Arduino/libraries/PWM/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/ClipDistortion;C:/Users/Paul Soulsby/Documents/Arduino/libraries/ClipDistortion/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Flanger;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Flanger/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Wavecrusher;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Wavecrusher/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmPitch;C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmPitch/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Portamento;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Portamento/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Lfo;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Lfo/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/MasterClock;C:/Users/Paul Soulsby/Documents/Arduino/libraries/MasterClock/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/BiquadFilter;C:/Users/Paul Soulsby/Documents/Arduino/libraries/BiquadFilter/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Amplifier;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Amplifier/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Envelope;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Envelope/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmOscillator;C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmOscillator/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Wavetable;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Wavetable/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmAudio;C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmAudio/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SsHelpers;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SsHelpers/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/LedCircular;C:/Users/Paul Soulsby/Documents/Arduino/libraries/LedCircular/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/LedRgb;C:/Users/Paul Soulsby/Documents/Arduino/libraries/LedRgb/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Led;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Led/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/AnalogueControl;C:/Users/Paul Soulsby/Documents/Arduino/libraries/AnalogueControl/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Switch;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Switch/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/RotaryEncoder;C:/Users/Paul Soulsby/Documents/Arduino/libraries/RotaryEncoder/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Min;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Min/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinHardware;C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinHardware/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinEngine;C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinEngine/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/StepSequencer;C:/Users/Paul Soulsby/Documents/Arduino/libraries/StepSequencer/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinPatch;C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinPatch/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmPatch;C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmPatch/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Pwm;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Pwm/utility;</VMSETTING_IncludePaths>
+    <VisualMicroSettings>
+      <VisualMicroSettings xmlns="">
+        <arduino.upload.port>COM49</arduino.upload.port>
+      </VisualMicroSettings>
+    </VisualMicroSettings>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <ToolchainSettings>
+      <AvrGccCpp>
+  <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
+  <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
+  <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
+  <avrgcc.common.outputfiles.srec>True</avrgcc.common.outputfiles.srec>
+  <avrgcc.common.outputfiles.usersignatures>False</avrgcc.common.outputfiles.usersignatures>
+  <avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>True</avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>
+  <avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>
+  <avrgcc.compiler.symbols.DefSymbols>
+    <ListValues>
+      <Value>__AVR_ATmega328p__</Value>
+      <Value>__AVR_ATmega328P__</Value>
+      <Value>ARDUINO=165</Value>
+      <Value>ARDUINO_MAIN</Value>
+      <Value>F_CPU=16000000L</Value>
+      <Value>__AVR__</Value>
+      <Value>ARDUINO_AVR_UNO</Value>
+      <Value>ARDUINO_ARCH_AVR</Value>
+    </ListValues>
+  </avrgcc.compiler.symbols.DefSymbols>
+  <avrgcc.compiler.directories.IncludePaths>
+    <ListValues>
+      <Value></Value>
+      <Value>c:/program files (x86)/arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include/</Value>
+      <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/</Value>
+      <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/include/avr/</Value>
+      <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/include/</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries</Value>
+      <Value>C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
+      <Value>C:/Program Files (x86)/Arduino/libraries</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Wavetable/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Wavetable</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Wavecrusher/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Wavecrusher</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Switch/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Switch</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/StepSequencer/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/StepSequencer</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/SsHelpers/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/SsHelpers</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/RotaryEncoder/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/RotaryEncoder</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Pwm/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Pwm</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Portamento/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Portamento</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinHardware/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinHardware</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinEngine/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinEngine</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Min/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Min</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Midi/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Midi</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/MasterClock/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/MasterClock</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Lfo/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Lfo</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/LedRgb/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/LedRgb</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/LedCircular/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/LedCircular</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Led/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Led</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Flanger/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Flanger</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Envelope/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Envelope</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/ClipDistortion/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/ClipDistortion</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/BiquadFilter/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/BiquadFilter</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmPitch/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmPitch</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmPatch/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmPatch</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmOscillator/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmOscillator</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmAudio/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmAudio</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AnalogueControl/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AnalogueControl</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Amplifier/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Amplifier</Value>
+      <Value>../../SsMinMiniatmegatron</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
+    </ListValues>
+  </avrgcc.compiler.directories.IncludePaths>
+  <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
+  <avrgcc.compiler.optimization.PackStructureMembers>True</avrgcc.compiler.optimization.PackStructureMembers>
+  <avrgcc.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcc.compiler.optimization.AllocateBytesNeededForEnum>
+  <avrgcc.compiler.optimization.DebugLevel>Default (-g2)</avrgcc.compiler.optimization.DebugLevel>
+  <avrgcc.compiler.warnings.AllWarnings>True</avrgcc.compiler.warnings.AllWarnings>
+  <avrgcccpp.compiler.general.ChangeDefaultCharTypeUnsigned>True</avrgcccpp.compiler.general.ChangeDefaultCharTypeUnsigned>
+  <avrgcccpp.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcccpp.compiler.general.ChangeDefaultBitFieldUnsigned>
+  <avrgcccpp.compiler.symbols.DefSymbols>
+    <ListValues>
+      <Value>__AVR_ATmega328p__</Value>
+      <Value>__AVR_ATmega328P__</Value>
+      <Value>ARDUINO=165</Value>
+      <Value>ARDUINO_MAIN</Value>
+      <Value>F_CPU=16000000L</Value>
+      <Value>__AVR__</Value>
+      <Value>ARDUINO_AVR_UNO</Value>
+      <Value>ARDUINO_ARCH_AVR</Value>
+    </ListValues>
+  </avrgcccpp.compiler.symbols.DefSymbols>
+  <avrgcccpp.compiler.directories.IncludePaths>
+    <ListValues>
+      <Value></Value>
+      <Value>c:/program files (x86)/arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include/</Value>
+      <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/</Value>
+      <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/include/avr/</Value>
+      <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/include/</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries</Value>
+      <Value>C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
+      <Value>C:/Program Files (x86)/Arduino/libraries</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Wavetable/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Wavetable</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Wavecrusher/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Wavecrusher</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Switch/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Switch</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/StepSequencer/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/StepSequencer</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/SsHelpers/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/SsHelpers</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/RotaryEncoder/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/RotaryEncoder</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Pwm/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Pwm</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Portamento/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Portamento</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinHardware/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinHardware</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinEngine/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinEngine</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Min/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Min</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Midi/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Midi</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/MasterClock/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/MasterClock</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Lfo/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Lfo</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/LedRgb/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/LedRgb</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/LedCircular/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/LedCircular</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Led/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Led</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Flanger/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Flanger</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Envelope/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Envelope</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/ClipDistortion/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/ClipDistortion</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/BiquadFilter/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/BiquadFilter</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmPitch/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmPitch</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmPatch/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmPatch</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmOscillator/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmOscillator</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmAudio/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmAudio</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AnalogueControl/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/AnalogueControl</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Amplifier/utility</Value>
+      <Value>C:/Users/Paul Soulsby/Documents/Arduino/libraries/Amplifier</Value>
+      <Value>../../SsMinMiniatmegatron</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
+    </ListValues>
+  </avrgcccpp.compiler.directories.IncludePaths>
+  <avrgcccpp.compiler.optimization.level>Optimize (-O1)</avrgcccpp.compiler.optimization.level>
+  <avrgcccpp.compiler.optimization.PackStructureMembers>True</avrgcccpp.compiler.optimization.PackStructureMembers>
+  <avrgcccpp.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcccpp.compiler.optimization.AllocateBytesNeededForEnum>
+  <avrgcccpp.compiler.optimization.DebugLevel>Default (-g2)</avrgcccpp.compiler.optimization.DebugLevel>
+  <avrgcccpp.compiler.warnings.AllWarnings>True</avrgcccpp.compiler.warnings.AllWarnings>
+  <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
+</AvrGccCpp>
+    </ToolchainSettings>
+    <VMSETTING_IncludePaths>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard;../../SS_MiniAtmegatron_MiniAtmegatron;C:/Program Files (x86)/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers;C:/Users/Paul Soulsby/Documents/Arduino/libraries;c:/program files (x86)/arduino/hardware/tools/avr/avr/include/;c:/program files (x86)/arduino/hardware/tools/avr/avr/include/avr/;c:/program files (x86)/arduino/hardware/tools/avr/avr/;c:/program files (x86)/arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include/;;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_PWM;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_PWM/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_ClipDistortion;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_ClipDistortion/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Flanger;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Flanger/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Wavecrusher;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Wavecrusher/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Arpeggiator;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Arpeggiator/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Midi;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Midi/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Atmegatron_Pitch;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Atmegatron_Pitch/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Portamento;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Portamento/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Lfo;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Lfo/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_MasterClock;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_MasterClock/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_BiquadFilter;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_BiquadFilter/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Amplifier;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Amplifier/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Envelope;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Envelope/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Atmegatron_Patch;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Atmegatron_Patch/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Atmegatron_Oscillator;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Atmegatron_Oscillator/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Wavetable;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Wavetable/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Atmegatron_Audio;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Atmegatron_Audio/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Helpers;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Helpers/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_LEDcircular;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_LEDcircular/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_LEDrgb;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_LEDrgb/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_LED;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_LED/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_AnalogueControl;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_AnalogueControl/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Switch;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_Switch/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_RotaryEncoder;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_RotaryEncoder/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_MiniAtmegatron;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_MiniAtmegatron/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_MiniAtmegatron_Hardware;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_MiniAtmegatron_Hardware/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_MiniAtmegatron_Engine;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_MiniAtmegatron_Engine/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_MiniAtmegatron_Patch;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_MiniAtmegatron_Patch/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_StepSequencer;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SS_StepSequencer/utility;../../SsMinMiniatmegatron;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Midi;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Midi/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/PWM;C:/Users/Paul Soulsby/Documents/Arduino/libraries/PWM/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/ClipDistortion;C:/Users/Paul Soulsby/Documents/Arduino/libraries/ClipDistortion/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Flanger;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Flanger/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Wavecrusher;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Wavecrusher/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmPitch;C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmPitch/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Portamento;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Portamento/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Lfo;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Lfo/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/MasterClock;C:/Users/Paul Soulsby/Documents/Arduino/libraries/MasterClock/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/BiquadFilter;C:/Users/Paul Soulsby/Documents/Arduino/libraries/BiquadFilter/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Amplifier;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Amplifier/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Envelope;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Envelope/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmOscillator;C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmOscillator/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Wavetable;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Wavetable/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmAudio;C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmAudio/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SsHelpers;C:/Users/Paul Soulsby/Documents/Arduino/libraries/SsHelpers/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/LedCircular;C:/Users/Paul Soulsby/Documents/Arduino/libraries/LedCircular/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/LedRgb;C:/Users/Paul Soulsby/Documents/Arduino/libraries/LedRgb/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Led;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Led/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/AnalogueControl;C:/Users/Paul Soulsby/Documents/Arduino/libraries/AnalogueControl/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Switch;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Switch/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/RotaryEncoder;C:/Users/Paul Soulsby/Documents/Arduino/libraries/RotaryEncoder/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Min;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Min/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinHardware;C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinHardware/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinEngine;C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinEngine/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/StepSequencer;C:/Users/Paul Soulsby/Documents/Arduino/libraries/StepSequencer/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinPatch;C:/Users/Paul Soulsby/Documents/Arduino/libraries/MinPatch/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmPatch;C:/Users/Paul Soulsby/Documents/Arduino/libraries/AtmPatch/utility;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Pwm;C:/Users/Paul Soulsby/Documents/Arduino/libraries/Pwm/utility;</VMSETTING_IncludePaths>
+    <VisualMicroSettings>
+      <VisualMicroSettings xmlns="">
+        <arduino.upload.port>COM49</arduino.upload.port>
+      </VisualMicroSettings>
+    </VisualMicroSettings>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="SsMinMiniatmegatron.ino">
+      <SubType>compile</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Visual Micro\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Visual Micro\.SsMinMiniatmegatron.vsarduino.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Visual Micro\.SS_MiniAtmegatron_MiniAtmegatron.vsarduino.h">
+      <SubType>compile</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
+</Project>
