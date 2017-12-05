@@ -1,0 +1,7 @@
+<map id="Midi::getTotNotesOn" name="Midi::getTotNotesOn">
+<area shape="rect" id="node2" href="$class_midi.html#a2b55e3e055e1076a4113374ec3c06056" title="Midi::reset" alt="" coords="243,5,326,32"/>
+<area shape="rect" id="node4" href="$class_midi.html#a57efc17c9561b9ca9763d610b4feea9e" title="Midi::writeSysex" alt="" coords="225,56,344,83"/>
+<area shape="rect" id="node6" href="$class_midi.html#aaa7e1badd1370989aad99509b95b343b" title="Midi::getClockTicksPassed" alt="" coords="195,107,375,133"/>
+<area shape="rect" id="node3" href="$class_midi_base.html#aa26f04b4ead215bce201e480faf7c914" title="MidiBase::midiNoteOffReceived" alt="" coords="423,5,625,32"/>
+<area shape="rect" id="node5" href="$class_midi_base.html#a747dece3a9e16a13766073d9e675887b" title="MidiBase::midiSysexWrite" alt="" coords="436,56,612,83"/>
+</map>

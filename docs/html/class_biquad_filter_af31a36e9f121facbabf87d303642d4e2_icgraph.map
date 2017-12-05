@@ -1,0 +1,6 @@
+<map id="BiquadFilter::setType" name="BiquadFilter::setType">
+<area shape="rect" id="node2" href="$class_biquad_filter.html#a579a1df530fc036f7d8a28e38b1f760c" title="BiquadFilter::getQ" alt="" coords="239,5,365,32"/>
+<area shape="rect" id="node3" href="$class_min_engine.html#a229d4b913277a48909bf1aa01176ae1f" title="MinEngine::patchValueChanged" alt="" coords="199,56,405,83"/>
+<area shape="rect" id="node4" href="$class_min_engine.html#ae9224dca462d7a6233fb7c22210cc8a8" title="MinEngine::getBank" alt="" coords="453,56,592,83"/>
+<area shape="rect" id="node5" href="$class_min.html#aead3e428133f75538420c1e67c532fa7" title="Min::hardwareAnalogueControl\lChanged" alt="" coords="640,49,839,90"/>
+</map>

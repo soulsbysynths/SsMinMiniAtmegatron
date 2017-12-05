@@ -1,0 +1,31 @@
+<map id="Min::initialize" name="Min::initialize">
+<area shape="rect" id="node2" href="$class_min_hardware.html#af4ce30a68a24c15d0149f2e65d72cc33" title="MinHardware::beginMidi" alt="" coords="160,5,320,32"/>
+<area shape="rect" id="node3" href="$class_min_hardware.html#a1401ae874f57cc5ce31032c8eea57fbd" title="MinHardware::getLed" alt="" coords="168,56,312,83"/>
+<area shape="rect" id="node4" href="$class_led_rgb.html#a1bc08ef61237fad334dcc750aa445e36" title="LedRgb::setColour" alt="" coords="175,107,305,133"/>
+<area shape="rect" id="node5" href="$class_min_hardware.html#a84e0d11e73681ef8b7a7e90628b827ab" title="MinHardware::refreshLEDs" alt="" coords="152,157,328,184"/>
+<area shape="rect" id="node6" href="$class_min_engine.html#ae59276976966cfd710288c1bbf1ea0cf" title="MinEngine::initialize" alt="" coords="171,259,309,285"/>
+<area shape="rect" id="node19" href="$class_min_engine.html#a33949965a982b0d8e690ebc781e33977" title="MinEngine::setFunction" alt="" coords="376,309,535,336"/>
+<area shape="rect" id="node22" href="$class_min_engine.html#ac76abe71fbd84b163b68fc7b12fb1a26" title="MinEngine::setBank" alt="" coords="386,456,525,483"/>
+<area shape="rect" id="node27" href="$class_min_hardware.html#a8227e23999bf74110a124c889c80759e" title="MinHardware::getFirstBoot" alt="" coords="152,411,328,437"/>
+<area shape="rect" id="node28" href="$class_min_engine.html#afd7005953daedf58d4332627e1592c07" title="MinEngine::initPatch" alt="" coords="384,107,527,133"/>
+<area shape="rect" id="node29" href="$class_min_hardware.html#a7e3fdfca776cd833f4ab859c25232c9c" title="MinHardware::getSwitch" alt="" coords="159,461,321,488"/>
+<area shape="rect" id="node30" href="$class_switch.html#a1a4f21940769f45910075ae6df70cae9" title="Switch::getState" alt="" coords="181,512,299,539"/>
+<area shape="rect" id="node7" href="$class_atm_audio.html#ada27d4d2556b8b27f4c3c8b4da763176" title="AtmAudio::initialize" alt="" coords="388,157,523,184"/>
+<area shape="rect" id="node8" href="$class_midi.html#ab4278443129bc124d46a9f06723283a6" title="Midi::setChannel" alt="" coords="396,208,515,235"/>
+<area shape="rect" id="node9" href="$class_atm_patch.html#a9689db39f28d3c7d0fcaa6966c82e2d6" title="AtmPatch::readPatch" alt="" coords="382,259,529,285"/>
+<area shape="rect" id="node10" href="$_atm_patch_8cpp.html#a9e3c9635d723f61c63b8a588c0a48fd5" title="readMemory" alt="" coords="631,208,726,235"/>
+<area shape="rect" id="node11" href="$class_atm_patch.html#ad2fe7a265755afc95a36752b86b6a7e2" title="AtmPatch::setFunctionValue" alt="" coords="584,107,773,133"/>
+<area shape="rect" id="node14" href="$_ss_helpers_8h.html#a795ccec21a10068d3c3306cca3c7c310" title="uncompressFourBit" alt="" coords="866,277,1001,304"/>
+<area shape="rect" id="node15" href="$class_atm_patch.html#a95fb3ea0dfd3369abe7518da26edb1b5" title="AtmPatch::setCtrlValue" alt="" coords="599,56,758,83"/>
+<area shape="rect" id="node17" href="$class_atm_patch.html#a1139606bcbffe63881b3f175f577d8e1" title="AtmPatch::setOptionValue" alt="" coords="590,157,767,184"/>
+<area shape="rect" id="node12" href="$_ss_helpers_8h.html#ae1494147f54b48ede4d411140ad5a4e8" title="compressFourBit" alt="" coords="873,147,994,173"/>
+<area shape="rect" id="node13" href="$class_atm_patch_base.html#ad561145330e0b53990f222c243ef5e89" title="AtmPatchBase::patchValue\lChanged" alt="" coords="842,81,1025,122"/>
+<area shape="rect" id="node16" href="$class_atm_patch_base.html#a10abe1d35a241d61a83473ef8caaee33" title="AtmPatchBase::patchCtrlChanged" alt="" coords="823,29,1044,56"/>
+<area shape="rect" id="node18" href="$class_atm_patch_base.html#ad31f8d45a0a630ee3052d69ee125e2f3" title="AtmPatchBase::patchOption\lChanged" alt="" coords="839,198,1027,239"/>
+<area shape="rect" id="node20" href="$class_min_engine_base.html#a35b19eb25b2bbfbcf0bc2262a63ec488" title="MinEngineBase::engineValue\lChanged" alt="" coords="583,361,775,402"/>
+<area shape="rect" id="node21" href="$class_atm_patch.html#a7b4184a7f5bd314e150f9ad38cc3a0fb" title="AtmPatch::getFunctionValue" alt="" coords="584,309,773,336"/>
+<area shape="rect" id="node23" href="$class_min_engine_base.html#a7c1b890b5c7f0004969304880aaaf563" title="MinEngineBase::engineBank\lChanged" alt="" coords="584,478,773,519"/>
+<area shape="rect" id="node24" href="$class_portamento.html#aa03a209b228dd0335cf103f1614d219a" title="Portamento::setInput" alt="" coords="607,544,750,571"/>
+<area shape="rect" id="node25" href="$class_envelope.html#a03b0aeb7f8550ec701e3a07839ad47ec" title="Envelope::trigger" alt="" coords="619,595,738,621"/>
+<area shape="rect" id="node26" href="$class_envelope.html#ab21b5747de63336c4a525f3a7e728189" title="Envelope::release" alt="" coords="617,427,741,453"/>
+</map>

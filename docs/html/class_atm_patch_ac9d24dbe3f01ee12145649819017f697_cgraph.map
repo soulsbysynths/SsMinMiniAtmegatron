@@ -1,0 +1,21 @@
+<map id="AtmPatch::AtmPatch" name="AtmPatch::AtmPatch">
+<area shape="rect" id="node2" href="$class_atm_patch.html#ae37c93d358677907afbcc74c34469ba2" title="AtmPatch::~AtmPatch" alt="" coords="208,5,363,32"/>
+<area shape="rect" id="node3" href="$class_atm_patch.html#ad2fe7a265755afc95a36752b86b6a7e2" title="AtmPatch::setFunctionValue" alt="" coords="419,113,608,140"/>
+<area shape="rect" id="node6" href="$class_atm_patch.html#a7b4184a7f5bd314e150f9ad38cc3a0fb" title="AtmPatch::getFunctionValue" alt="" coords="419,409,608,436"/>
+<area shape="rect" id="node8" href="$class_atm_patch.html#a1139606bcbffe63881b3f175f577d8e1" title="AtmPatch::setOptionValue" alt="" coords="425,181,602,208"/>
+<area shape="rect" id="node10" href="$class_atm_patch.html#ab521c0a108bf7f8bc848755c38330bc0" title="AtmPatch::getOptionValue" alt="" coords="425,461,602,488"/>
+<area shape="rect" id="node11" href="$class_atm_patch.html#a95fb3ea0dfd3369abe7518da26edb1b5" title="AtmPatch::setCtrlValue" alt="" coords="434,244,593,271"/>
+<area shape="rect" id="node13" href="$class_atm_patch.html#a5e8835fb80bdd1f130f129edde447d35" title="AtmPatch::getCtrlValue" alt="" coords="434,512,593,539"/>
+<area shape="rect" id="node14" href="$class_atm_patch.html#acc2729c3b10aa4d7f98e67caa3b80255" title="AtmPatch::setSysexByte" alt="" coords="200,157,371,184"/>
+<area shape="rect" id="node15" href="$class_atm_patch.html#a48b5b2d71e4b83b80979a68372e935ae" title="AtmPatch::getSysexByte" alt="" coords="200,461,371,488"/>
+<area shape="rect" id="node16" href="$class_atm_patch.html#a9689db39f28d3c7d0fcaa6966c82e2d6" title="AtmPatch::readPatch" alt="" coords="212,309,359,336"/>
+<area shape="rect" id="node18" href="$class_atm_patch.html#a5814cd528970cb153dd67865a6b86c85" title="AtmPatch::writePatch" alt="" coords="211,563,360,589"/>
+<area shape="rect" id="node20" href="$class_atm_patch.html#ad7a325c544381189f9419131feba685b" title="AtmPatch::easterEgg" alt="" coords="212,107,359,133"/>
+<area shape="rect" id="node4" href="$_ss_helpers_8h.html#ae1494147f54b48ede4d411140ad5a4e8" title="compressFourBit" alt="" coords="706,56,827,83"/>
+<area shape="rect" id="node5" href="$class_atm_patch_base.html#ad561145330e0b53990f222c243ef5e89" title="AtmPatchBase::patchValue\lChanged" alt="" coords="675,107,858,149"/>
+<area shape="rect" id="node7" href="$_ss_helpers_8h.html#a795ccec21a10068d3c3306cca3c7c310" title="uncompressFourBit" alt="" coords="699,384,834,411"/>
+<area shape="rect" id="node9" href="$class_atm_patch_base.html#ad31f8d45a0a630ee3052d69ee125e2f3" title="AtmPatchBase::patchOption\lChanged" alt="" coords="673,174,861,215"/>
+<area shape="rect" id="node12" href="$class_atm_patch_base.html#a10abe1d35a241d61a83473ef8caaee33" title="AtmPatchBase::patchCtrlChanged" alt="" coords="656,244,877,271"/>
+<area shape="rect" id="node17" href="$_atm_patch_8cpp.html#a9e3c9635d723f61c63b8a588c0a48fd5" title="readMemory" alt="" coords="466,308,561,335"/>
+<area shape="rect" id="node19" href="$_atm_patch_8cpp.html#ab9aace5cc66360e44fa4f9377854f486" title="writeMemory" alt="" coords="465,563,561,589"/>
+</map>

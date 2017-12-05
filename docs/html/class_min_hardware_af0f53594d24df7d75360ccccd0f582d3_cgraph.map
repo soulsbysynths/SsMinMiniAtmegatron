@@ -1,0 +1,22 @@
+<map id="MinHardware::getLed" name="MinHardware::getLed">
+<area shape="rect" id="node2" href="$class_min_hardware.html#a8227e23999bf74110a124c889c80759e" title="MinHardware::getFirstBoot" alt="" coords="205,5,381,32"/>
+<area shape="rect" id="node3" href="$class_min_hardware.html#a84cd3aa52662d5f6e599035a812894f9" title="MinHardware::setFirstBoot" alt="" coords="205,56,381,83"/>
+<area shape="rect" id="node4" href="$class_min_hardware.html#a84e0d11e73681ef8b7a7e90628b827ab" title="MinHardware::refreshLEDs" alt="" coords="205,107,381,133"/>
+<area shape="rect" id="node5" href="$class_min_hardware.html#a22017d021942bf72850a338b1522d5c2" title="MinHardware::refreshFlash" alt="" coords="205,157,381,184"/>
+<area shape="rect" id="node14" href="$class_min_hardware.html#afa6cdaaab625ffd44c733c6ff9e29f4d" title="MinHardware::pollAnlControls" alt="" coords="197,208,389,235"/>
+<area shape="rect" id="node16" href="$class_min_hardware.html#a135650ade19c661a9e20f0a410722a10" title="MinHardware::pollSwitches" alt="" coords="204,259,383,285"/>
+<area shape="rect" id="node18" href="$class_min_hardware.html#af4ce30a68a24c15d0149f2e65d72cc33" title="MinHardware::beginMidi" alt="" coords="213,309,373,336"/>
+<area shape="rect" id="node19" href="$class_min_hardware.html#a4978945a745e4c2690e05789eff52976" title="MinHardware::pollMidi" alt="" coords="219,360,368,387"/>
+<area shape="rect" id="node20" href="$class_min_hardware.html#a9a29bee58534914c24171d362e78bd2a" title="MinHardware::writeMidi" alt="" coords="215,411,371,437"/>
+<area shape="rect" id="node21" href="$class_min_hardware.html#a21e147f121461594f295852e0a856b64" title="MinHardware::flushMidi" alt="" coords="215,461,371,488"/>
+<area shape="rect" id="node6" href="$class_led_rgb.html#a31cf89e0117af309c00a60a7ca1bf486" title="LedRgb::refreshFlash" alt="" coords="453,157,598,184"/>
+<area shape="rect" id="node7" href="$class_led_rgb.html#a542e3bf6bcf1f05df3cc442522787948" title="LedRgb::getColour" alt="" coords="661,157,791,184"/>
+<area shape="rect" id="node9" href="$class_led_rgb.html#a1bc08ef61237fad334dcc750aa445e36" title="LedRgb::setColour" alt="" coords="1017,132,1147,159"/>
+<area shape="rect" id="node8" href="$class_led_rgb.html#a8d81b6020efb6e5f786542451d4dffbc" title="LedRgb::flash" alt="" coords="852,132,953,159"/>
+<area shape="rect" id="node10" href="$class_led_rgb.html#a096a0af0eb4d3c5d4c6a3f4b3aaeb9e7" title="LedRgb::flashStop" alt="" coords="839,183,967,209"/>
+<area shape="rect" id="node13" href="$class_led_rgb.html#a6393b6af61bd195db3591d4e90a2b6e2" title="LedRgb::LedRgb" alt="" coords="843,233,962,260"/>
+<area shape="rect" id="node11" href="$_ss_helpers_8h.html#ae1494147f54b48ede4d411140ad5a4e8" title="compressFourBit" alt="" coords="1021,183,1143,209"/>
+<area shape="rect" id="node12" href="$_ss_helpers_8h.html#a795ccec21a10068d3c3306cca3c7c310" title="uncompressFourBit" alt="" coords="1015,233,1149,260"/>
+<area shape="rect" id="node15" href="$class_analogue_control.html#a160ce73eb8eebdf131dca4dcebc44a42" title="AnalogueControl::setValue" alt="" coords="437,208,613,235"/>
+<area shape="rect" id="node17" href="$class_switch.html#a29ddb1bfd9284e52b4adb0063d69371c" title="Switch::setState" alt="" coords="466,259,585,285"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="MinEngine::setIntBpm" name="MinEngine::setIntBpm">
+<area shape="rect" id="node2" href="$class_min_engine.html#a9e00c7c1943063e4b707384738221365" title="MinEngine::construct" alt="" coords="235,5,380,32"/>
+<area shape="rect" id="node5" href="$class_min_engine.html#a08ac0328006e01f44ffbb3c78f4f504a" title="MinEngine::midiClockStop\lReceived" alt="" coords="220,57,395,98"/>
+<area shape="rect" id="node7" href="$class_min_engine.html#a229d4b913277a48909bf1aa01176ae1f" title="MinEngine::patchValueChanged" alt="" coords="204,123,411,149"/>
+<area shape="rect" id="node10" href="$class_min_engine.html#a461861aff0eb8271558c9c20bc040b56" title="MinEngine::getTestNote" alt="" coords="227,173,388,200"/>
+<area shape="rect" id="node3" href="$class_min.html#a136258f6eb36642c84deb93ab60be785" title="Min::Min" alt="" coords="529,5,601,32"/>
+<area shape="rect" id="node4" href="$class_min.html#a854b62697ad910d3bb0536fe7fd3d725" title="Min::hardwareMidiError" alt="" coords="741,5,895,32"/>
+<area shape="rect" id="node6" href="$class_min_engine.html#aff5a85aae7d6f6e5edd571c73c071871" title="MinEngine::patchOptionChanged" alt="" coords="459,64,671,91"/>
+<area shape="rect" id="node8" href="$class_min_engine.html#ae9224dca462d7a6233fb7c22210cc8a8" title="MinEngine::getBank" alt="" coords="495,123,634,149"/>
+<area shape="rect" id="node9" href="$class_min.html#aead3e428133f75538420c1e67c532fa7" title="Min::hardwareAnalogueControl\lChanged" alt="" coords="719,115,917,157"/>
+<area shape="rect" id="node11" href="$class_min.html#ae00f275ac6aeb73f932e62ae85abe5b1" title="Min::hardwareSwitchChanged" alt="" coords="468,173,661,200"/>
+</map>

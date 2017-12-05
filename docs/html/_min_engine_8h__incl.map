@@ -1,0 +1,29 @@
+<map id="MinEngine.h" name="MinEngine.h">
+<area shape="rect" id="node2" href="$_atm_audio_8h.html" title="AtmAudio.h" alt="" coords="102,80,193,107"/>
+<area shape="rect" id="node7" href="$_atm_oscillator_8h.html" title="AtmOscillator.h" alt="" coords="1861,80,1973,107"/>
+<area shape="rect" id="node11" href="$_atm_patch_8h.html" title="AtmPatch.h" alt="" coords="267,80,358,107"/>
+<area shape="rect" id="node13" href="$_atm_patch_base_8h.html" title="AtmPatchBase.h" alt="" coords="240,155,361,181"/>
+<area shape="rect" id="node15" href="$_envelope_8h.html" title="Envelope.h" alt="" coords="382,80,467,107"/>
+<area shape="rect" id="node16" href="$_amplifier_8h.html" title="Amplifier.h" alt="" coords="1362,80,1445,107"/>
+<area shape="rect" id="node17" href="$_min_engine_progmem_8h.html" title="MinEngineProgmem.h" alt="" coords="1607,155,1757,181"/>
+<area shape="rect" id="node18" href="$_min_engine_base_8h.html" title="MinEngineBase.h" alt="" coords="816,80,940,107"/>
+<area shape="rect" id="node19" href="$_min_engine_settings_8h.html" title="MinEngineSettings.h" alt="" coords="964,80,1107,107"/>
+<area shape="rect" id="node20" href="$_biquad_filter_8h.html" title="BiquadFilter.h" alt="" coords="603,80,705,107"/>
+<area shape="rect" id="node21" href="$_master_clock_8h.html" title="MasterClock.h" alt="" coords="1231,80,1338,107"/>
+<area shape="rect" id="node22" href="$_lfo_8h.html" title="Lfo.h" alt="" coords="2047,80,2098,107"/>
+<area shape="rect" id="node24" href="$_portamento_8h.html" title="Portamento.h" alt="" coords="1469,80,1569,107"/>
+<area shape="rect" id="node25" href="$_atm_pitch_8h.html" title="AtmPitch.h" alt="" coords="492,80,579,107"/>
+<area shape="rect" id="node26" href="$_midi_8h.html" title="Midi.h" alt="" coords="2377,80,2435,107"/>
+<area shape="rect" id="node27" href="$_midi_base_8h.html" title="MidiBase.h" alt="" coords="2444,155,2531,181"/>
+<area shape="rect" id="node28" href="$_step_sequencer_8h.html" title="StepSequencer.h" alt="" coords="2122,80,2245,107"/>
+<area shape="rect" id="node30" href="$_step_sequencer_base_8h.html" title="StepSequencerBase.h" alt="" coords="2217,155,2369,181"/>
+<area shape="rect" id="node31" href="$_wavecrusher_8h.html" title="Wavecrusher.h" alt="" coords="1593,80,1701,107"/>
+<area shape="rect" id="node32" href="$_flanger_8h.html" title="Flanger.h" alt="" coords="1131,80,1207,107"/>
+<area shape="rect" id="node33" href="$_clip_distortion_8h.html" title="ClipDistortion.h" alt="" coords="1725,80,1836,107"/>
+<area shape="rect" id="node34" href="$_pwm_8h.html" title="Pwm.h" alt="" coords="729,80,792,107"/>
+<area shape="rect" id="node5" href="$_wavetable_8h.html" title="Wavetable.h" alt="" coords="1246,155,1339,181"/>
+<area shape="rect" id="node9" href="$_atm_oscillator_progmem_8h.html" title="AtmOscillatorProgmem.h" alt="" coords="1414,155,1582,181"/>
+<area shape="rect" id="node14" href="$_ss_helpers_8h.html" title="SsHelpers.h" alt="" coords="607,155,701,181"/>
+<area shape="rect" id="node23" href="$_lfo_progmem_8h.html" title="LfoProgmem.h" alt="" coords="1833,155,1939,181"/>
+<area shape="rect" id="node29" href="$_step_sequencer_progmem_8h.html" title="StepSequencerProgmem.h" alt="" coords="1963,155,2142,181"/>
+</map>

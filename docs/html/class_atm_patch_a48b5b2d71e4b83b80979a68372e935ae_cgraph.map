@@ -1,0 +1,6 @@
+<map id="AtmPatch::getSysexByte" name="AtmPatch::getSysexByte">
+<area shape="rect" id="node2" href="$class_atm_patch.html#a7b4184a7f5bd314e150f9ad38cc3a0fb" title="AtmPatch::getFunctionValue" alt="" coords="224,5,413,32"/>
+<area shape="rect" id="node4" href="$class_atm_patch.html#a5e8835fb80bdd1f130f129edde447d35" title="AtmPatch::getCtrlValue" alt="" coords="239,56,398,83"/>
+<area shape="rect" id="node5" href="$class_atm_patch.html#ab521c0a108bf7f8bc848755c38330bc0" title="AtmPatch::getOptionValue" alt="" coords="230,107,407,133"/>
+<area shape="rect" id="node3" href="$_ss_helpers_8h.html#a795ccec21a10068d3c3306cca3c7c310" title="uncompressFourBit" alt="" coords="461,5,596,32"/>
+</map>

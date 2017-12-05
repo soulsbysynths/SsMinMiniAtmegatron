@@ -1,0 +1,9 @@
+<map id="Switch::setDebounceTicks" name="Switch::setDebounceTicks">
+<area shape="rect" id="node2" href="$class_switch.html#a723c543e4e77a985ce0cdf195f6882ab" title="Switch::hasChanged" alt="" coords="229,5,371,32"/>
+<area shape="rect" id="node3" href="$class_switch.html#a6cb0b78f23c412042b31ce8af317c718" title="Switch::hasHeld" alt="" coords="242,56,358,83"/>
+<area shape="rect" id="node4" href="$class_switch.html#a5401c79fd9fda679eae5e4bba5578a35" title="Switch::poll" alt="" coords="255,107,345,133"/>
+<area shape="rect" id="node5" href="$class_switch_base.html#a120bac96086b295783809866e3afd390" title="SwitchBase::swDoubleClicked" alt="" coords="419,31,617,57"/>
+<area shape="rect" id="node6" href="$class_switch_base.html#a8dce83329bd9ce69e55d2f01115f3593" title="SwitchBase::swValueChanged" alt="" coords="419,81,617,108"/>
+<area shape="rect" id="node7" href="$class_switch_base.html#a074fca26f56e9253ddd86720f7840440" title="SwitchBase::swHeld" alt="" coords="447,132,589,159"/>
+<area shape="rect" id="node8" href="$class_switch_base.html#aa351081e25dc6a74959c1ec49f972fb5" title="SwitchBase::swClicked" alt="" coords="439,183,597,209"/>
+</map>

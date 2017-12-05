@@ -1,0 +1,6 @@
+<map id="MinEngine::setBank" name="MinEngine::setBank">
+<area shape="rect" id="node2" href="$class_min_engine_base.html#a7c1b890b5c7f0004969304880aaaf563" title="MinEngineBase::engineBank\lChanged" alt="" coords="192,5,381,47"/>
+<area shape="rect" id="node3" href="$class_portamento.html#aa03a209b228dd0335cf103f1614d219a" title="Portamento::setInput" alt="" coords="215,71,358,98"/>
+<area shape="rect" id="node4" href="$class_envelope.html#a03b0aeb7f8550ec701e3a07839ad47ec" title="Envelope::trigger" alt="" coords="227,122,346,149"/>
+<area shape="rect" id="node5" href="$class_envelope.html#ab21b5747de63336c4a525f3a7e728189" title="Envelope::release" alt="" coords="225,173,349,199"/>
+</map>

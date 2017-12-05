@@ -1,0 +1,9 @@
+<map id="AtmOscillator::getWaveLength" name="AtmOscillator::getWaveLength">
+<area shape="rect" id="node2" href="$class_atm_oscillator.html#aa62dba14693f65adcb3daa7aa4757ba1" title="AtmOscillator::setUserWavetable\lSample" alt="" coords="252,5,467,47"/>
+<area shape="rect" id="node4" href="$class_atm_oscillator.html#ae5ef1556ef77dbf9ecceb5b64a1ad7e8" title="AtmOscillator::getUserWavetable\lSample" alt="" coords="252,71,467,112"/>
+<area shape="rect" id="node8" href="$class_atm_oscillator.html#aa6fe7de8b2d573159271a47f5c8686e1" title="AtmOscillator::getSample" alt="" coords="274,137,445,163"/>
+<area shape="rect" id="node3" href="$class_wavetable.html#a01485340698b4bf92f3065f31feaf4c4" title="Wavetable::setSample" alt="" coords="515,13,667,39"/>
+<area shape="rect" id="node5" href="$class_wavetable.html#a2ed27fd46eac11bd828c7111fca7bc0b" title="Wavetable::getSample" alt="" coords="515,78,667,105"/>
+<area shape="rect" id="node6" href="$class_wavetable.html#ae4815729b57d8625a17ae0421b394217" title="Wavetable::clearSamples" alt="" coords="730,53,899,79"/>
+<area shape="rect" id="node7" href="$class_wavetable.html#aeb61e3ae23fc19d5578c5893323b0490" title="Wavetable::isAllSamplesSame" alt="" coords="715,103,915,130"/>
+</map>

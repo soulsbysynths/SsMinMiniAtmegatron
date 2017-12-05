@@ -1,0 +1,5 @@
+<map id="LedRgb::flashStop" name="LedRgb::flashStop">
+<area shape="rect" id="node2" href="$class_led_rgb.html#a1bc08ef61237fad334dcc750aa445e36" title="LedRgb::setColour" alt="" coords="184,5,313,32"/>
+<area shape="rect" id="node3" href="$_ss_helpers_8h.html#ae1494147f54b48ede4d411140ad5a4e8" title="compressFourBit" alt="" coords="188,56,309,83"/>
+<area shape="rect" id="node4" href="$_ss_helpers_8h.html#a795ccec21a10068d3c3306cca3c7c310" title="uncompressFourBit" alt="" coords="181,107,316,133"/>
+</map>

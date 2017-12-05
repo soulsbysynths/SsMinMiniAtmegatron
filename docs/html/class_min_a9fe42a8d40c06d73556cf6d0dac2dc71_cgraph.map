@@ -1,0 +1,4 @@
+<map id="Min::engineValueChanged" name="Min::engineValueChanged">
+<area shape="rect" id="node2" href="$class_min_hardware.html#a1401ae874f57cc5ce31032c8eea57fbd" title="MinHardware::getLed" alt="" coords="227,5,371,32"/>
+<area shape="rect" id="node3" href="$class_led_rgb.html#a1bc08ef61237fad334dcc750aa445e36" title="LedRgb::setColour" alt="" coords="234,56,363,83"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="AtmPatchBase::patchCtrlChanged" name="AtmPatchBase::patchCtrlChanged">
+<area shape="rect" id="node2" href="$class_atm_patch.html#a95fb3ea0dfd3369abe7518da26edb1b5" title="AtmPatch::setCtrlValue" alt="" coords="275,140,433,167"/>
+<area shape="rect" id="node3" href="$class_atm_patch.html#a9689db39f28d3c7d0fcaa6966c82e2d6" title="AtmPatch::readPatch" alt="" coords="508,140,655,167"/>
+<area shape="rect" id="node4" href="$class_atm_patch.html#ac9d24dbe3f01ee12145649819017f697" title="AtmPatch::AtmPatch" alt="" coords="762,39,909,66"/>
+<area shape="rect" id="node10" href="$class_atm_patch.html#acc2729c3b10aa4d7f98e67caa3b80255" title="AtmPatch::setSysexByte" alt="" coords="496,39,667,66"/>
+<area shape="rect" id="node11" href="$class_atm_patch.html#ad7a325c544381189f9419131feba685b" title="AtmPatch::easterEgg" alt="" coords="508,90,655,116"/>
+<area shape="rect" id="node12" href="$class_min.html#aead3e428133f75538420c1e67c532fa7" title="Min::hardwareAnalogueControl\lChanged" alt="" coords="989,238,1188,280"/>
+<area shape="rect" id="node13" href="$class_min_engine.html#afd7005953daedf58d4332627e1592c07" title="MinEngine::initPatch" alt="" coords="510,191,653,218"/>
+<area shape="rect" id="node16" href="$class_min_engine.html#ad7404def0db3926e77c8828cab13cca9" title="MinEngine::midiControlChange\lReceived" alt="" coords="481,344,681,385"/>
+<area shape="rect" id="node5" href="$class_min_engine.html#ae59276976966cfd710288c1bbf1ea0cf" title="MinEngine::initialize" alt="" coords="766,90,905,116"/>
+<area shape="rect" id="node6" href="$class_min.html#a0fbb740ee813f44c6b0082d9a980875c" title="Min::initialize" alt="" coords="1039,140,1138,167"/>
+<area shape="rect" id="node8" href="$class_min_engine.html#a461861aff0eb8271558c9c20bc040b56" title="MinEngine::getTestNote" alt="" coords="1008,90,1169,116"/>
+<area shape="rect" id="node7" href="$_ss_min_miniatmegatron_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="1305,140,1360,167"/>
+<area shape="rect" id="node9" href="$class_min.html#ae00f275ac6aeb73f932e62ae85abe5b1" title="Min::hardwareSwitchChanged" alt="" coords="1236,90,1429,116"/>
+<area shape="rect" id="node14" href="$class_min.html#aa17c2510883d894f135d6a0582cc8bea" title="Min::hardwareSwitchHeld" alt="" coords="751,242,919,268"/>
+<area shape="rect" id="node15" href="$class_min_engine.html#ae9224dca462d7a6233fb7c22210cc8a8" title="MinEngine::getBank" alt="" coords="766,191,905,218"/>
+<area shape="rect" id="node17" href="$class_min_engine.html#aff5a85aae7d6f6e5edd571c73c071871" title="MinEngine::patchOptionChanged" alt="" coords="729,351,941,378"/>
+</map>

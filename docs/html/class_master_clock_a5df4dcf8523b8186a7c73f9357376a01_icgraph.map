@@ -1,0 +1,19 @@
+<map id="MasterClock::setTicksPerCycle" name="MasterClock::setTicksPerCycle">
+<area shape="rect" id="node2" href="$class_master_clock.html#af63318129f4c13824614e73f549e5894" title="MasterClock::getOutput" alt="" coords="233,56,393,83"/>
+<area shape="rect" id="node10" href="$class_min_engine.html#a7ef07f3911096d861e030cccfd8899b5" title="MinEngine::setIntBpm" alt="" coords="238,183,389,209"/>
+<area shape="rect" id="node18" href="$class_min_engine.html#ad0378027f052b780481611fa4335b68d" title="MinEngine::midiClockStart\lReceived" alt="" coords="225,263,401,305"/>
+<area shape="rect" id="node3" href="$class_min.html#a4b150119664bd46bd2a80561862ff666" title="Min::engineMidiTransmit" alt="" coords="471,56,634,83"/>
+<area shape="rect" id="node5" href="$class_min_engine.html#af0b91eca44954cb677808c3d24659596" title="MinEngine::poll" alt="" coords="497,5,608,32"/>
+<area shape="rect" id="node4" href="$class_min.html#a854b62697ad910d3bb0536fe7fd3d725" title="Min::hardwareMidiError" alt="" coords="986,80,1141,107"/>
+<area shape="rect" id="node6" href="$class_min.html#a4ed53c28c8c59dba741daf945dbc160b" title="Min::poll" alt="" coords="775,5,845,32"/>
+<area shape="rect" id="node8" href="$class_min_engine.html#a461861aff0eb8271558c9c20bc040b56" title="MinEngine::getTestNote" alt="" coords="729,157,891,184"/>
+<area shape="rect" id="node7" href="$_ss_min_miniatmegatron_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="1040,5,1087,32"/>
+<area shape="rect" id="node9" href="$class_min.html#ae00f275ac6aeb73f932e62ae85abe5b1" title="Min::hardwareSwitchChanged" alt="" coords="967,155,1160,181"/>
+<area shape="rect" id="node11" href="$class_min_engine.html#a9e00c7c1943063e4b707384738221365" title="MinEngine::construct" alt="" coords="480,107,625,133"/>
+<area shape="rect" id="node13" href="$class_min_engine.html#a08ac0328006e01f44ffbb3c78f4f504a" title="MinEngine::midiClockStop\lReceived" alt="" coords="465,259,640,301"/>
+<area shape="rect" id="node15" href="$class_min_engine.html#a229d4b913277a48909bf1aa01176ae1f" title="MinEngine::patchValueChanged" alt="" coords="449,208,656,235"/>
+<area shape="rect" id="node12" href="$class_min.html#a136258f6eb36642c84deb93ab60be785" title="Min::Min" alt="" coords="774,107,846,133"/>
+<area shape="rect" id="node14" href="$class_min_engine.html#aff5a85aae7d6f6e5edd571c73c071871" title="MinEngine::patchOptionChanged" alt="" coords="704,296,916,323"/>
+<area shape="rect" id="node16" href="$class_min_engine.html#ae9224dca462d7a6233fb7c22210cc8a8" title="MinEngine::getBank" alt="" coords="741,209,879,236"/>
+<area shape="rect" id="node17" href="$class_min.html#aead3e428133f75538420c1e67c532fa7" title="Min::hardwareAnalogueControl\lChanged" alt="" coords="964,206,1163,247"/>
+</map>

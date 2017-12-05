@@ -1,0 +1,352 @@
+\hypertarget{class_min}{}\section{Min Class Reference}
+\label{class_min}\index{Min@{Min}}
+
+
+{\ttfamily \#include \char`\"{}Min.\+h\char`\"{}}
+
+
+
+Inheritance diagram for Min\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=278pt]{class_min__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Min\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=278pt]{class_min__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_min_a136258f6eb36642c84deb93ab60be785}{Min} ()
+\item 
+\hyperlink{class_min_a53df82489feb20336ea097d190a8d8db}{$\sim$\+Min} ()
+\item 
+void \hyperlink{class_min_a0fbb740ee813f44c6b0082d9a980875c}{initialize} ()
+\item 
+void \hyperlink{class_min_a4ed53c28c8c59dba741daf945dbc160b}{poll} (unsigned char ticks\+Passed)
+\item 
+void \hyperlink{class_min_ae00f275ac6aeb73f932e62ae85abe5b1}{hardware\+Switch\+Changed} (unsigned char sw, unsigned char new\+Value)
+\item 
+void \hyperlink{class_min_aa17c2510883d894f135d6a0582cc8bea}{hardware\+Switch\+Held} (unsigned char sw)
+\item 
+void \hyperlink{class_min_aead3e428133f75538420c1e67c532fa7}{hardware\+Analogue\+Control\+Changed} (unsigned char control, unsigned char new\+Value)
+\item 
+void \hyperlink{class_min_a8d4ebe4e020e14c2457d42f33c4c9e32}{hardware\+Midi\+Received} (unsigned char data)
+\item 
+void \hyperlink{class_min_a854b62697ad910d3bb0536fe7fd3d725}{hardware\+Midi\+Error} (unsigned char error\+Type)
+\item 
+void \hyperlink{class_min_a9fe42a8d40c06d73556cf6d0dac2dc71}{engine\+Value\+Changed} (unsigned char func, unsigned char val, bool opt)
+\item 
+void \hyperlink{class_min_a24ca9b52ba9755b458f6141d730bb9b1}{engine\+Bank\+Changed} (unsigned char bank)
+\item 
+void \hyperlink{class_min_a4b150119664bd46bd2a80561862ff666}{engine\+Midi\+Transmit} (unsigned char data)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 26 of file Min.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_min_a136258f6eb36642c84deb93ab60be785}\label{class_min_a136258f6eb36642c84deb93ab60be785}} 
+\index{Min@{Min}!Min@{Min}}
+\index{Min@{Min}!Min@{Min}}
+\subsubsection{\texorpdfstring{Min()}{Min()}}
+{\footnotesize\ttfamily Min\+::\+Min (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 21 of file Min.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_min_a136258f6eb36642c84deb93ab60be785_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=286pt]{class_min_a136258f6eb36642c84deb93ab60be785_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_min_a53df82489feb20336ea097d190a8d8db}\label{class_min_a53df82489feb20336ea097d190a8d8db}} 
+\index{Min@{Min}!````~Min@{$\sim$\+Min}}
+\index{````~Min@{$\sim$\+Min}!Min@{Min}}
+\subsubsection{\texorpdfstring{$\sim$\+Min()}{~Min()}}
+{\footnotesize\ttfamily Min\+::$\sim$\+Min (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 28 of file Min.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_min_a24ca9b52ba9755b458f6141d730bb9b1}\label{class_min_a24ca9b52ba9755b458f6141d730bb9b1}} 
+\index{Min@{Min}!engine\+Bank\+Changed@{engine\+Bank\+Changed}}
+\index{engine\+Bank\+Changed@{engine\+Bank\+Changed}!Min@{Min}}
+\subsubsection{\texorpdfstring{engine\+Bank\+Changed()}{engineBankChanged()}}
+{\footnotesize\ttfamily void Min\+::engine\+Bank\+Changed (\begin{DoxyParamCaption}\item[{unsigned char}]{bank }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \hyperlink{class_min_engine_base_a7c1b890b5c7f0004969304880aaaf563}{Min\+Engine\+Base}.
+
+
+
+Definition at line 66 of file Min.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_min_a24ca9b52ba9755b458f6141d730bb9b1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_min_a4b150119664bd46bd2a80561862ff666}\label{class_min_a4b150119664bd46bd2a80561862ff666}} 
+\index{Min@{Min}!engine\+Midi\+Transmit@{engine\+Midi\+Transmit}}
+\index{engine\+Midi\+Transmit@{engine\+Midi\+Transmit}!Min@{Min}}
+\subsubsection{\texorpdfstring{engine\+Midi\+Transmit()}{engineMidiTransmit()}}
+{\footnotesize\ttfamily void Min\+::engine\+Midi\+Transmit (\begin{DoxyParamCaption}\item[{unsigned char}]{data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \hyperlink{class_min_engine_base_aaed6930bcc32b2cccf9479fb73d043d9}{Min\+Engine\+Base}.
+
+
+
+Definition at line 70 of file Min.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_min_a4b150119664bd46bd2a80561862ff666_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_min_a4b150119664bd46bd2a80561862ff666_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_min_a9fe42a8d40c06d73556cf6d0dac2dc71}\label{class_min_a9fe42a8d40c06d73556cf6d0dac2dc71}} 
+\index{Min@{Min}!engine\+Value\+Changed@{engine\+Value\+Changed}}
+\index{engine\+Value\+Changed@{engine\+Value\+Changed}!Min@{Min}}
+\subsubsection{\texorpdfstring{engine\+Value\+Changed()}{engineValueChanged()}}
+{\footnotesize\ttfamily void Min\+::engine\+Value\+Changed (\begin{DoxyParamCaption}\item[{unsigned char}]{func,  }\item[{unsigned char}]{val,  }\item[{bool}]{opt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \hyperlink{class_min_engine_base_a35b19eb25b2bbfbcf0bc2262a63ec488}{Min\+Engine\+Base}.
+
+
+
+Definition at line 61 of file Min.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_min_a9fe42a8d40c06d73556cf6d0dac2dc71_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_min_a9fe42a8d40c06d73556cf6d0dac2dc71_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_min_aead3e428133f75538420c1e67c532fa7}\label{class_min_aead3e428133f75538420c1e67c532fa7}} 
+\index{Min@{Min}!hardware\+Analogue\+Control\+Changed@{hardware\+Analogue\+Control\+Changed}}
+\index{hardware\+Analogue\+Control\+Changed@{hardware\+Analogue\+Control\+Changed}!Min@{Min}}
+\subsubsection{\texorpdfstring{hardware\+Analogue\+Control\+Changed()}{hardwareAnalogueControlChanged()}}
+{\footnotesize\ttfamily void Min\+::hardware\+Analogue\+Control\+Changed (\begin{DoxyParamCaption}\item[{unsigned char}]{control,  }\item[{unsigned char}]{new\+Value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \hyperlink{class_min_hardware_base_a68f71adaa4f8ed5d170fa09820f63871}{Min\+Hardware\+Base}.
+
+
+
+Definition at line 118 of file Min.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_min_aead3e428133f75538420c1e67c532fa7_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_min_a854b62697ad910d3bb0536fe7fd3d725}\label{class_min_a854b62697ad910d3bb0536fe7fd3d725}} 
+\index{Min@{Min}!hardware\+Midi\+Error@{hardware\+Midi\+Error}}
+\index{hardware\+Midi\+Error@{hardware\+Midi\+Error}!Min@{Min}}
+\subsubsection{\texorpdfstring{hardware\+Midi\+Error()}{hardwareMidiError()}}
+{\footnotesize\ttfamily void Min\+::hardware\+Midi\+Error (\begin{DoxyParamCaption}\item[{unsigned char}]{error\+Type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \hyperlink{class_min_hardware_base_ab65fc29881bb7dea6273c0753ad5d7dd}{Min\+Hardware\+Base}.
+
+
+
+Definition at line 46 of file Min.\+h.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_min_a854b62697ad910d3bb0536fe7fd3d725_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_min_a8d4ebe4e020e14c2457d42f33c4c9e32}\label{class_min_a8d4ebe4e020e14c2457d42f33c4c9e32}} 
+\index{Min@{Min}!hardware\+Midi\+Received@{hardware\+Midi\+Received}}
+\index{hardware\+Midi\+Received@{hardware\+Midi\+Received}!Min@{Min}}
+\subsubsection{\texorpdfstring{hardware\+Midi\+Received()}{hardwareMidiReceived()}}
+{\footnotesize\ttfamily void Min\+::hardware\+Midi\+Received (\begin{DoxyParamCaption}\item[{unsigned char}]{data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \hyperlink{class_min_hardware_base_a8dc8c84b39b7b80d4a3c7e7fce017f2a}{Min\+Hardware\+Base}.
+
+
+
+Definition at line 244 of file Min.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_min_a8d4ebe4e020e14c2457d42f33c4c9e32_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_min_ae00f275ac6aeb73f932e62ae85abe5b1}\label{class_min_ae00f275ac6aeb73f932e62ae85abe5b1}} 
+\index{Min@{Min}!hardware\+Switch\+Changed@{hardware\+Switch\+Changed}}
+\index{hardware\+Switch\+Changed@{hardware\+Switch\+Changed}!Min@{Min}}
+\subsubsection{\texorpdfstring{hardware\+Switch\+Changed()}{hardwareSwitchChanged()}}
+{\footnotesize\ttfamily void Min\+::hardware\+Switch\+Changed (\begin{DoxyParamCaption}\item[{unsigned char}]{sw,  }\item[{unsigned char}]{new\+Value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \hyperlink{class_min_hardware_base_a782fcaa265c084be39b509bd289dc42f}{Min\+Hardware\+Base}.
+
+
+
+Definition at line 123 of file Min.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_min_ae00f275ac6aeb73f932e62ae85abe5b1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_min_aa17c2510883d894f135d6a0582cc8bea}\label{class_min_aa17c2510883d894f135d6a0582cc8bea}} 
+\index{Min@{Min}!hardware\+Switch\+Held@{hardware\+Switch\+Held}}
+\index{hardware\+Switch\+Held@{hardware\+Switch\+Held}!Min@{Min}}
+\subsubsection{\texorpdfstring{hardware\+Switch\+Held()}{hardwareSwitchHeld()}}
+{\footnotesize\ttfamily void Min\+::hardware\+Switch\+Held (\begin{DoxyParamCaption}\item[{unsigned char}]{sw }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \hyperlink{class_min_hardware_base_a9e05f7b18377441b61457ded9a57f088}{Min\+Hardware\+Base}.
+
+
+
+Definition at line 223 of file Min.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_min_aa17c2510883d894f135d6a0582cc8bea_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_min_a0fbb740ee813f44c6b0082d9a980875c}\label{class_min_a0fbb740ee813f44c6b0082d9a980875c}} 
+\index{Min@{Min}!initialize@{initialize}}
+\index{initialize@{initialize}!Min@{Min}}
+\subsubsection{\texorpdfstring{initialize()}{initialize()}}
+{\footnotesize\ttfamily void Min\+::initialize (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 32 of file Min.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_min_a0fbb740ee813f44c6b0082d9a980875c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{class_min_a0fbb740ee813f44c6b0082d9a980875c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_min_a4ed53c28c8c59dba741daf945dbc160b}\label{class_min_a4ed53c28c8c59dba741daf945dbc160b}} 
+\index{Min@{Min}!poll@{poll}}
+\index{poll@{poll}!Min@{Min}}
+\subsubsection{\texorpdfstring{poll()}{poll()}}
+{\footnotesize\ttfamily void Min\+::poll (\begin{DoxyParamCaption}\item[{unsigned char}]{ticks\+Passed }\end{DoxyParamCaption})}
+
+
+
+Definition at line 50 of file Min.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_min_a4ed53c28c8c59dba741daf945dbc160b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=204pt]{class_min_a4ed53c28c8c59dba741daf945dbc160b_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_min_8h}{Min.\+h}\item 
+\hyperlink{_min_8cpp}{Min.\+cpp}\end{DoxyCompactItemize}

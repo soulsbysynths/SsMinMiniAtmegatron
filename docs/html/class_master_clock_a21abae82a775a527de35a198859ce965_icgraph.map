@@ -1,0 +1,5 @@
+<map id="MasterClock::reset" name="MasterClock::reset">
+<area shape="rect" id="node2" href="$class_min_engine.html#ad0378027f052b780481611fa4335b68d" title="MinEngine::midiClockStart\lReceived" alt="" coords="185,5,361,47"/>
+<area shape="rect" id="node4" href="$class_min_engine.html#a08ac0328006e01f44ffbb3c78f4f504a" title="MinEngine::midiClockStop\lReceived" alt="" coords="186,71,361,112"/>
+<area shape="rect" id="node3" href="$class_min_engine.html#aff5a85aae7d6f6e5edd571c73c071871" title="MinEngine::patchOptionChanged" alt="" coords="409,46,621,73"/>
+</map>

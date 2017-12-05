@@ -1,0 +1,254 @@
+\hypertarget{class_midi_base}{}\section{Midi\+Base Class Reference}
+\label{class_midi_base}\index{Midi\+Base@{Midi\+Base}}
+
+
+{\ttfamily \#include \char`\"{}Midi\+Base.\+h\char`\"{}}
+
+
+
+Inheritance diagram for Midi\+Base\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=142pt]{class_midi_base__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{class_midi_base_aa977f9f3db59b0a8b892ee28bcf93695}{midi\+Note\+On\+Received} (unsigned char note, unsigned char velocity)=0
+\item 
+virtual void \hyperlink{class_midi_base_aa26f04b4ead215bce201e480faf7c914}{midi\+Note\+Off\+Received} (unsigned char note)=0
+\item 
+virtual void \hyperlink{class_midi_base_aa368fed406eb62f900beb801e0552709}{midi\+Clock\+Start\+Received} (void)=0
+\item 
+virtual void \hyperlink{class_midi_base_ab9a5c65ebffdfc31e118fef9e4dd04bb}{midi\+Clock\+Stop\+Received} (void)=0
+\item 
+virtual void \hyperlink{class_midi_base_a3b3e70e61a2f2fa169bf694eeefeb0fd}{midi\+Sysex\+Start\+Received} (void)=0
+\item 
+virtual void \hyperlink{class_midi_base_ade00871c0c9e32bfacf34480faf0d37b}{midi\+Sysex\+Data\+Received} (unsigned char index, unsigned char data)=0
+\item 
+virtual void \hyperlink{class_midi_base_a14d11f47e731a26535f855a99893d092}{midi\+Sysex\+Stop\+Received} (void)=0
+\item 
+virtual void \hyperlink{class_midi_base_a747dece3a9e16a13766073d9e675887b}{midi\+Sysex\+Write} (unsigned char data)=0
+\item 
+virtual void \hyperlink{class_midi_base_a8364d72d525fd8a766a124ca3230a4c7}{midi\+Control\+Change\+Received} (unsigned char cc, unsigned char val)=0
+\item 
+virtual void \hyperlink{class_midi_base_acfb1d2aef9901779bb53e0847121c13d}{midi\+Pitch\+Bend\+Received} (char bend)=0
+\item 
+virtual void \hyperlink{class_midi_base_a968da0cf67e9a84757cbc2dbce90bc39}{midi\+Program\+Change\+Received} (unsigned char patch\+Num)=0
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 21 of file Midi\+Base.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_midi_base_aa368fed406eb62f900beb801e0552709}\label{class_midi_base_aa368fed406eb62f900beb801e0552709}} 
+\index{Midi\+Base@{Midi\+Base}!midi\+Clock\+Start\+Received@{midi\+Clock\+Start\+Received}}
+\index{midi\+Clock\+Start\+Received@{midi\+Clock\+Start\+Received}!Midi\+Base@{Midi\+Base}}
+\subsubsection{\texorpdfstring{midi\+Clock\+Start\+Received()}{midiClockStartReceived()}}
+{\footnotesize\ttfamily virtual void Midi\+Base\+::midi\+Clock\+Start\+Received (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \hyperlink{class_min_engine_ad0378027f052b780481611fa4335b68d}{Min\+Engine}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_midi_base_aa368fed406eb62f900beb801e0552709_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_midi_base_ab9a5c65ebffdfc31e118fef9e4dd04bb}\label{class_midi_base_ab9a5c65ebffdfc31e118fef9e4dd04bb}} 
+\index{Midi\+Base@{Midi\+Base}!midi\+Clock\+Stop\+Received@{midi\+Clock\+Stop\+Received}}
+\index{midi\+Clock\+Stop\+Received@{midi\+Clock\+Stop\+Received}!Midi\+Base@{Midi\+Base}}
+\subsubsection{\texorpdfstring{midi\+Clock\+Stop\+Received()}{midiClockStopReceived()}}
+{\footnotesize\ttfamily virtual void Midi\+Base\+::midi\+Clock\+Stop\+Received (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \hyperlink{class_min_engine_a08ac0328006e01f44ffbb3c78f4f504a}{Min\+Engine}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_midi_base_ab9a5c65ebffdfc31e118fef9e4dd04bb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_midi_base_a8364d72d525fd8a766a124ca3230a4c7}\label{class_midi_base_a8364d72d525fd8a766a124ca3230a4c7}} 
+\index{Midi\+Base@{Midi\+Base}!midi\+Control\+Change\+Received@{midi\+Control\+Change\+Received}}
+\index{midi\+Control\+Change\+Received@{midi\+Control\+Change\+Received}!Midi\+Base@{Midi\+Base}}
+\subsubsection{\texorpdfstring{midi\+Control\+Change\+Received()}{midiControlChangeReceived()}}
+{\footnotesize\ttfamily virtual void Midi\+Base\+::midi\+Control\+Change\+Received (\begin{DoxyParamCaption}\item[{unsigned char}]{cc,  }\item[{unsigned char}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \hyperlink{class_min_engine_ad7404def0db3926e77c8828cab13cca9}{Min\+Engine}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_midi_base_a8364d72d525fd8a766a124ca3230a4c7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_midi_base_aa26f04b4ead215bce201e480faf7c914}\label{class_midi_base_aa26f04b4ead215bce201e480faf7c914}} 
+\index{Midi\+Base@{Midi\+Base}!midi\+Note\+Off\+Received@{midi\+Note\+Off\+Received}}
+\index{midi\+Note\+Off\+Received@{midi\+Note\+Off\+Received}!Midi\+Base@{Midi\+Base}}
+\subsubsection{\texorpdfstring{midi\+Note\+Off\+Received()}{midiNoteOffReceived()}}
+{\footnotesize\ttfamily virtual void Midi\+Base\+::midi\+Note\+Off\+Received (\begin{DoxyParamCaption}\item[{unsigned char}]{note }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \hyperlink{class_min_engine_aaab036105fa3dce51cc8c8345f2edcfe}{Min\+Engine}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_midi_base_aa26f04b4ead215bce201e480faf7c914_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_midi_base_aa977f9f3db59b0a8b892ee28bcf93695}\label{class_midi_base_aa977f9f3db59b0a8b892ee28bcf93695}} 
+\index{Midi\+Base@{Midi\+Base}!midi\+Note\+On\+Received@{midi\+Note\+On\+Received}}
+\index{midi\+Note\+On\+Received@{midi\+Note\+On\+Received}!Midi\+Base@{Midi\+Base}}
+\subsubsection{\texorpdfstring{midi\+Note\+On\+Received()}{midiNoteOnReceived()}}
+{\footnotesize\ttfamily virtual void Midi\+Base\+::midi\+Note\+On\+Received (\begin{DoxyParamCaption}\item[{unsigned char}]{note,  }\item[{unsigned char}]{velocity }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \hyperlink{class_min_engine_a108d70cfac8c363fbf6445f679dcf4d5}{Min\+Engine}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_midi_base_aa977f9f3db59b0a8b892ee28bcf93695_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_midi_base_acfb1d2aef9901779bb53e0847121c13d}\label{class_midi_base_acfb1d2aef9901779bb53e0847121c13d}} 
+\index{Midi\+Base@{Midi\+Base}!midi\+Pitch\+Bend\+Received@{midi\+Pitch\+Bend\+Received}}
+\index{midi\+Pitch\+Bend\+Received@{midi\+Pitch\+Bend\+Received}!Midi\+Base@{Midi\+Base}}
+\subsubsection{\texorpdfstring{midi\+Pitch\+Bend\+Received()}{midiPitchBendReceived()}}
+{\footnotesize\ttfamily virtual void Midi\+Base\+::midi\+Pitch\+Bend\+Received (\begin{DoxyParamCaption}\item[{char}]{bend }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \hyperlink{class_min_engine_a5b0f6a252cc4958e81d8989872105544}{Min\+Engine}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_midi_base_acfb1d2aef9901779bb53e0847121c13d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_midi_base_a968da0cf67e9a84757cbc2dbce90bc39}\label{class_midi_base_a968da0cf67e9a84757cbc2dbce90bc39}} 
+\index{Midi\+Base@{Midi\+Base}!midi\+Program\+Change\+Received@{midi\+Program\+Change\+Received}}
+\index{midi\+Program\+Change\+Received@{midi\+Program\+Change\+Received}!Midi\+Base@{Midi\+Base}}
+\subsubsection{\texorpdfstring{midi\+Program\+Change\+Received()}{midiProgramChangeReceived()}}
+{\footnotesize\ttfamily virtual void Midi\+Base\+::midi\+Program\+Change\+Received (\begin{DoxyParamCaption}\item[{unsigned char}]{patch\+Num }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \hyperlink{class_min_engine_a0e772deba3710b21ef14f7a72994edb1}{Min\+Engine}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_midi_base_a968da0cf67e9a84757cbc2dbce90bc39_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_midi_base_ade00871c0c9e32bfacf34480faf0d37b}\label{class_midi_base_ade00871c0c9e32bfacf34480faf0d37b}} 
+\index{Midi\+Base@{Midi\+Base}!midi\+Sysex\+Data\+Received@{midi\+Sysex\+Data\+Received}}
+\index{midi\+Sysex\+Data\+Received@{midi\+Sysex\+Data\+Received}!Midi\+Base@{Midi\+Base}}
+\subsubsection{\texorpdfstring{midi\+Sysex\+Data\+Received()}{midiSysexDataReceived()}}
+{\footnotesize\ttfamily virtual void Midi\+Base\+::midi\+Sysex\+Data\+Received (\begin{DoxyParamCaption}\item[{unsigned char}]{index,  }\item[{unsigned char}]{data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \hyperlink{class_min_engine_ac424a71b7b8e28ce4e6cd47bda488704}{Min\+Engine}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_midi_base_ade00871c0c9e32bfacf34480faf0d37b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_midi_base_a3b3e70e61a2f2fa169bf694eeefeb0fd}\label{class_midi_base_a3b3e70e61a2f2fa169bf694eeefeb0fd}} 
+\index{Midi\+Base@{Midi\+Base}!midi\+Sysex\+Start\+Received@{midi\+Sysex\+Start\+Received}}
+\index{midi\+Sysex\+Start\+Received@{midi\+Sysex\+Start\+Received}!Midi\+Base@{Midi\+Base}}
+\subsubsection{\texorpdfstring{midi\+Sysex\+Start\+Received()}{midiSysexStartReceived()}}
+{\footnotesize\ttfamily virtual void Midi\+Base\+::midi\+Sysex\+Start\+Received (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \hyperlink{class_min_engine_a79e4c141d7f6df522e5307195c8aeec0}{Min\+Engine}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_midi_base_a3b3e70e61a2f2fa169bf694eeefeb0fd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_midi_base_a14d11f47e731a26535f855a99893d092}\label{class_midi_base_a14d11f47e731a26535f855a99893d092}} 
+\index{Midi\+Base@{Midi\+Base}!midi\+Sysex\+Stop\+Received@{midi\+Sysex\+Stop\+Received}}
+\index{midi\+Sysex\+Stop\+Received@{midi\+Sysex\+Stop\+Received}!Midi\+Base@{Midi\+Base}}
+\subsubsection{\texorpdfstring{midi\+Sysex\+Stop\+Received()}{midiSysexStopReceived()}}
+{\footnotesize\ttfamily virtual void Midi\+Base\+::midi\+Sysex\+Stop\+Received (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \hyperlink{class_min_engine_a1378bc2f4ad5d072392a498f5ef9e8e8}{Min\+Engine}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_midi_base_a14d11f47e731a26535f855a99893d092_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_midi_base_a747dece3a9e16a13766073d9e675887b}\label{class_midi_base_a747dece3a9e16a13766073d9e675887b}} 
+\index{Midi\+Base@{Midi\+Base}!midi\+Sysex\+Write@{midi\+Sysex\+Write}}
+\index{midi\+Sysex\+Write@{midi\+Sysex\+Write}!Midi\+Base@{Midi\+Base}}
+\subsubsection{\texorpdfstring{midi\+Sysex\+Write()}{midiSysexWrite()}}
+{\footnotesize\ttfamily virtual void Midi\+Base\+::midi\+Sysex\+Write (\begin{DoxyParamCaption}\item[{unsigned char}]{data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \hyperlink{class_min_engine_a10593d7e2c9bc02a3cffa92a522da294}{Min\+Engine}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_midi_base_a747dece3a9e16a13766073d9e675887b_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_midi_base_8h}{Midi\+Base.\+h}\end{DoxyCompactItemize}

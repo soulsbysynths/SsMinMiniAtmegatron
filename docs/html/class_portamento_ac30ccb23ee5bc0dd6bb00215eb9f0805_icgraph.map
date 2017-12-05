@@ -1,0 +1,6 @@
+<map id="Portamento::setSpeed" name="Portamento::setSpeed">
+<area shape="rect" id="node2" href="$class_min_engine.html#a229d4b913277a48909bf1aa01176ae1f" title="MinEngine::patchValueChanged" alt="" coords="205,13,412,39"/>
+<area shape="rect" id="node5" href="$class_portamento.html#a2cc6e550905558daac49cbef693c62fb" title="Portamento::getProportional" alt="" coords="217,63,401,90"/>
+<area shape="rect" id="node3" href="$class_min_engine.html#ae9224dca462d7a6233fb7c22210cc8a8" title="MinEngine::getBank" alt="" coords="460,13,599,39"/>
+<area shape="rect" id="node4" href="$class_min.html#aead3e428133f75538420c1e67c532fa7" title="Min::hardwareAnalogueControl\lChanged" alt="" coords="647,5,845,47"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="AtmOscillator::writeUserWave" name="AtmOscillator::writeUserWave">
+<area shape="rect" id="node2" href="$class_wavetable.html#a2ed27fd46eac11bd828c7111fca7bc0b" title="Wavetable::getSample" alt="" coords="248,31,400,57"/>
+<area shape="rect" id="node5" href="$_atm_oscillator_8cpp.html#ab9aace5cc66360e44fa4f9377854f486" title="writeMemory" alt="" coords="276,81,372,108"/>
+<area shape="rect" id="node3" href="$class_wavetable.html#ae4815729b57d8625a17ae0421b394217" title="Wavetable::clearSamples" alt="" coords="463,5,633,32"/>
+<area shape="rect" id="node4" href="$class_wavetable.html#aeb61e3ae23fc19d5578c5893323b0490" title="Wavetable::isAllSamplesSame" alt="" coords="448,56,648,83"/>
+</map>

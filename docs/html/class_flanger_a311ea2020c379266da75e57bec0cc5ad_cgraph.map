@@ -1,0 +1,4 @@
+<map id="Flanger::setLfoAmount" name="Flanger::setLfoAmount">
+<area shape="rect" id="node2" href="$class_flanger.html#ae94929f1469d1924d24537e2b265796d" title="Flanger::clearBuffer" alt="" coords="207,5,341,32"/>
+<area shape="rect" id="node3" href="$class_wavetable.html#ae4815729b57d8625a17ae0421b394217" title="Wavetable::clearSamples" alt="" coords="389,5,559,32"/>
+</map>

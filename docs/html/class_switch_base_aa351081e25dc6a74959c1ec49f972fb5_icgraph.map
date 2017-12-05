@@ -1,0 +1,4 @@
+<map id="SwitchBase::swClicked" name="SwitchBase::swClicked">
+<area shape="rect" id="node2" href="$class_switch.html#a5401c79fd9fda679eae5e4bba5578a35" title="Switch::poll" alt="" coords="212,5,301,32"/>
+<area shape="rect" id="node3" href="$class_switch.html#ad1991a92a3b5c470d667a5e26c59ef59" title="Switch::setDebounceTicks" alt="" coords="349,5,525,32"/>
+</map>

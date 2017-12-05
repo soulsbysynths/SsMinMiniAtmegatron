@@ -1,0 +1,7 @@
+<map id="MinEngine::initPatch" name="MinEngine::initPatch">
+<area shape="rect" id="node2" href="$class_atm_patch.html#ad2fe7a265755afc95a36752b86b6a7e2" title="AtmPatch::setFunctionValue" alt="" coords="196,64,385,91"/>
+<area shape="rect" id="node5" href="$class_atm_patch.html#a95fb3ea0dfd3369abe7518da26edb1b5" title="AtmPatch::setCtrlValue" alt="" coords="211,119,370,145"/>
+<area shape="rect" id="node3" href="$_ss_helpers_8h.html#ae1494147f54b48ede4d411140ad5a4e8" title="compressFourBit" alt="" coords="483,5,605,32"/>
+<area shape="rect" id="node4" href="$class_atm_patch_base.html#ad561145330e0b53990f222c243ef5e89" title="AtmPatchBase::patchValue\lChanged" alt="" coords="453,57,635,98"/>
+<area shape="rect" id="node6" href="$class_atm_patch_base.html#a10abe1d35a241d61a83473ef8caaee33" title="AtmPatchBase::patchCtrlChanged" alt="" coords="433,123,655,149"/>
+</map>

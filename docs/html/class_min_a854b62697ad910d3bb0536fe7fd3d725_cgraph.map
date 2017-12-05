@@ -1,0 +1,20 @@
+<map id="Min::hardwareMidiError" name="Min::hardwareMidiError">
+<area shape="rect" id="node2" href="$class_min.html#a9fe42a8d40c06d73556cf6d0dac2dc71" title="Min::engineValueChanged" alt="" coords="208,56,381,83"/>
+<area shape="rect" id="node5" href="$class_min.html#a24ca9b52ba9755b458f6141d730bb9b1" title="Min::engineBankChanged" alt="" coords="209,411,380,437"/>
+<area shape="rect" id="node6" href="$class_min.html#a4b150119664bd46bd2a80561862ff666" title="Min::engineMidiTransmit" alt="" coords="213,208,376,235"/>
+<area shape="rect" id="node16" href="$class_min.html#a136258f6eb36642c84deb93ab60be785" title="Min::Min" alt="" coords="259,360,331,387"/>
+<area shape="rect" id="node3" href="$class_min_hardware.html#a1401ae874f57cc5ce31032c8eea57fbd" title="MinHardware::getLed" alt="" coords="452,5,596,32"/>
+<area shape="rect" id="node4" href="$class_led_rgb.html#a1bc08ef61237fad334dcc750aa445e36" title="LedRgb::setColour" alt="" coords="459,56,589,83"/>
+<area shape="rect" id="node7" href="$class_min_hardware.html#a9a29bee58534914c24171d362e78bd2a" title="MinHardware::writeMidi" alt="" coords="446,107,602,133"/>
+<area shape="rect" id="node8" href="$class_min_engine.html#a4d41a91ebf44df8b8d6912293a3a3452" title="MinEngine::getMasterClock" alt="" coords="433,157,615,184"/>
+<area shape="rect" id="node9" href="$class_master_clock.html#af63318129f4c13824614e73f549e5894" title="MasterClock::getOutput" alt="" coords="444,208,604,235"/>
+<area shape="rect" id="node12" href="$class_min_engine.html#a36831a348bb8157f2cc3a4720d92434e" title="MinEngine::getFunction" alt="" coords="445,259,603,285"/>
+<area shape="rect" id="node13" href="$class_min_engine.html#a800de17fbe50c5f2aceab2999f3b8be1" title="MinEngine::getPatchPtr" alt="" coords="444,309,604,336"/>
+<area shape="rect" id="node14" href="$class_atm_patch.html#a7b4184a7f5bd314e150f9ad38cc3a0fb" title="AtmPatch::getFunctionValue" alt="" coords="429,360,619,387"/>
+<area shape="rect" id="node10" href="$class_master_clock.html#a5df4dcf8523b8186a7c73f9357376a01" title="MasterClock::setTicksPer\lCycle" alt="" coords="891,341,1063,382"/>
+<area shape="rect" id="node11" href="$class_master_clock.html#a479dec94c2b2061cca4fd9ce6a8b207a" title="MasterClock::MasterClock" alt="" coords="667,208,843,235"/>
+<area shape="rect" id="node15" href="$_ss_helpers_8h.html#a795ccec21a10068d3c3306cca3c7c310" title="uncompressFourBit" alt="" coords="687,360,822,387"/>
+<area shape="rect" id="node17" href="$class_min_engine.html#a9e00c7c1943063e4b707384738221365" title="MinEngine::construct" alt="" coords="451,461,597,488"/>
+<area shape="rect" id="node19" href="$class_min_hardware.html#a39382d7c1fcdcec2858c01c05d4c35aa" title="MinHardware::construct" alt="" coords="445,411,603,437"/>
+<area shape="rect" id="node18" href="$class_min_engine.html#a7ef07f3911096d861e030cccfd8899b5" title="MinEngine::setIntBpm" alt="" coords="679,436,830,463"/>
+</map>

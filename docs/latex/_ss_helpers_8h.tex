@@ -1,0 +1,243 @@
+\hypertarget{_ss_helpers_8h}{}\section{Ss\+Helpers.\+h File Reference}
+\label{_ss_helpers_8h}\index{Ss\+Helpers.\+h@{Ss\+Helpers.\+h}}
+{\ttfamily \#include $<$avr/pgmspace.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+Include dependency graph for Ss\+Helpers.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=297pt]{_ss_helpers_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_ss_helpers_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+char \hyperlink{_ss_helpers_8h_aafd255fee107781553731dd9fdf85876}{convert\+Exponential} (char input)
+\item 
+char \hyperlink{_ss_helpers_8h_a21713454284801828f77c20c4ca924fd}{convert\+Inv\+Exponential} (char input)
+\item 
+char \hyperlink{_ss_helpers_8h_a9c86582e93afce8a20f0004850f27c38}{convert\+Exponential\+Bipolar} (char input)
+\item 
+unsigned char \hyperlink{_ss_helpers_8h_aa7d4b558557f493ffa7ff80e439b5f57}{shape\+Exponential} (char input, float shape\+Amt, unsigned char multiplier)
+\item 
+unsigned char \hyperlink{_ss_helpers_8h_a6af518b4f99ed6bc1db71cb92b4d0573}{shape\+Exponential} (int input, float shape\+Amt, unsigned char multiplier)
+\item 
+unsigned char \hyperlink{_ss_helpers_8h_ae1494147f54b48ede4d411140ad5a4e8}{compress\+Four\+Bit} (unsigned char input, unsigned char new\+Value, unsigned char pos)
+\item 
+unsigned char \hyperlink{_ss_helpers_8h_a795ccec21a10068d3c3306cca3c7c310}{uncompress\+Four\+Bit} (unsigned char input, unsigned char pos)
+\item 
+unsigned char \hyperlink{_ss_helpers_8h_ad73b72970bf38c5c13d1fc11953ed9e7}{compress\+Two\+Bit} (unsigned char input, unsigned char new\+Value, unsigned char pos)
+\item 
+unsigned char \hyperlink{_ss_helpers_8h_ae6a2eb8cfa0b07e802be0780ec3eb9fc}{uncompress\+Two\+Bit} (unsigned char input, unsigned char pos)
+\item 
+char \hyperlink{_ss_helpers_8h_aa5ff1eff5e09f6edb161eee6a888422e}{constrain\+Char} (int input)
+\item 
+unsigned char \hyperlink{_ss_helpers_8h_a4b361fb524d1abac5b22ef57ca286b8f}{constrain\+U\+Char} (int input)
+\item 
+int \hyperlink{_ss_helpers_8h_a3c8d5eea7f8406462ad793e2d4ecc37d}{constrain\+Int} (long input)
+\item 
+long \hyperlink{_ss_helpers_8h_aada2d75bc8a8c6eb845bd940eadfa3fd}{map} (long x, long in\+\_\+min, long in\+\_\+max, long out\+\_\+min, long out\+\_\+max)
+\item 
+char \hyperlink{_ss_helpers_8h_a0b67e8cb38a4e790aa04e9046b75b782}{random\+Value} (char min, char max)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{_ss_helpers_8h_ae1494147f54b48ede4d411140ad5a4e8}\label{_ss_helpers_8h_ae1494147f54b48ede4d411140ad5a4e8}} 
+\index{Ss\+Helpers.\+h@{Ss\+Helpers.\+h}!compress\+Four\+Bit@{compress\+Four\+Bit}}
+\index{compress\+Four\+Bit@{compress\+Four\+Bit}!Ss\+Helpers.\+h@{Ss\+Helpers.\+h}}
+\subsubsection{\texorpdfstring{compress\+Four\+Bit()}{compressFourBit()}}
+{\footnotesize\ttfamily unsigned char compress\+Four\+Bit (\begin{DoxyParamCaption}\item[{unsigned char}]{input,  }\item[{unsigned char}]{new\+Value,  }\item[{unsigned char}]{pos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 75 of file Ss\+Helpers.\+h.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_ss_helpers_8h_ae1494147f54b48ede4d411140ad5a4e8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_ss_helpers_8h_ad73b72970bf38c5c13d1fc11953ed9e7}\label{_ss_helpers_8h_ad73b72970bf38c5c13d1fc11953ed9e7}} 
+\index{Ss\+Helpers.\+h@{Ss\+Helpers.\+h}!compress\+Two\+Bit@{compress\+Two\+Bit}}
+\index{compress\+Two\+Bit@{compress\+Two\+Bit}!Ss\+Helpers.\+h@{Ss\+Helpers.\+h}}
+\subsubsection{\texorpdfstring{compress\+Two\+Bit()}{compressTwoBit()}}
+{\footnotesize\ttfamily unsigned char compress\+Two\+Bit (\begin{DoxyParamCaption}\item[{unsigned char}]{input,  }\item[{unsigned char}]{new\+Value,  }\item[{unsigned char}]{pos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 90 of file Ss\+Helpers.\+h.
+
+\mbox{\Hypertarget{_ss_helpers_8h_aa5ff1eff5e09f6edb161eee6a888422e}\label{_ss_helpers_8h_aa5ff1eff5e09f6edb161eee6a888422e}} 
+\index{Ss\+Helpers.\+h@{Ss\+Helpers.\+h}!constrain\+Char@{constrain\+Char}}
+\index{constrain\+Char@{constrain\+Char}!Ss\+Helpers.\+h@{Ss\+Helpers.\+h}}
+\subsubsection{\texorpdfstring{constrain\+Char()}{constrainChar()}}
+{\footnotesize\ttfamily char constrain\+Char (\begin{DoxyParamCaption}\item[{int}]{input }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 105 of file Ss\+Helpers.\+h.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_ss_helpers_8h_aa5ff1eff5e09f6edb161eee6a888422e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_ss_helpers_8h_a3c8d5eea7f8406462ad793e2d4ecc37d}\label{_ss_helpers_8h_a3c8d5eea7f8406462ad793e2d4ecc37d}} 
+\index{Ss\+Helpers.\+h@{Ss\+Helpers.\+h}!constrain\+Int@{constrain\+Int}}
+\index{constrain\+Int@{constrain\+Int}!Ss\+Helpers.\+h@{Ss\+Helpers.\+h}}
+\subsubsection{\texorpdfstring{constrain\+Int()}{constrainInt()}}
+{\footnotesize\ttfamily int constrain\+Int (\begin{DoxyParamCaption}\item[{long}]{input }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 137 of file Ss\+Helpers.\+h.
+
+\mbox{\Hypertarget{_ss_helpers_8h_a4b361fb524d1abac5b22ef57ca286b8f}\label{_ss_helpers_8h_a4b361fb524d1abac5b22ef57ca286b8f}} 
+\index{Ss\+Helpers.\+h@{Ss\+Helpers.\+h}!constrain\+U\+Char@{constrain\+U\+Char}}
+\index{constrain\+U\+Char@{constrain\+U\+Char}!Ss\+Helpers.\+h@{Ss\+Helpers.\+h}}
+\subsubsection{\texorpdfstring{constrain\+U\+Char()}{constrainUChar()}}
+{\footnotesize\ttfamily unsigned char constrain\+U\+Char (\begin{DoxyParamCaption}\item[{int}]{input }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 121 of file Ss\+Helpers.\+h.
+
+\mbox{\Hypertarget{_ss_helpers_8h_aafd255fee107781553731dd9fdf85876}\label{_ss_helpers_8h_aafd255fee107781553731dd9fdf85876}} 
+\index{Ss\+Helpers.\+h@{Ss\+Helpers.\+h}!convert\+Exponential@{convert\+Exponential}}
+\index{convert\+Exponential@{convert\+Exponential}!Ss\+Helpers.\+h@{Ss\+Helpers.\+h}}
+\subsubsection{\texorpdfstring{convert\+Exponential()}{convertExponential()}}
+{\footnotesize\ttfamily char convert\+Exponential (\begin{DoxyParamCaption}\item[{char}]{input }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 42 of file Ss\+Helpers.\+h.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_ss_helpers_8h_aafd255fee107781553731dd9fdf85876_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_ss_helpers_8h_a9c86582e93afce8a20f0004850f27c38}\label{_ss_helpers_8h_a9c86582e93afce8a20f0004850f27c38}} 
+\index{Ss\+Helpers.\+h@{Ss\+Helpers.\+h}!convert\+Exponential\+Bipolar@{convert\+Exponential\+Bipolar}}
+\index{convert\+Exponential\+Bipolar@{convert\+Exponential\+Bipolar}!Ss\+Helpers.\+h@{Ss\+Helpers.\+h}}
+\subsubsection{\texorpdfstring{convert\+Exponential\+Bipolar()}{convertExponentialBipolar()}}
+{\footnotesize\ttfamily char convert\+Exponential\+Bipolar (\begin{DoxyParamCaption}\item[{char}]{input }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 52 of file Ss\+Helpers.\+h.
+
+\mbox{\Hypertarget{_ss_helpers_8h_a21713454284801828f77c20c4ca924fd}\label{_ss_helpers_8h_a21713454284801828f77c20c4ca924fd}} 
+\index{Ss\+Helpers.\+h@{Ss\+Helpers.\+h}!convert\+Inv\+Exponential@{convert\+Inv\+Exponential}}
+\index{convert\+Inv\+Exponential@{convert\+Inv\+Exponential}!Ss\+Helpers.\+h@{Ss\+Helpers.\+h}}
+\subsubsection{\texorpdfstring{convert\+Inv\+Exponential()}{convertInvExponential()}}
+{\footnotesize\ttfamily char convert\+Inv\+Exponential (\begin{DoxyParamCaption}\item[{char}]{input }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 47 of file Ss\+Helpers.\+h.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_ss_helpers_8h_a21713454284801828f77c20c4ca924fd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_ss_helpers_8h_aada2d75bc8a8c6eb845bd940eadfa3fd}\label{_ss_helpers_8h_aada2d75bc8a8c6eb845bd940eadfa3fd}} 
+\index{Ss\+Helpers.\+h@{Ss\+Helpers.\+h}!map@{map}}
+\index{map@{map}!Ss\+Helpers.\+h@{Ss\+Helpers.\+h}}
+\subsubsection{\texorpdfstring{map()}{map()}}
+{\footnotesize\ttfamily long map (\begin{DoxyParamCaption}\item[{long}]{x,  }\item[{long}]{in\+\_\+min,  }\item[{long}]{in\+\_\+max,  }\item[{long}]{out\+\_\+min,  }\item[{long}]{out\+\_\+max }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 153 of file Ss\+Helpers.\+h.
+
+\mbox{\Hypertarget{_ss_helpers_8h_a0b67e8cb38a4e790aa04e9046b75b782}\label{_ss_helpers_8h_a0b67e8cb38a4e790aa04e9046b75b782}} 
+\index{Ss\+Helpers.\+h@{Ss\+Helpers.\+h}!random\+Value@{random\+Value}}
+\index{random\+Value@{random\+Value}!Ss\+Helpers.\+h@{Ss\+Helpers.\+h}}
+\subsubsection{\texorpdfstring{random\+Value()}{randomValue()}}
+{\footnotesize\ttfamily char random\+Value (\begin{DoxyParamCaption}\item[{char}]{min,  }\item[{char}]{max }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 158 of file Ss\+Helpers.\+h.
+
+\mbox{\Hypertarget{_ss_helpers_8h_aa7d4b558557f493ffa7ff80e439b5f57}\label{_ss_helpers_8h_aa7d4b558557f493ffa7ff80e439b5f57}} 
+\index{Ss\+Helpers.\+h@{Ss\+Helpers.\+h}!shape\+Exponential@{shape\+Exponential}}
+\index{shape\+Exponential@{shape\+Exponential}!Ss\+Helpers.\+h@{Ss\+Helpers.\+h}}
+\subsubsection{\texorpdfstring{shape\+Exponential()}{shapeExponential()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily unsigned char shape\+Exponential (\begin{DoxyParamCaption}\item[{char}]{input,  }\item[{float}]{shape\+Amt,  }\item[{unsigned char}]{multiplier }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 57 of file Ss\+Helpers.\+h.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_ss_helpers_8h_aa7d4b558557f493ffa7ff80e439b5f57_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_ss_helpers_8h_a6af518b4f99ed6bc1db71cb92b4d0573}\label{_ss_helpers_8h_a6af518b4f99ed6bc1db71cb92b4d0573}} 
+\index{Ss\+Helpers.\+h@{Ss\+Helpers.\+h}!shape\+Exponential@{shape\+Exponential}}
+\index{shape\+Exponential@{shape\+Exponential}!Ss\+Helpers.\+h@{Ss\+Helpers.\+h}}
+\subsubsection{\texorpdfstring{shape\+Exponential()}{shapeExponential()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily unsigned char shape\+Exponential (\begin{DoxyParamCaption}\item[{int}]{input,  }\item[{float}]{shape\+Amt,  }\item[{unsigned char}]{multiplier }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 66 of file Ss\+Helpers.\+h.
+
+\mbox{\Hypertarget{_ss_helpers_8h_a795ccec21a10068d3c3306cca3c7c310}\label{_ss_helpers_8h_a795ccec21a10068d3c3306cca3c7c310}} 
+\index{Ss\+Helpers.\+h@{Ss\+Helpers.\+h}!uncompress\+Four\+Bit@{uncompress\+Four\+Bit}}
+\index{uncompress\+Four\+Bit@{uncompress\+Four\+Bit}!Ss\+Helpers.\+h@{Ss\+Helpers.\+h}}
+\subsubsection{\texorpdfstring{uncompress\+Four\+Bit()}{uncompressFourBit()}}
+{\footnotesize\ttfamily unsigned char uncompress\+Four\+Bit (\begin{DoxyParamCaption}\item[{unsigned char}]{input,  }\item[{unsigned char}]{pos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 82 of file Ss\+Helpers.\+h.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_ss_helpers_8h_a795ccec21a10068d3c3306cca3c7c310_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_ss_helpers_8h_ae6a2eb8cfa0b07e802be0780ec3eb9fc}\label{_ss_helpers_8h_ae6a2eb8cfa0b07e802be0780ec3eb9fc}} 
+\index{Ss\+Helpers.\+h@{Ss\+Helpers.\+h}!uncompress\+Two\+Bit@{uncompress\+Two\+Bit}}
+\index{uncompress\+Two\+Bit@{uncompress\+Two\+Bit}!Ss\+Helpers.\+h@{Ss\+Helpers.\+h}}
+\subsubsection{\texorpdfstring{uncompress\+Two\+Bit()}{uncompressTwoBit()}}
+{\footnotesize\ttfamily unsigned char uncompress\+Two\+Bit (\begin{DoxyParamCaption}\item[{unsigned char}]{input,  }\item[{unsigned char}]{pos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 97 of file Ss\+Helpers.\+h.
+

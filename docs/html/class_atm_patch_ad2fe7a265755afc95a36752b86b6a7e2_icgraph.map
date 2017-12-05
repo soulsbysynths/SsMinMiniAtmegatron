@@ -1,0 +1,17 @@
+<map id="AtmPatch::setFunctionValue" name="AtmPatch::setFunctionValue">
+<area shape="rect" id="node2" href="$class_atm_patch.html#a9689db39f28d3c7d0fcaa6966c82e2d6" title="AtmPatch::readPatch" alt="" coords="269,188,416,215"/>
+<area shape="rect" id="node3" href="$class_atm_patch.html#ac9d24dbe3f01ee12145649819017f697" title="AtmPatch::AtmPatch" alt="" coords="523,87,670,113"/>
+<area shape="rect" id="node8" href="$class_min.html#ae00f275ac6aeb73f932e62ae85abe5b1" title="Min::hardwareSwitchChanged" alt="" coords="997,72,1191,99"/>
+<area shape="rect" id="node9" href="$class_atm_patch.html#acc2729c3b10aa4d7f98e67caa3b80255" title="AtmPatch::setSysexByte" alt="" coords="257,87,428,113"/>
+<area shape="rect" id="node10" href="$class_atm_patch.html#ad7a325c544381189f9419131feba685b" title="AtmPatch::easterEgg" alt="" coords="269,137,416,164"/>
+<area shape="rect" id="node11" href="$class_min_engine.html#afd7005953daedf58d4332627e1592c07" title="MinEngine::initPatch" alt="" coords="271,239,414,265"/>
+<area shape="rect" id="node15" href="$class_min_engine.html#ad7404def0db3926e77c8828cab13cca9" title="MinEngine::midiControlChange\lReceived" alt="" coords="243,311,443,353"/>
+<area shape="rect" id="node4" href="$class_min_engine.html#ae59276976966cfd710288c1bbf1ea0cf" title="MinEngine::initialize" alt="" coords="527,137,666,164"/>
+<area shape="rect" id="node5" href="$class_min.html#a0fbb740ee813f44c6b0082d9a980875c" title="Min::initialize" alt="" coords="801,159,899,185"/>
+<area shape="rect" id="node7" href="$class_min_engine.html#a461861aff0eb8271558c9c20bc040b56" title="MinEngine::getTestNote" alt="" coords="769,72,931,99"/>
+<area shape="rect" id="node6" href="$_ss_min_miniatmegatron_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="1067,159,1121,185"/>
+<area shape="rect" id="node12" href="$class_min.html#aa17c2510883d894f135d6a0582cc8bea" title="Min::hardwareSwitchHeld" alt="" coords="513,289,681,316"/>
+<area shape="rect" id="node13" href="$class_min_engine.html#ae9224dca462d7a6233fb7c22210cc8a8" title="MinEngine::getBank" alt="" coords="527,239,666,265"/>
+<area shape="rect" id="node14" href="$class_min.html#aead3e428133f75538420c1e67c532fa7" title="Min::hardwareAnalogueControl\lChanged" alt="" coords="751,231,949,273"/>
+<area shape="rect" id="node16" href="$class_min_engine.html#aff5a85aae7d6f6e5edd571c73c071871" title="MinEngine::patchOptionChanged" alt="" coords="491,340,703,367"/>
+</map>

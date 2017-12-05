@@ -1,0 +1,11 @@
+<map id="AtmPatch::setOptionValue" name="AtmPatch::setOptionValue">
+<area shape="rect" id="node2" href="$class_atm_patch.html#a9689db39f28d3c7d0fcaa6966c82e2d6" title="AtmPatch::readPatch" alt="" coords="243,31,389,57"/>
+<area shape="rect" id="node3" href="$class_atm_patch.html#ac9d24dbe3f01ee12145649819017f697" title="AtmPatch::AtmPatch" alt="" coords="449,107,596,133"/>
+<area shape="rect" id="node9" href="$class_atm_patch.html#acc2729c3b10aa4d7f98e67caa3b80255" title="AtmPatch::setSysexByte" alt="" coords="231,132,401,159"/>
+<area shape="rect" id="node10" href="$class_atm_patch.html#ad7a325c544381189f9419131feba685b" title="AtmPatch::easterEgg" alt="" coords="243,183,389,209"/>
+<area shape="rect" id="node4" href="$class_min_engine.html#ae59276976966cfd710288c1bbf1ea0cf" title="MinEngine::initialize" alt="" coords="453,31,592,57"/>
+<area shape="rect" id="node5" href="$class_min.html#a0fbb740ee813f44c6b0082d9a980875c" title="Min::initialize" alt="" coords="675,5,774,32"/>
+<area shape="rect" id="node7" href="$class_min_engine.html#a461861aff0eb8271558c9c20bc040b56" title="MinEngine::getTestNote" alt="" coords="644,56,805,83"/>
+<area shape="rect" id="node6" href="$_ss_min_miniatmegatron_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="923,5,977,32"/>
+<area shape="rect" id="node8" href="$class_min.html#ae00f275ac6aeb73f932e62ae85abe5b1" title="Min::hardwareSwitchChanged" alt="" coords="853,56,1047,83"/>
+</map>

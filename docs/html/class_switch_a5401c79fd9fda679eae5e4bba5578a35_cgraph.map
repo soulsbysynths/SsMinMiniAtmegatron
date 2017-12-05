@@ -1,0 +1,6 @@
+<map id="Switch::poll" name="Switch::poll">
+<area shape="rect" id="node2" href="$class_switch_base.html#a120bac96086b295783809866e3afd390" title="SwitchBase::swDoubleClicked" alt="" coords="143,5,341,32"/>
+<area shape="rect" id="node3" href="$class_switch_base.html#a8dce83329bd9ce69e55d2f01115f3593" title="SwitchBase::swValueChanged" alt="" coords="143,56,341,83"/>
+<area shape="rect" id="node4" href="$class_switch_base.html#a074fca26f56e9253ddd86720f7840440" title="SwitchBase::swHeld" alt="" coords="171,107,313,133"/>
+<area shape="rect" id="node5" href="$class_switch_base.html#aa351081e25dc6a74959c1ec49f972fb5" title="SwitchBase::swClicked" alt="" coords="163,157,321,184"/>
+</map>

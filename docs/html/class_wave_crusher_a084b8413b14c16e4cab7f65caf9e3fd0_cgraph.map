@@ -1,0 +1,9 @@
+<map id="WaveCrusher::getSampleHold" name="WaveCrusher::getSampleHold">
+<area shape="rect" id="node2" href="$class_wave_crusher.html#a906f0056db9847e6fafd406ab9e613a9" title="WaveCrusher::processWavetable" alt="" coords="248,56,461,83"/>
+<area shape="rect" id="node8" href="$class_wave_crusher.html#a3e0ce1e58ad9fe4ab8a18fb6ecdb0db2" title="WaveCrusher::WaveCrusher" alt="" coords="263,107,447,133"/>
+<area shape="rect" id="node3" href="$class_wavetable.html#ac7f597021cdace95c4e1e4c88fc36d2a" title="Wavetable::getWaveLength" alt="" coords="509,5,688,32"/>
+<area shape="rect" id="node4" href="$class_wavetable.html#a2ed27fd46eac11bd828c7111fca7bc0b" title="Wavetable::getSample" alt="" coords="523,56,675,83"/>
+<area shape="rect" id="node7" href="$class_wavetable.html#a01485340698b4bf92f3065f31feaf4c4" title="Wavetable::setSample" alt="" coords="523,107,675,133"/>
+<area shape="rect" id="node5" href="$class_wavetable.html#ae4815729b57d8625a17ae0421b394217" title="Wavetable::clearSamples" alt="" coords="751,31,921,57"/>
+<area shape="rect" id="node6" href="$class_wavetable.html#aeb61e3ae23fc19d5578c5893323b0490" title="Wavetable::isAllSamplesSame" alt="" coords="736,81,936,108"/>
+</map>
