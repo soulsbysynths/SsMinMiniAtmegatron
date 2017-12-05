@@ -1,0 +1,12 @@
+<map id="BiquadFilter::getLfoAmount" name="BiquadFilter::getLfoAmount">
+<area shape="rect" id="node2" href="$d9/d6f/class_biquad_filter.html#a6b84cee1d3982596d90d3b1a74208b2a" title="BiquadFilter::refresh" alt="" coords="265,31,404,57"/>
+<area shape="rect" id="node4" href="$d9/d6f/class_biquad_filter.html#a205ea1f856a52f5d369d45cf385df801" title="BiquadFilter::processWavetable" alt="" coords="232,107,437,133"/>
+<area shape="rect" id="node11" href="$d9/d6f/class_biquad_filter.html#a58057f61de80a0103d49a075db1843d7" title="BiquadFilter::BiquadFilter" alt="" coords="251,157,419,184"/>
+<area shape="rect" id="node3" href="$d3/d47/_ss_helpers_8h.html#aa7d4b558557f493ffa7ff80e439b5f57" title="shapeExponential" alt="" coords="512,5,637,32"/>
+<area shape="rect" id="node5" href="$d8/d3f/class_wavetable.html#ac7f597021cdace95c4e1e4c88fc36d2a" title="Wavetable::getWaveLength" alt="" coords="485,56,664,83"/>
+<area shape="rect" id="node6" href="$d8/d3f/class_wavetable.html#a2ed27fd46eac11bd828c7111fca7bc0b" title="Wavetable::getSample" alt="" coords="499,107,651,133"/>
+<area shape="rect" id="node9" href="$d3/d47/_ss_helpers_8h.html#aa5ff1eff5e09f6edb161eee6a888422e" title="constrainChar" alt="" coords="523,157,626,184"/>
+<area shape="rect" id="node10" href="$d8/d3f/class_wavetable.html#a01485340698b4bf92f3065f31feaf4c4" title="Wavetable::setSample" alt="" coords="499,208,651,235"/>
+<area shape="rect" id="node7" href="$d8/d3f/class_wavetable.html#ae4815729b57d8625a17ae0421b394217" title="Wavetable::clearSamples" alt="" coords="727,81,897,108"/>
+<area shape="rect" id="node8" href="$d8/d3f/class_wavetable.html#aeb61e3ae23fc19d5578c5893323b0490" title="Wavetable::isAllSamplesSame" alt="" coords="712,132,912,159"/>
+</map>

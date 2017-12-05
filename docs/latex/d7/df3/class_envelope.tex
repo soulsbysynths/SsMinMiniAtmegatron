@@ -1,0 +1,505 @@
+\hypertarget{class_envelope}{}\section{Envelope Class Reference}
+\label{class_envelope}\index{Envelope@{Envelope}}
+
+
+{\ttfamily \#include \char`\"{}Envelope.\+h\char`\"{}}
+
+
+
+Collaboration diagram for Envelope\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=160pt]{d6/d56/class_envelope__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_envelope_a16c15d3d555a1a27869f48696f430d5f}{Env\+State} \+: unsigned char \{ \newline
+\hyperlink{class_envelope_a16c15d3d555a1a27869f48696f430d5fab143de029e25fdce311f70afa35e5543}{I\+D\+LE}, 
+\hyperlink{class_envelope_a16c15d3d555a1a27869f48696f430d5fa95ea9b4e93c89d0cdd585c8722fbfe5b}{A\+T\+T\+A\+C\+K\+I\+NG}, 
+\hyperlink{class_envelope_a16c15d3d555a1a27869f48696f430d5fa6aebe1557244f4bfb6ab954708bf03c1}{D\+E\+C\+A\+Y\+I\+NG}, 
+\hyperlink{class_envelope_a16c15d3d555a1a27869f48696f430d5fae13513569233289e2ed7756092794956}{S\+U\+S\+T\+A\+I\+N\+I\+NG}, 
+\newline
+\hyperlink{class_envelope_a16c15d3d555a1a27869f48696f430d5faace0b1e9ab9462b2c680c7203c98ef0e}{R\+E\+L\+E\+A\+S\+I\+NG}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_envelope_ac609dfa5fe79dd719530e8c29bb35725}{Envelope} ()
+\item 
+\hyperlink{class_envelope_a0d854766d1fc084d27ddb7b6cf7967af}{$\sim$\+Envelope} ()
+\item 
+void \hyperlink{class_envelope_a82398cacd7990d2fdb0606f454610a43}{set\+Attack} (unsigned int inc)
+\item 
+unsigned int \hyperlink{class_envelope_ac1cf99747551ea56b1202844da4fddde}{get\+Attack} ()
+\item 
+void \hyperlink{class_envelope_a5ce19b4d570637216cfd8b0c31447d84}{set\+Decay} (unsigned int inc)
+\item 
+unsigned int \hyperlink{class_envelope_a6c7ba1a801512bb26e0b8114edb10544}{get\+Decay} ()
+\item 
+void \hyperlink{class_envelope_a18deee1d88842bfbbcfb2765eb944f4d}{set\+Sustain} (int level)
+\item 
+int \hyperlink{class_envelope_a4cc2bb1ba420ecd053c4a1ad8ed0ab7d}{get\+Sustain} ()
+\item 
+void \hyperlink{class_envelope_a7102e88984b79766c6e9dc4a3c7e278d}{set\+Release} (unsigned int inc)
+\item 
+unsigned int \hyperlink{class_envelope_a96815367d569e8bdd8d5798475a0ab76}{get\+Release} ()
+\item 
+void \hyperlink{class_envelope_a53797bfa27b46f417ec36f204b9cfecf}{set\+Invert} (bool inverted)
+\item 
+bool \hyperlink{class_envelope_a90c62a0768be44808c1a1ea731ff1f7c}{get\+Invert} ()
+\item 
+void \hyperlink{class_envelope_a88691c37c715df009f27de4ff156679f}{set\+Retrigger} (bool retrigger)
+\item 
+bool \hyperlink{class_envelope_a4d944da1edd2a5ca2dfa95482f933037}{get\+Retrigger} ()
+\item 
+char \hyperlink{class_envelope_a962be8de5485992477ef09c7038812b2}{get\+Output} ()
+\item 
+void \hyperlink{class_envelope_adb5198f773dffea346cbfda055556e69}{set\+State} (\hyperlink{class_envelope_a16c15d3d555a1a27869f48696f430d5f}{Env\+State} new\+State)
+\item 
+\hyperlink{class_envelope_a16c15d3d555a1a27869f48696f430d5f}{Env\+State} \hyperlink{class_envelope_a1d3627f6be1cce69aae37575b9bcdc69}{get\+State} ()
+\item 
+char \hyperlink{class_envelope_a84eaf76b6ef7fbd2d394fba1f59cb909}{get\+Exp\+Output} ()
+\item 
+void \hyperlink{class_envelope_a03b0aeb7f8550ec701e3a07839ad47ec}{trigger} ()
+\item 
+void \hyperlink{class_envelope_ab21b5747de63336c4a525f3a7e728189}{release} ()
+\item 
+void \hyperlink{class_envelope_ab039016897ae8b1edccd2eec7cb9b7f8}{refresh} (unsigned char ticks\+Passed)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 23 of file Envelope.\+h.
+
+
+
+\subsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{class_envelope_a16c15d3d555a1a27869f48696f430d5f}\label{class_envelope_a16c15d3d555a1a27869f48696f430d5f}} 
+\index{Envelope@{Envelope}!Env\+State@{Env\+State}}
+\index{Env\+State@{Env\+State}!Envelope@{Envelope}}
+\subsubsection{\texorpdfstring{Env\+State}{EnvState}}
+{\footnotesize\ttfamily enum \hyperlink{class_envelope_a16c15d3d555a1a27869f48696f430d5f}{Envelope\+::\+Env\+State} \+: unsigned char}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{I\+D\+LE@{I\+D\+LE}!Envelope@{Envelope}}\index{Envelope@{Envelope}!I\+D\+LE@{I\+D\+LE}}}\mbox{\Hypertarget{class_envelope_a16c15d3d555a1a27869f48696f430d5fab143de029e25fdce311f70afa35e5543}\label{class_envelope_a16c15d3d555a1a27869f48696f430d5fab143de029e25fdce311f70afa35e5543}} 
+I\+D\+LE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{A\+T\+T\+A\+C\+K\+I\+NG@{A\+T\+T\+A\+C\+K\+I\+NG}!Envelope@{Envelope}}\index{Envelope@{Envelope}!A\+T\+T\+A\+C\+K\+I\+NG@{A\+T\+T\+A\+C\+K\+I\+NG}}}\mbox{\Hypertarget{class_envelope_a16c15d3d555a1a27869f48696f430d5fa95ea9b4e93c89d0cdd585c8722fbfe5b}\label{class_envelope_a16c15d3d555a1a27869f48696f430d5fa95ea9b4e93c89d0cdd585c8722fbfe5b}} 
+A\+T\+T\+A\+C\+K\+I\+NG&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{D\+E\+C\+A\+Y\+I\+NG@{D\+E\+C\+A\+Y\+I\+NG}!Envelope@{Envelope}}\index{Envelope@{Envelope}!D\+E\+C\+A\+Y\+I\+NG@{D\+E\+C\+A\+Y\+I\+NG}}}\mbox{\Hypertarget{class_envelope_a16c15d3d555a1a27869f48696f430d5fa6aebe1557244f4bfb6ab954708bf03c1}\label{class_envelope_a16c15d3d555a1a27869f48696f430d5fa6aebe1557244f4bfb6ab954708bf03c1}} 
+D\+E\+C\+A\+Y\+I\+NG&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{S\+U\+S\+T\+A\+I\+N\+I\+NG@{S\+U\+S\+T\+A\+I\+N\+I\+NG}!Envelope@{Envelope}}\index{Envelope@{Envelope}!S\+U\+S\+T\+A\+I\+N\+I\+NG@{S\+U\+S\+T\+A\+I\+N\+I\+NG}}}\mbox{\Hypertarget{class_envelope_a16c15d3d555a1a27869f48696f430d5fae13513569233289e2ed7756092794956}\label{class_envelope_a16c15d3d555a1a27869f48696f430d5fae13513569233289e2ed7756092794956}} 
+S\+U\+S\+T\+A\+I\+N\+I\+NG&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+E\+L\+E\+A\+S\+I\+NG@{R\+E\+L\+E\+A\+S\+I\+NG}!Envelope@{Envelope}}\index{Envelope@{Envelope}!R\+E\+L\+E\+A\+S\+I\+NG@{R\+E\+L\+E\+A\+S\+I\+NG}}}\mbox{\Hypertarget{class_envelope_a16c15d3d555a1a27869f48696f430d5faace0b1e9ab9462b2c680c7203c98ef0e}\label{class_envelope_a16c15d3d555a1a27869f48696f430d5faace0b1e9ab9462b2c680c7203c98ef0e}} 
+R\+E\+L\+E\+A\+S\+I\+NG&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+Definition at line 27 of file Envelope.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_envelope_ac609dfa5fe79dd719530e8c29bb35725}\label{class_envelope_ac609dfa5fe79dd719530e8c29bb35725}} 
+\index{Envelope@{Envelope}!Envelope@{Envelope}}
+\index{Envelope@{Envelope}!Envelope@{Envelope}}
+\subsubsection{\texorpdfstring{Envelope()}{Envelope()}}
+{\footnotesize\ttfamily Envelope\+::\+Envelope (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 20 of file Envelope.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d7/df3/class_envelope_ac609dfa5fe79dd719530e8c29bb35725_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_envelope_a0d854766d1fc084d27ddb7b6cf7967af}\label{class_envelope_a0d854766d1fc084d27ddb7b6cf7967af}} 
+\index{Envelope@{Envelope}!````~Envelope@{$\sim$\+Envelope}}
+\index{````~Envelope@{$\sim$\+Envelope}!Envelope@{Envelope}}
+\subsubsection{\texorpdfstring{$\sim$\+Envelope()}{~Envelope()}}
+{\footnotesize\ttfamily Envelope\+::$\sim$\+Envelope (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 25 of file Envelope.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_envelope_ac1cf99747551ea56b1202844da4fddde}\label{class_envelope_ac1cf99747551ea56b1202844da4fddde}} 
+\index{Envelope@{Envelope}!get\+Attack@{get\+Attack}}
+\index{get\+Attack@{get\+Attack}!Envelope@{Envelope}}
+\subsubsection{\texorpdfstring{get\+Attack()}{getAttack()}}
+{\footnotesize\ttfamily unsigned int Envelope\+::get\+Attack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 52 of file Envelope.\+h.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=323pt]{d7/df3/class_envelope_ac1cf99747551ea56b1202844da4fddde_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_envelope_a6c7ba1a801512bb26e0b8114edb10544}\label{class_envelope_a6c7ba1a801512bb26e0b8114edb10544}} 
+\index{Envelope@{Envelope}!get\+Decay@{get\+Decay}}
+\index{get\+Decay@{get\+Decay}!Envelope@{Envelope}}
+\subsubsection{\texorpdfstring{get\+Decay()}{getDecay()}}
+{\footnotesize\ttfamily unsigned int Envelope\+::get\+Decay (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 54 of file Envelope.\+h.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=327pt]{d7/df3/class_envelope_a6c7ba1a801512bb26e0b8114edb10544_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_envelope_a84eaf76b6ef7fbd2d394fba1f59cb909}\label{class_envelope_a84eaf76b6ef7fbd2d394fba1f59cb909}} 
+\index{Envelope@{Envelope}!get\+Exp\+Output@{get\+Exp\+Output}}
+\index{get\+Exp\+Output@{get\+Exp\+Output}!Envelope@{Envelope}}
+\subsubsection{\texorpdfstring{get\+Exp\+Output()}{getExpOutput()}}
+{\footnotesize\ttfamily char Envelope\+::get\+Exp\+Output (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 78 of file Envelope.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{d7/df3/class_envelope_a84eaf76b6ef7fbd2d394fba1f59cb909_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d7/df3/class_envelope_a84eaf76b6ef7fbd2d394fba1f59cb909_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_envelope_a90c62a0768be44808c1a1ea731ff1f7c}\label{class_envelope_a90c62a0768be44808c1a1ea731ff1f7c}} 
+\index{Envelope@{Envelope}!get\+Invert@{get\+Invert}}
+\index{get\+Invert@{get\+Invert}!Envelope@{Envelope}}
+\subsubsection{\texorpdfstring{get\+Invert()}{getInvert()}}
+{\footnotesize\ttfamily bool Envelope\+::get\+Invert (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 60 of file Envelope.\+h.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=328pt]{d7/df3/class_envelope_a90c62a0768be44808c1a1ea731ff1f7c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_envelope_a962be8de5485992477ef09c7038812b2}\label{class_envelope_a962be8de5485992477ef09c7038812b2}} 
+\index{Envelope@{Envelope}!get\+Output@{get\+Output}}
+\index{get\+Output@{get\+Output}!Envelope@{Envelope}}
+\subsubsection{\texorpdfstring{get\+Output()}{getOutput()}}
+{\footnotesize\ttfamily char Envelope\+::get\+Output (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 65 of file Envelope.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d7/df3/class_envelope_a962be8de5485992477ef09c7038812b2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_envelope_a96815367d569e8bdd8d5798475a0ab76}\label{class_envelope_a96815367d569e8bdd8d5798475a0ab76}} 
+\index{Envelope@{Envelope}!get\+Release@{get\+Release}}
+\index{get\+Release@{get\+Release}!Envelope@{Envelope}}
+\subsubsection{\texorpdfstring{get\+Release()}{getRelease()}}
+{\footnotesize\ttfamily unsigned int Envelope\+::get\+Release (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 58 of file Envelope.\+h.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{d7/df3/class_envelope_a96815367d569e8bdd8d5798475a0ab76_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_envelope_a4d944da1edd2a5ca2dfa95482f933037}\label{class_envelope_a4d944da1edd2a5ca2dfa95482f933037}} 
+\index{Envelope@{Envelope}!get\+Retrigger@{get\+Retrigger}}
+\index{get\+Retrigger@{get\+Retrigger}!Envelope@{Envelope}}
+\subsubsection{\texorpdfstring{get\+Retrigger()}{getRetrigger()}}
+{\footnotesize\ttfamily bool Envelope\+::get\+Retrigger (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 62 of file Envelope.\+h.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{d7/df3/class_envelope_a4d944da1edd2a5ca2dfa95482f933037_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_envelope_a1d3627f6be1cce69aae37575b9bcdc69}\label{class_envelope_a1d3627f6be1cce69aae37575b9bcdc69}} 
+\index{Envelope@{Envelope}!get\+State@{get\+State}}
+\index{get\+State@{get\+State}!Envelope@{Envelope}}
+\subsubsection{\texorpdfstring{get\+State()}{getState()}}
+{\footnotesize\ttfamily \hyperlink{class_envelope_a16c15d3d555a1a27869f48696f430d5f}{Env\+State} Envelope\+::get\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 65 of file Envelope.\+h.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d7/df3/class_envelope_a1d3627f6be1cce69aae37575b9bcdc69_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d7/df3/class_envelope_a1d3627f6be1cce69aae37575b9bcdc69_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_envelope_a4cc2bb1ba420ecd053c4a1ad8ed0ab7d}\label{class_envelope_a4cc2bb1ba420ecd053c4a1ad8ed0ab7d}} 
+\index{Envelope@{Envelope}!get\+Sustain@{get\+Sustain}}
+\index{get\+Sustain@{get\+Sustain}!Envelope@{Envelope}}
+\subsubsection{\texorpdfstring{get\+Sustain()}{getSustain()}}
+{\footnotesize\ttfamily int Envelope\+::get\+Sustain (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 56 of file Envelope.\+h.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{d7/df3/class_envelope_a4cc2bb1ba420ecd053c4a1ad8ed0ab7d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_envelope_ab039016897ae8b1edccd2eec7cb9b7f8}\label{class_envelope_ab039016897ae8b1edccd2eec7cb9b7f8}} 
+\index{Envelope@{Envelope}!refresh@{refresh}}
+\index{refresh@{refresh}!Envelope@{Envelope}}
+\subsubsection{\texorpdfstring{refresh()}{refresh()}}
+{\footnotesize\ttfamily void Envelope\+::refresh (\begin{DoxyParamCaption}\item[{unsigned char}]{ticks\+Passed }\end{DoxyParamCaption})}
+
+
+
+Definition at line 116 of file Envelope.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d7/df3/class_envelope_ab039016897ae8b1edccd2eec7cb9b7f8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_envelope_ab21b5747de63336c4a525f3a7e728189}\label{class_envelope_ab21b5747de63336c4a525f3a7e728189}} 
+\index{Envelope@{Envelope}!release@{release}}
+\index{release@{release}!Envelope@{Envelope}}
+\subsubsection{\texorpdfstring{release()}{release()}}
+{\footnotesize\ttfamily void Envelope\+::release (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 110 of file Envelope.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d7/df3/class_envelope_ab21b5747de63336c4a525f3a7e728189_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_envelope_a82398cacd7990d2fdb0606f454610a43}\label{class_envelope_a82398cacd7990d2fdb0606f454610a43}} 
+\index{Envelope@{Envelope}!set\+Attack@{set\+Attack}}
+\index{set\+Attack@{set\+Attack}!Envelope@{Envelope}}
+\subsubsection{\texorpdfstring{set\+Attack()}{setAttack()}}
+{\footnotesize\ttfamily void Envelope\+::set\+Attack (\begin{DoxyParamCaption}\item[{unsigned int}]{inc }\end{DoxyParamCaption})}
+
+
+
+Definition at line 29 of file Envelope.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d7/df3/class_envelope_a82398cacd7990d2fdb0606f454610a43_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_envelope_a5ce19b4d570637216cfd8b0c31447d84}\label{class_envelope_a5ce19b4d570637216cfd8b0c31447d84}} 
+\index{Envelope@{Envelope}!set\+Decay@{set\+Decay}}
+\index{set\+Decay@{set\+Decay}!Envelope@{Envelope}}
+\subsubsection{\texorpdfstring{set\+Decay()}{setDecay()}}
+{\footnotesize\ttfamily void Envelope\+::set\+Decay (\begin{DoxyParamCaption}\item[{unsigned int}]{inc }\end{DoxyParamCaption})}
+
+
+
+Definition at line 35 of file Envelope.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d7/df3/class_envelope_a5ce19b4d570637216cfd8b0c31447d84_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_envelope_a53797bfa27b46f417ec36f204b9cfecf}\label{class_envelope_a53797bfa27b46f417ec36f204b9cfecf}} 
+\index{Envelope@{Envelope}!set\+Invert@{set\+Invert}}
+\index{set\+Invert@{set\+Invert}!Envelope@{Envelope}}
+\subsubsection{\texorpdfstring{set\+Invert()}{setInvert()}}
+{\footnotesize\ttfamily void Envelope\+::set\+Invert (\begin{DoxyParamCaption}\item[{bool}]{inverted }\end{DoxyParamCaption})}
+
+
+
+Definition at line 53 of file Envelope.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{d7/df3/class_envelope_a53797bfa27b46f417ec36f204b9cfecf_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_envelope_a7102e88984b79766c6e9dc4a3c7e278d}\label{class_envelope_a7102e88984b79766c6e9dc4a3c7e278d}} 
+\index{Envelope@{Envelope}!set\+Release@{set\+Release}}
+\index{set\+Release@{set\+Release}!Envelope@{Envelope}}
+\subsubsection{\texorpdfstring{set\+Release()}{setRelease()}}
+{\footnotesize\ttfamily void Envelope\+::set\+Release (\begin{DoxyParamCaption}\item[{unsigned int}]{inc }\end{DoxyParamCaption})}
+
+
+
+Definition at line 47 of file Envelope.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d7/df3/class_envelope_a7102e88984b79766c6e9dc4a3c7e278d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_envelope_a88691c37c715df009f27de4ff156679f}\label{class_envelope_a88691c37c715df009f27de4ff156679f}} 
+\index{Envelope@{Envelope}!set\+Retrigger@{set\+Retrigger}}
+\index{set\+Retrigger@{set\+Retrigger}!Envelope@{Envelope}}
+\subsubsection{\texorpdfstring{set\+Retrigger()}{setRetrigger()}}
+{\footnotesize\ttfamily void Envelope\+::set\+Retrigger (\begin{DoxyParamCaption}\item[{bool}]{retrigger }\end{DoxyParamCaption})}
+
+
+
+Definition at line 59 of file Envelope.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=328pt]{d7/df3/class_envelope_a88691c37c715df009f27de4ff156679f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_envelope_adb5198f773dffea346cbfda055556e69}\label{class_envelope_adb5198f773dffea346cbfda055556e69}} 
+\index{Envelope@{Envelope}!set\+State@{set\+State}}
+\index{set\+State@{set\+State}!Envelope@{Envelope}}
+\subsubsection{\texorpdfstring{set\+State()}{setState()}}
+{\footnotesize\ttfamily void Envelope\+::set\+State (\begin{DoxyParamCaption}\item[{\hyperlink{class_envelope_a16c15d3d555a1a27869f48696f430d5f}{Env\+State}}]{new\+State }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 64 of file Envelope.\+h.
+
+\mbox{\Hypertarget{class_envelope_a18deee1d88842bfbbcfb2765eb944f4d}\label{class_envelope_a18deee1d88842bfbbcfb2765eb944f4d}} 
+\index{Envelope@{Envelope}!set\+Sustain@{set\+Sustain}}
+\index{set\+Sustain@{set\+Sustain}!Envelope@{Envelope}}
+\subsubsection{\texorpdfstring{set\+Sustain()}{setSustain()}}
+{\footnotesize\ttfamily void Envelope\+::set\+Sustain (\begin{DoxyParamCaption}\item[{int}]{level }\end{DoxyParamCaption})}
+
+
+
+Definition at line 41 of file Envelope.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d7/df3/class_envelope_a18deee1d88842bfbbcfb2765eb944f4d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_envelope_a03b0aeb7f8550ec701e3a07839ad47ec}\label{class_envelope_a03b0aeb7f8550ec701e3a07839ad47ec}} 
+\index{Envelope@{Envelope}!trigger@{trigger}}
+\index{trigger@{trigger}!Envelope@{Envelope}}
+\subsubsection{\texorpdfstring{trigger()}{trigger()}}
+{\footnotesize\ttfamily void Envelope\+::trigger (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 100 of file Envelope.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d7/df3/class_envelope_a03b0aeb7f8550ec701e3a07839ad47ec_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_envelope_8h}{Envelope.\+h}\item 
+\hyperlink{_envelope_8cpp}{Envelope.\+cpp}\end{DoxyCompactItemize}

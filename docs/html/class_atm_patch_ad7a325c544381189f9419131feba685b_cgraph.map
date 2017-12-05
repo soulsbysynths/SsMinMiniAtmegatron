@@ -1,9 +1,0 @@
-<map id="AtmPatch::easterEgg" name="AtmPatch::easterEgg">
-<area shape="rect" id="node2" href="$class_atm_patch.html#ad2fe7a265755afc95a36752b86b6a7e2" title="AtmPatch::setFunctionValue" alt="" coords="200,64,389,91"/>
-<area shape="rect" id="node5" href="$class_atm_patch.html#a1139606bcbffe63881b3f175f577d8e1" title="AtmPatch::setOptionValue" alt="" coords="206,129,383,156"/>
-<area shape="rect" id="node7" href="$class_atm_patch.html#a95fb3ea0dfd3369abe7518da26edb1b5" title="AtmPatch::setCtrlValue" alt="" coords="215,184,374,211"/>
-<area shape="rect" id="node3" href="$_ss_helpers_8h.html#ae1494147f54b48ede4d411140ad5a4e8" title="compressFourBit" alt="" coords="487,5,609,32"/>
-<area shape="rect" id="node4" href="$class_atm_patch_base.html#ad561145330e0b53990f222c243ef5e89" title="AtmPatchBase::patchValue\lChanged" alt="" coords="457,57,639,98"/>
-<area shape="rect" id="node6" href="$class_atm_patch_base.html#ad31f8d45a0a630ee3052d69ee125e2f3" title="AtmPatchBase::patchOption\lChanged" alt="" coords="454,122,642,163"/>
-<area shape="rect" id="node8" href="$class_atm_patch_base.html#a10abe1d35a241d61a83473ef8caaee33" title="AtmPatchBase::patchCtrlChanged" alt="" coords="437,188,659,215"/>
-</map>

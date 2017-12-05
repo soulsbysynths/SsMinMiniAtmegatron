@@ -1,0 +1,9 @@
+<map id="LedRgb::LedRgb" name="LedRgb::LedRgb">
+<area shape="rect" id="node2" href="$dc/d6d/class_led_rgb.html#a542e3bf6bcf1f05df3cc442522787948" title="LedRgb::getColour" alt="" coords="172,31,301,57"/>
+<area shape="rect" id="node3" href="$dc/d6d/class_led_rgb.html#a31cf89e0117af309c00a60a7ca1bf486" title="LedRgb::refreshFlash" alt="" coords="361,31,506,57"/>
+<area shape="rect" id="node8" href="$dd/d34/class_min.html#aa17c2510883d894f135d6a0582cc8bea" title="Min::hardwareSwitchHeld" alt="" coords="349,81,517,108"/>
+<area shape="rect" id="node4" href="$d0/d93/class_min_hardware.html#a22017d021942bf72850a338b1522d5c2" title="MinHardware::refreshFlash" alt="" coords="565,31,741,57"/>
+<area shape="rect" id="node5" href="$dd/d34/class_min.html#a4ed53c28c8c59dba741daf945dbc160b" title="Min::poll" alt="" coords="826,5,897,32"/>
+<area shape="rect" id="node7" href="$d0/d93/class_min_hardware.html#af0f53594d24df7d75360ccccd0f582d3" title="MinHardware::getLed" alt="" coords="789,56,933,83"/>
+<area shape="rect" id="node6" href="$d1/d54/_ss_min_miniatmegatron_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="981,5,1028,32"/>
+</map>

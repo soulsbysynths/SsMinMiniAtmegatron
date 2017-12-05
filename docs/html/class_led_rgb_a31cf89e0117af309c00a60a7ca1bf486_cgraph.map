@@ -1,9 +1,0 @@
-<map id="LedRgb::refreshFlash" name="LedRgb::refreshFlash">
-<area shape="rect" id="node2" href="$class_led_rgb.html#a542e3bf6bcf1f05df3cc442522787948" title="LedRgb::getColour" alt="" coords="199,47,328,73"/>
-<area shape="rect" id="node4" href="$class_led_rgb.html#a1bc08ef61237fad334dcc750aa445e36" title="LedRgb::setColour" alt="" coords="555,21,684,48"/>
-<area shape="rect" id="node3" href="$class_led_rgb.html#a8d81b6020efb6e5f786542451d4dffbc" title="LedRgb::flash" alt="" coords="389,21,491,48"/>
-<area shape="rect" id="node5" href="$class_led_rgb.html#a096a0af0eb4d3c5d4c6a3f4b3aaeb9e7" title="LedRgb::flashStop" alt="" coords="376,72,504,99"/>
-<area shape="rect" id="node8" href="$class_led_rgb.html#a6393b6af61bd195db3591d4e90a2b6e2" title="LedRgb::LedRgb" alt="" coords="381,123,499,149"/>
-<area shape="rect" id="node6" href="$_ss_helpers_8h.html#ae1494147f54b48ede4d411140ad5a4e8" title="compressFourBit" alt="" coords="559,72,680,99"/>
-<area shape="rect" id="node7" href="$_ss_helpers_8h.html#a795ccec21a10068d3c3306cca3c7c310" title="uncompressFourBit" alt="" coords="552,123,687,149"/>
-</map>

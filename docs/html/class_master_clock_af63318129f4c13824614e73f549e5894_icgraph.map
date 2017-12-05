@@ -1,9 +1,0 @@
-<map id="MasterClock::getOutput" name="MasterClock::getOutput">
-<area shape="rect" id="node2" href="$class_min.html#a4b150119664bd46bd2a80561862ff666" title="Min::engineMidiTransmit" alt="" coords="213,5,376,32"/>
-<area shape="rect" id="node4" href="$class_min_engine.html#af0b91eca44954cb677808c3d24659596" title="MinEngine::poll" alt="" coords="239,56,350,83"/>
-<area shape="rect" id="node3" href="$class_min.html#a854b62697ad910d3bb0536fe7fd3d725" title="Min::hardwareMidiError" alt="" coords="427,5,582,32"/>
-<area shape="rect" id="node5" href="$class_min.html#a4ed53c28c8c59dba741daf945dbc160b" title="Min::poll" alt="" coords="469,56,540,83"/>
-<area shape="rect" id="node7" href="$class_min_engine.html#a461861aff0eb8271558c9c20bc040b56" title="MinEngine::getTestNote" alt="" coords="424,107,585,133"/>
-<area shape="rect" id="node6" href="$_ss_min_miniatmegatron_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="707,56,753,83"/>
-<area shape="rect" id="node8" href="$class_min.html#ae00f275ac6aeb73f932e62ae85abe5b1" title="Min::hardwareSwitchChanged" alt="" coords="633,107,827,133"/>
-</map>

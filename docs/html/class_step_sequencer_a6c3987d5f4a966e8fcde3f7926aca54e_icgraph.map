@@ -1,9 +1,0 @@
-<map id="StepSequencer::getPattern" name="StepSequencer::getPattern">
-<area shape="rect" id="node2" href="$class_min_engine.html#a108d70cfac8c363fbf6445f679dcf4d5" title="MinEngine::midiNoteOnReceived" alt="" coords="232,56,443,83"/>
-<area shape="rect" id="node8" href="$class_min_engine.html#aaab036105fa3dce51cc8c8345f2edcfe" title="MinEngine::midiNoteOffReceived" alt="" coords="232,107,443,133"/>
-<area shape="rect" id="node3" href="$class_min.html#ae00f275ac6aeb73f932e62ae85abe5b1" title="Min::hardwareSwitchChanged" alt="" coords="500,5,693,32"/>
-<area shape="rect" id="node4" href="$class_min_engine.html#ad26e5e985eb56946ae93dc3274874229" title="MinEngine::patchCtrlChanged" alt="" coords="499,56,694,83"/>
-<area shape="rect" id="node7" href="$class_min_engine.html#aff5a85aae7d6f6e5edd571c73c071871" title="MinEngine::patchOptionChanged" alt="" coords="491,107,703,133"/>
-<area shape="rect" id="node5" href="$class_min_engine.html#ae9224dca462d7a6233fb7c22210cc8a8" title="MinEngine::getBank" alt="" coords="751,56,889,83"/>
-<area shape="rect" id="node6" href="$class_min.html#aead3e428133f75538420c1e67c532fa7" title="Min::hardwareAnalogueControl\lChanged" alt="" coords="937,49,1136,90"/>
-</map>

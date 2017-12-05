@@ -1,0 +1,105 @@
+\hypertarget{_atm_patch_8h}{}\section{Atm\+Patch.\+h File Reference}
+\label{_atm_patch_8h}\index{Atm\+Patch.\+h@{Atm\+Patch.\+h}}
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Atm\+Patch\+Base.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Ss\+Helpers.\+h\char`\"{}}\newline
+Include dependency graph for Atm\+Patch.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d7b/_atm_patch_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{d5/dc8/_atm_patch_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_atm_patch}{Atm\+Patch}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{_atm_patch_8h_aff20d8c0a05ad3043afa2e4ad9ebe768}{bit\+Read}(value,  bit)~(((value) $>$$>$ (bit)) \& 0x01)
+\item 
+\#define \hyperlink{_atm_patch_8h_a6a8195c0e930f86c6af03ba6af8b41dd}{bit\+Set}(value,  bit)~((value) $\vert$= (1\+U\+L $<$$<$ (bit)))
+\item 
+\#define \hyperlink{_atm_patch_8h_abbe843c0521806a4ab2e7cffe44769e2}{bit\+Clear}(value,  bit)~((value) \&= $\sim$(1\+U\+L $<$$<$ (bit)))
+\item 
+\#define \hyperlink{_atm_patch_8h_a42c17f59f3f9a3112d01246760067a8e}{bit\+Write}(value,  bit,  bitvalue)~(bitvalue ? \hyperlink{_step_sequencer_8h_a6a8195c0e930f86c6af03ba6af8b41dd}{bit\+Set}(value, bit) \+: \hyperlink{_step_sequencer_8h_abbe843c0521806a4ab2e7cffe44769e2}{bit\+Clear}(value, bit))
+\item 
+\#define \hyperlink{_atm_patch_8h_a5bb885982ff66a2e0a0a45a8ee9c35e2}{H\+I\+GH}~0x01
+\item 
+\#define \hyperlink{_atm_patch_8h_ab811d8c6ff3a505312d3276590444289}{L\+OW}~0x00
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{_atm_patch_8h_abbe843c0521806a4ab2e7cffe44769e2}\label{_atm_patch_8h_abbe843c0521806a4ab2e7cffe44769e2}} 
+\index{Atm\+Patch.\+h@{Atm\+Patch.\+h}!bit\+Clear@{bit\+Clear}}
+\index{bit\+Clear@{bit\+Clear}!Atm\+Patch.\+h@{Atm\+Patch.\+h}}
+\subsubsection{\texorpdfstring{bit\+Clear}{bitClear}}
+{\footnotesize\ttfamily \#define bit\+Clear(\begin{DoxyParamCaption}\item[{}]{value,  }\item[{}]{bit }\end{DoxyParamCaption})~((value) \&= $\sim$(1\+U\+L $<$$<$ (bit)))}
+
+
+
+Definition at line 32 of file Atm\+Patch.\+h.
+
+\mbox{\Hypertarget{_atm_patch_8h_aff20d8c0a05ad3043afa2e4ad9ebe768}\label{_atm_patch_8h_aff20d8c0a05ad3043afa2e4ad9ebe768}} 
+\index{Atm\+Patch.\+h@{Atm\+Patch.\+h}!bit\+Read@{bit\+Read}}
+\index{bit\+Read@{bit\+Read}!Atm\+Patch.\+h@{Atm\+Patch.\+h}}
+\subsubsection{\texorpdfstring{bit\+Read}{bitRead}}
+{\footnotesize\ttfamily \#define bit\+Read(\begin{DoxyParamCaption}\item[{}]{value,  }\item[{}]{bit }\end{DoxyParamCaption})~(((value) $>$$>$ (bit)) \& 0x01)}
+
+
+
+Definition at line 26 of file Atm\+Patch.\+h.
+
+\mbox{\Hypertarget{_atm_patch_8h_a6a8195c0e930f86c6af03ba6af8b41dd}\label{_atm_patch_8h_a6a8195c0e930f86c6af03ba6af8b41dd}} 
+\index{Atm\+Patch.\+h@{Atm\+Patch.\+h}!bit\+Set@{bit\+Set}}
+\index{bit\+Set@{bit\+Set}!Atm\+Patch.\+h@{Atm\+Patch.\+h}}
+\subsubsection{\texorpdfstring{bit\+Set}{bitSet}}
+{\footnotesize\ttfamily \#define bit\+Set(\begin{DoxyParamCaption}\item[{}]{value,  }\item[{}]{bit }\end{DoxyParamCaption})~((value) $\vert$= (1\+U\+L $<$$<$ (bit)))}
+
+
+
+Definition at line 29 of file Atm\+Patch.\+h.
+
+\mbox{\Hypertarget{_atm_patch_8h_a42c17f59f3f9a3112d01246760067a8e}\label{_atm_patch_8h_a42c17f59f3f9a3112d01246760067a8e}} 
+\index{Atm\+Patch.\+h@{Atm\+Patch.\+h}!bit\+Write@{bit\+Write}}
+\index{bit\+Write@{bit\+Write}!Atm\+Patch.\+h@{Atm\+Patch.\+h}}
+\subsubsection{\texorpdfstring{bit\+Write}{bitWrite}}
+{\footnotesize\ttfamily \#define bit\+Write(\begin{DoxyParamCaption}\item[{}]{value,  }\item[{}]{bit,  }\item[{}]{bitvalue }\end{DoxyParamCaption})~(bitvalue ? \hyperlink{_step_sequencer_8h_a6a8195c0e930f86c6af03ba6af8b41dd}{bit\+Set}(value, bit) \+: \hyperlink{_step_sequencer_8h_abbe843c0521806a4ab2e7cffe44769e2}{bit\+Clear}(value, bit))}
+
+
+
+Definition at line 35 of file Atm\+Patch.\+h.
+
+\mbox{\Hypertarget{_atm_patch_8h_a5bb885982ff66a2e0a0a45a8ee9c35e2}\label{_atm_patch_8h_a5bb885982ff66a2e0a0a45a8ee9c35e2}} 
+\index{Atm\+Patch.\+h@{Atm\+Patch.\+h}!H\+I\+GH@{H\+I\+GH}}
+\index{H\+I\+GH@{H\+I\+GH}!Atm\+Patch.\+h@{Atm\+Patch.\+h}}
+\subsubsection{\texorpdfstring{H\+I\+GH}{HIGH}}
+{\footnotesize\ttfamily \#define H\+I\+GH~0x01}
+
+
+
+Definition at line 38 of file Atm\+Patch.\+h.
+
+\mbox{\Hypertarget{_atm_patch_8h_ab811d8c6ff3a505312d3276590444289}\label{_atm_patch_8h_ab811d8c6ff3a505312d3276590444289}} 
+\index{Atm\+Patch.\+h@{Atm\+Patch.\+h}!L\+OW@{L\+OW}}
+\index{L\+OW@{L\+OW}!Atm\+Patch.\+h@{Atm\+Patch.\+h}}
+\subsubsection{\texorpdfstring{L\+OW}{LOW}}
+{\footnotesize\ttfamily \#define L\+OW~0x00}
+
+
+
+Definition at line 41 of file Atm\+Patch.\+h.
+

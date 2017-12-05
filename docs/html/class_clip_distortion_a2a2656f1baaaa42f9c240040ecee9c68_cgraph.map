@@ -1,9 +1,0 @@
-<map id="ClipDistortion::getDistLevel" name="ClipDistortion::getDistLevel">
-<area shape="rect" id="node2" href="$class_clip_distortion.html#a761af22fbd15eb8bcc9ac0fdfe4d655d" title="ClipDistortion::processWavetable" alt="" coords="231,56,444,83"/>
-<area shape="rect" id="node8" href="$class_clip_distortion.html#a86506486f99934a97cd2de7cceee3f0d" title="ClipDistortion::ClipDistortion" alt="" coords="245,107,429,133"/>
-<area shape="rect" id="node3" href="$class_wavetable.html#ac7f597021cdace95c4e1e4c88fc36d2a" title="Wavetable::getWaveLength" alt="" coords="492,5,671,32"/>
-<area shape="rect" id="node4" href="$class_wavetable.html#a2ed27fd46eac11bd828c7111fca7bc0b" title="Wavetable::getSample" alt="" coords="505,56,657,83"/>
-<area shape="rect" id="node7" href="$class_wavetable.html#a01485340698b4bf92f3065f31feaf4c4" title="Wavetable::setSample" alt="" coords="505,107,657,133"/>
-<area shape="rect" id="node5" href="$class_wavetable.html#ae4815729b57d8625a17ae0421b394217" title="Wavetable::clearSamples" alt="" coords="734,31,903,57"/>
-<area shape="rect" id="node6" href="$class_wavetable.html#aeb61e3ae23fc19d5578c5893323b0490" title="Wavetable::isAllSamplesSame" alt="" coords="719,81,919,108"/>
-</map>

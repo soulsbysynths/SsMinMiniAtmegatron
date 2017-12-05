@@ -1,0 +1,11 @@
+<map id="Flanger::getEnvAmount" name="Flanger::getEnvAmount">
+<area shape="rect" id="node2" href="$d5/d64/class_flanger.html#a382a9889299da650998fe547dd859c5f" title="Flanger::resizeWavetable" alt="" coords="216,56,384,83"/>
+<area shape="rect" id="node3" href="$d5/d64/class_flanger.html#af0c970c914193ea326ca177869f508c1" title="Flanger::processWavetable" alt="" coords="211,107,389,133"/>
+<area shape="rect" id="node10" href="$d5/d64/class_flanger.html#ae94929f1469d1924d24537e2b265796d" title="Flanger::clearBuffer" alt="" coords="233,183,367,209"/>
+<area shape="rect" id="node4" href="$d8/d3f/class_wavetable.html#ac7f597021cdace95c4e1e4c88fc36d2a" title="Wavetable::getWaveLength" alt="" coords="437,5,616,32"/>
+<area shape="rect" id="node5" href="$d8/d3f/class_wavetable.html#a2ed27fd46eac11bd828c7111fca7bc0b" title="Wavetable::getSample" alt="" coords="451,56,603,83"/>
+<area shape="rect" id="node8" href="$d8/d3f/class_wavetable.html#a01485340698b4bf92f3065f31feaf4c4" title="Wavetable::setSample" alt="" coords="451,107,603,133"/>
+<area shape="rect" id="node9" href="$d3/d47/_ss_helpers_8h.html#aa5ff1eff5e09f6edb161eee6a888422e" title="constrainChar" alt="" coords="475,157,578,184"/>
+<area shape="rect" id="node6" href="$d8/d3f/class_wavetable.html#ae4815729b57d8625a17ae0421b394217" title="Wavetable::clearSamples" alt="" coords="679,157,849,184"/>
+<area shape="rect" id="node7" href="$d8/d3f/class_wavetable.html#aeb61e3ae23fc19d5578c5893323b0490" title="Wavetable::isAllSamplesSame" alt="" coords="664,56,864,83"/>
+</map>

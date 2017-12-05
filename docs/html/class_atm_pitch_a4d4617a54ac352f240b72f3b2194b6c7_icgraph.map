@@ -1,6 +1,0 @@
-<map id="AtmPitch::setLfoAmount" name="AtmPitch::setLfoAmount">
-<area shape="rect" id="node2" href="$class_atm_pitch.html#a850e1e507b70bc3a12049d48cd65283f" title="AtmPitch::getEnvAmount" alt="" coords="231,5,399,32"/>
-<area shape="rect" id="node3" href="$class_min_engine.html#ad26e5e985eb56946ae93dc3274874229" title="MinEngine::patchCtrlChanged" alt="" coords="217,56,412,83"/>
-<area shape="rect" id="node4" href="$class_min_engine.html#ae9224dca462d7a6233fb7c22210cc8a8" title="MinEngine::getBank" alt="" coords="460,56,599,83"/>
-<area shape="rect" id="node5" href="$class_min.html#aead3e428133f75538420c1e67c532fa7" title="Min::hardwareAnalogueControl\lChanged" alt="" coords="647,49,845,90"/>
-</map>

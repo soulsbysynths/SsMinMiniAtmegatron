@@ -1,0 +1,4 @@
+<map id="Min" name="Min">
+<area shape="rect" id="node2" href="$d9/d11/class_min_hardware_base.html" title="{MinHardwareBase\n||+ hardwareSwitchChanged()\l+ hardwareSwitchHeld()\l+ hardwareAnalogueControlChanged()\l+ hardwareMidiReceived()\l+ hardwareMidiError()\l}" alt="" coords="5,5,245,141"/>
+<area shape="rect" id="node3" href="$d7/d0e/class_min_engine_base.html" title="{MinEngineBase\n||+ engineValueChanged()\l+ engineBankChanged()\l+ engineMidiTransmit()\l}" alt="" coords="270,20,434,127"/>
+</map>

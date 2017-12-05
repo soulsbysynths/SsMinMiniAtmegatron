@@ -1,7 +1,0 @@
-<map id="MinEngine::initPatch" name="MinEngine::initPatch">
-<area shape="rect" id="node2" href="$class_min.html#a0fbb740ee813f44c6b0082d9a980875c" title="Min::initialize" alt="" coords="231,5,329,32"/>
-<area shape="rect" id="node4" href="$class_min.html#aa17c2510883d894f135d6a0582cc8bea" title="Min::hardwareSwitchHeld" alt="" coords="196,56,364,83"/>
-<area shape="rect" id="node5" href="$class_min_engine.html#ae9224dca462d7a6233fb7c22210cc8a8" title="MinEngine::getBank" alt="" coords="211,107,349,133"/>
-<area shape="rect" id="node3" href="$_ss_min_miniatmegatron_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="484,5,539,32"/>
-<area shape="rect" id="node6" href="$class_min.html#aead3e428133f75538420c1e67c532fa7" title="Min::hardwareAnalogueControl\lChanged" alt="" coords="412,99,611,141"/>
-</map>

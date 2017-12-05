@@ -1,4 +1,0 @@
-<map id="AnalogueControlBase::actrlValueChanged" name="AnalogueControlBase::actrlValueChanged">
-<area shape="rect" id="node2" href="$class_analogue_control.html#a5ec0b55a6abd8c73e61f86f2322251a5" title="AnalogueControl::poll" alt="" coords="200,13,345,39"/>
-<area shape="rect" id="node3" href="$class_analogue_control.html#a0fd8ee45aa916be0b7ba0bdccab41033" title="AnalogueControl::getLatched" alt="" coords="393,13,583,39"/>
-</map>

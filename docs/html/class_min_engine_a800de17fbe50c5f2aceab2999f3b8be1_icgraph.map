@@ -1,7 +1,0 @@
-<map id="MinEngine::getPatchPtr" name="MinEngine::getPatchPtr">
-<area shape="rect" id="node2" href="$class_min.html#a4b150119664bd46bd2a80561862ff666" title="Min::engineMidiTransmit" alt="" coords="231,5,394,32"/>
-<area shape="rect" id="node4" href="$class_min.html#aead3e428133f75538420c1e67c532fa7" title="Min::hardwareAnalogueControl\lChanged" alt="" coords="213,57,412,98"/>
-<area shape="rect" id="node5" href="$class_min.html#ae00f275ac6aeb73f932e62ae85abe5b1" title="Min::hardwareSwitchChanged" alt="" coords="216,123,409,149"/>
-<area shape="rect" id="node6" href="$class_min.html#aa17c2510883d894f135d6a0582cc8bea" title="Min::hardwareSwitchHeld" alt="" coords="229,173,397,200"/>
-<area shape="rect" id="node3" href="$class_min.html#a854b62697ad910d3bb0536fe7fd3d725" title="Min::hardwareMidiError" alt="" coords="460,5,615,32"/>
-</map>

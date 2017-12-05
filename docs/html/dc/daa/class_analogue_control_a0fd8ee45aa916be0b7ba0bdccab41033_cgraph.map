@@ -1,0 +1,6 @@
+<map id="AnalogueControl::getLatched" name="AnalogueControl::getLatched">
+<area shape="rect" id="node2" href="$dc/daa/class_analogue_control.html#ab670265f948d7416bcf07c91dcf97bce" title="AnalogueControl::hasChanged" alt="" coords="243,5,440,32"/>
+<area shape="rect" id="node3" href="$dc/daa/class_analogue_control.html#a5ec0b55a6abd8c73e61f86f2322251a5" title="AnalogueControl::poll" alt="" coords="269,56,414,83"/>
+<area shape="rect" id="node4" href="$d0/d4e/class_analogue_control_base.html#ab680f6fd45ec093200d3d78744957c1b" title="AnalogueControlBase\l::actrlMovingChanged" alt="" coords="488,15,635,57"/>
+<area shape="rect" id="node5" href="$d0/d4e/class_analogue_control_base.html#a9d18c3e299a69c909a3ad88b70524c5d" title="AnalogueControlBase\l::actrlValueChanged" alt="" coords="488,81,635,122"/>
+</map>

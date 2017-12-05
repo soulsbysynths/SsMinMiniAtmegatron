@@ -1,0 +1,5 @@
+<map id="AtmOscillator::setBank" name="AtmOscillator::setBank">
+<area shape="rect" id="node2" href="$d4/d0f/class_min_engine.html#a229d4b913277a48909bf1aa01176ae1f" title="MinEngine::patchValueChanged" alt="" coords="211,13,417,39"/>
+<area shape="rect" id="node3" href="$d4/d0f/class_min_engine.html#ae9224dca462d7a6233fb7c22210cc8a8" title="MinEngine::getBank" alt="" coords="465,13,604,39"/>
+<area shape="rect" id="node4" href="$dd/d34/class_min.html#aead3e428133f75538420c1e67c532fa7" title="Min::hardwareAnalogueControl\lChanged" alt="" coords="652,5,851,47"/>
+</map>

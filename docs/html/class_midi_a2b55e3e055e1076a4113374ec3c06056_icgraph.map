@@ -1,6 +1,0 @@
-<map id="Midi::reset" name="Midi::reset">
-<area shape="rect" id="node2" href="$class_midi.html#a138bcab57f6cf89474d774de29be9939" title="Midi::getTotNotesOn" alt="" coords="165,5,307,32"/>
-<area shape="rect" id="node3" href="$class_min.html#ae00f275ac6aeb73f932e62ae85abe5b1" title="Min::hardwareSwitchChanged" alt="" coords="139,56,333,83"/>
-<area shape="rect" id="node4" href="$class_min_engine.html#ad7404def0db3926e77c8828cab13cca9" title="MinEngine::midiControlChange\lReceived" alt="" coords="136,107,336,149"/>
-<area shape="rect" id="node5" href="$class_min_engine.html#aff5a85aae7d6f6e5edd571c73c071871" title="MinEngine::patchOptionChanged" alt="" coords="384,115,596,141"/>
-</map>

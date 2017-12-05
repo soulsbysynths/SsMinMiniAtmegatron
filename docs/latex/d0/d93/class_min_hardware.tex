@@ -1,0 +1,583 @@
+\hypertarget{class_min_hardware}{}\section{Min\+Hardware Class Reference}
+\label{class_min_hardware}\index{Min\+Hardware@{Min\+Hardware}}
+
+
+{\ttfamily \#include \char`\"{}Min\+Hardware.\+h\char`\"{}}
+
+
+
+Collaboration diagram for Min\+Hardware\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=202pt]{dc/d75/class_min_hardware__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_min_hardware_a54ab3625bd44e1b95ba30816a6923c4a}{Midi\+Error} \+: unsigned char \{ \newline
+\hyperlink{class_min_hardware_a54ab3625bd44e1b95ba30816a6923c4aa14ef09bb9e2c3ad44e4ef5d46417ebd7}{M\+I\+D\+I\+E\+R\+R\+\_\+\+N\+O\+NE}, 
+\hyperlink{class_min_hardware_a54ab3625bd44e1b95ba30816a6923c4aa251e8dcc629d40ce6bbb792ec2a78586}{M\+I\+D\+I\+E\+R\+R\+\_\+\+F\+R\+A\+ME}, 
+\hyperlink{class_min_hardware_a54ab3625bd44e1b95ba30816a6923c4aaf2bd267c8e20542d3439b4276878bc6d}{M\+I\+D\+I\+E\+R\+R\+\_\+\+O\+V\+E\+R\+R\+UN}, 
+\hyperlink{class_min_hardware_a54ab3625bd44e1b95ba30816a6923c4aa5535af14f4bc70bc09b986c17d659911}{M\+I\+D\+I\+E\+R\+R\+\_\+\+P\+A\+R\+I\+TY}, 
+\newline
+\hyperlink{class_min_hardware_a54ab3625bd44e1b95ba30816a6923c4aa05279156222db9e1c979824b564f6da8}{M\+I\+D\+I\+E\+R\+R\+\_\+\+B\+U\+F\+F\+E\+R\+F\+U\+LL}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_min_hardware_a39382d7c1fcdcec2858c01c05d4c35aa}{construct} (\hyperlink{class_min_hardware_base}{Min\+Hardware\+Base} $\ast$base)
+\item 
+\hyperlink{class_analogue_control}{Analogue\+Control} \& \hyperlink{class_min_hardware_a6960d088af0e6dabdd93d943a31906e3}{get\+Anl\+Control} (unsigned char index)
+\item 
+const \hyperlink{class_analogue_control}{Analogue\+Control} \& \hyperlink{class_min_hardware_a795eea6c8e488f0ef2700422b734f4f7}{get\+Anl\+Control} (unsigned char index) const
+\item 
+\hyperlink{class_switch}{Switch} \& \hyperlink{class_min_hardware_a7e3fdfca776cd833f4ab859c25232c9c}{get\+Switch} (unsigned char index)
+\item 
+const \hyperlink{class_switch}{Switch} \& \hyperlink{class_min_hardware_a874ff2353b74b2fefadd2f9322995617}{get\+Switch} (unsigned char index) const
+\item 
+\hyperlink{class_led_rgb}{Led\+Rgb} \& \hyperlink{class_min_hardware_a1401ae874f57cc5ce31032c8eea57fbd}{get\+Led} (unsigned char index)
+\item 
+const \hyperlink{class_led_rgb}{Led\+Rgb} \& \hyperlink{class_min_hardware_af0f53594d24df7d75360ccccd0f582d3}{get\+Led} (unsigned char index) const
+\item 
+bool \hyperlink{class_min_hardware_a8227e23999bf74110a124c889c80759e}{get\+First\+Boot} ()
+\item 
+void \hyperlink{class_min_hardware_a84cd3aa52662d5f6e599035a812894f9}{set\+First\+Boot} (bool new\+Value)
+\item 
+void \hyperlink{class_min_hardware_a84e0d11e73681ef8b7a7e90628b827ab}{refresh\+L\+E\+Ds} ()
+\item 
+void \hyperlink{class_min_hardware_a22017d021942bf72850a338b1522d5c2}{refresh\+Flash} (unsigned char ticks\+Passed)
+\item 
+void \hyperlink{class_min_hardware_afa6cdaaab625ffd44c733c6ff9e29f4d}{poll\+Anl\+Controls} (unsigned char ticks\+Passed)
+\item 
+void \hyperlink{class_min_hardware_a135650ade19c661a9e20f0a410722a10}{poll\+Switches} (unsigned char ticks\+Passed)
+\item 
+void \hyperlink{class_min_hardware_af4ce30a68a24c15d0149f2e65d72cc33}{begin\+Midi} (unsigned int ubrr)
+\item 
+void \hyperlink{class_min_hardware_a4978945a745e4c2690e05789eff52976}{poll\+Midi} ()
+\item 
+void \hyperlink{class_min_hardware_a9a29bee58534914c24171d362e78bd2a}{write\+Midi} (unsigned char data)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_min_hardware}{Min\+Hardware} \& \hyperlink{class_min_hardware_a47f2709e0cba6ed3b9d35fdd8baf8765}{get\+Instance} ()
+\item 
+static void \hyperlink{class_min_hardware_a21e147f121461594f295852e0a856b64}{flush\+Midi} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static const unsigned char \hyperlink{class_min_hardware_a22f9e8bf1d6dea2ed8b1c98bf97fecc6}{L\+E\+D\+\_\+\+F\+U\+NC} = 0
+\item 
+static const unsigned char \hyperlink{class_min_hardware_ad31c41e9a6216131acefd448c8daa305}{L\+E\+D\+\_\+\+V\+A\+L\+UE} = 1
+\item 
+static const unsigned char \hyperlink{class_min_hardware_a1715e93b246055f81609acf2fafd340a}{S\+W\+\_\+\+P\+L\+AY} = 0
+\item 
+static const unsigned char \hyperlink{class_min_hardware_a24e40d1b4dd921bcb58814c754f54d65}{S\+W\+\_\+\+F\+U\+N\+C\+\_\+\+D\+EC} = 1
+\item 
+static const unsigned char \hyperlink{class_min_hardware_a012e3565b4c6eafe595bae95b9ae9dfd}{S\+W\+\_\+\+F\+U\+N\+C\+\_\+\+I\+NC} = 2
+\item 
+static const unsigned char \hyperlink{class_min_hardware_aa01f74ebc2750feda3252f856cb7c664}{S\+W\+\_\+\+V\+A\+L\+\_\+\+D\+EC} = 3
+\item 
+static const unsigned char \hyperlink{class_min_hardware_ae37680120a307b535dffa98f7aaeecf0}{S\+W\+\_\+\+V\+A\+L\+\_\+\+I\+NC} = 4
+\item 
+static const unsigned char \hyperlink{class_min_hardware_a7cbeb3696cce376d0e1922d35473faf1}{S\+W\+\_\+\+B\+A\+NK} = 5
+\item 
+static const unsigned int \hyperlink{class_min_hardware_ae90fda3fb4bdf7ffb4268ae487cd8334}{H\+O\+L\+D\+\_\+\+E\+V\+E\+N\+T\+\_\+\+T\+I\+C\+KS} = 2000
+\item 
+static const unsigned char \hyperlink{class_min_hardware_a066765ceef59905283cebee0df489426}{S\+Y\+S\+E\+X\+\_\+\+P\+R\+O\+D\+U\+CT} = 0
+\item 
+static const unsigned char \hyperlink{class_min_hardware_aaa04f82d875b684d384d9404e70bb632}{L\+E\+D\+\_\+\+F\+L\+A\+S\+H\+\_\+\+S\+C\+A\+LE} = 16
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 58 of file Min\+Hardware.\+h.
+
+
+
+\subsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{class_min_hardware_a54ab3625bd44e1b95ba30816a6923c4a}\label{class_min_hardware_a54ab3625bd44e1b95ba30816a6923c4a}} 
+\index{Min\+Hardware@{Min\+Hardware}!Midi\+Error@{Midi\+Error}}
+\index{Midi\+Error@{Midi\+Error}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{Midi\+Error}{MidiError}}
+{\footnotesize\ttfamily enum \hyperlink{class_min_hardware_a54ab3625bd44e1b95ba30816a6923c4a}{Min\+Hardware\+::\+Midi\+Error} \+: unsigned char}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{M\+I\+D\+I\+E\+R\+R\+\_\+\+N\+O\+NE@{M\+I\+D\+I\+E\+R\+R\+\_\+\+N\+O\+NE}!Min\+Hardware@{Min\+Hardware}}\index{Min\+Hardware@{Min\+Hardware}!M\+I\+D\+I\+E\+R\+R\+\_\+\+N\+O\+NE@{M\+I\+D\+I\+E\+R\+R\+\_\+\+N\+O\+NE}}}\mbox{\Hypertarget{class_min_hardware_a54ab3625bd44e1b95ba30816a6923c4aa14ef09bb9e2c3ad44e4ef5d46417ebd7}\label{class_min_hardware_a54ab3625bd44e1b95ba30816a6923c4aa14ef09bb9e2c3ad44e4ef5d46417ebd7}} 
+M\+I\+D\+I\+E\+R\+R\+\_\+\+N\+O\+NE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{M\+I\+D\+I\+E\+R\+R\+\_\+\+F\+R\+A\+ME@{M\+I\+D\+I\+E\+R\+R\+\_\+\+F\+R\+A\+ME}!Min\+Hardware@{Min\+Hardware}}\index{Min\+Hardware@{Min\+Hardware}!M\+I\+D\+I\+E\+R\+R\+\_\+\+F\+R\+A\+ME@{M\+I\+D\+I\+E\+R\+R\+\_\+\+F\+R\+A\+ME}}}\mbox{\Hypertarget{class_min_hardware_a54ab3625bd44e1b95ba30816a6923c4aa251e8dcc629d40ce6bbb792ec2a78586}\label{class_min_hardware_a54ab3625bd44e1b95ba30816a6923c4aa251e8dcc629d40ce6bbb792ec2a78586}} 
+M\+I\+D\+I\+E\+R\+R\+\_\+\+F\+R\+A\+ME&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{M\+I\+D\+I\+E\+R\+R\+\_\+\+O\+V\+E\+R\+R\+UN@{M\+I\+D\+I\+E\+R\+R\+\_\+\+O\+V\+E\+R\+R\+UN}!Min\+Hardware@{Min\+Hardware}}\index{Min\+Hardware@{Min\+Hardware}!M\+I\+D\+I\+E\+R\+R\+\_\+\+O\+V\+E\+R\+R\+UN@{M\+I\+D\+I\+E\+R\+R\+\_\+\+O\+V\+E\+R\+R\+UN}}}\mbox{\Hypertarget{class_min_hardware_a54ab3625bd44e1b95ba30816a6923c4aaf2bd267c8e20542d3439b4276878bc6d}\label{class_min_hardware_a54ab3625bd44e1b95ba30816a6923c4aaf2bd267c8e20542d3439b4276878bc6d}} 
+M\+I\+D\+I\+E\+R\+R\+\_\+\+O\+V\+E\+R\+R\+UN&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{M\+I\+D\+I\+E\+R\+R\+\_\+\+P\+A\+R\+I\+TY@{M\+I\+D\+I\+E\+R\+R\+\_\+\+P\+A\+R\+I\+TY}!Min\+Hardware@{Min\+Hardware}}\index{Min\+Hardware@{Min\+Hardware}!M\+I\+D\+I\+E\+R\+R\+\_\+\+P\+A\+R\+I\+TY@{M\+I\+D\+I\+E\+R\+R\+\_\+\+P\+A\+R\+I\+TY}}}\mbox{\Hypertarget{class_min_hardware_a54ab3625bd44e1b95ba30816a6923c4aa5535af14f4bc70bc09b986c17d659911}\label{class_min_hardware_a54ab3625bd44e1b95ba30816a6923c4aa5535af14f4bc70bc09b986c17d659911}} 
+M\+I\+D\+I\+E\+R\+R\+\_\+\+P\+A\+R\+I\+TY&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{M\+I\+D\+I\+E\+R\+R\+\_\+\+B\+U\+F\+F\+E\+R\+F\+U\+LL@{M\+I\+D\+I\+E\+R\+R\+\_\+\+B\+U\+F\+F\+E\+R\+F\+U\+LL}!Min\+Hardware@{Min\+Hardware}}\index{Min\+Hardware@{Min\+Hardware}!M\+I\+D\+I\+E\+R\+R\+\_\+\+B\+U\+F\+F\+E\+R\+F\+U\+LL@{M\+I\+D\+I\+E\+R\+R\+\_\+\+B\+U\+F\+F\+E\+R\+F\+U\+LL}}}\mbox{\Hypertarget{class_min_hardware_a54ab3625bd44e1b95ba30816a6923c4aa05279156222db9e1c979824b564f6da8}\label{class_min_hardware_a54ab3625bd44e1b95ba30816a6923c4aa05279156222db9e1c979824b564f6da8}} 
+M\+I\+D\+I\+E\+R\+R\+\_\+\+B\+U\+F\+F\+E\+R\+F\+U\+LL&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+Definition at line 73 of file Min\+Hardware.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_min_hardware_af4ce30a68a24c15d0149f2e65d72cc33}\label{class_min_hardware_af4ce30a68a24c15d0149f2e65d72cc33}} 
+\index{Min\+Hardware@{Min\+Hardware}!begin\+Midi@{begin\+Midi}}
+\index{begin\+Midi@{begin\+Midi}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{begin\+Midi()}{beginMidi()}}
+{\footnotesize\ttfamily void Min\+Hardware\+::begin\+Midi (\begin{DoxyParamCaption}\item[{unsigned int}]{ubrr }\end{DoxyParamCaption})}
+
+
+
+Definition at line 315 of file Min\+Hardware.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d93/class_min_hardware_af4ce30a68a24c15d0149f2e65d72cc33_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_min_hardware_a39382d7c1fcdcec2858c01c05d4c35aa}\label{class_min_hardware_a39382d7c1fcdcec2858c01c05d4c35aa}} 
+\index{Min\+Hardware@{Min\+Hardware}!construct@{construct}}
+\index{construct@{construct}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{construct()}{construct()}}
+{\footnotesize\ttfamily void Min\+Hardware\+::construct (\begin{DoxyParamCaption}\item[{\hyperlink{class_min_hardware_base}{Min\+Hardware\+Base} $\ast$}]{base }\end{DoxyParamCaption})}
+
+
+
+Definition at line 55 of file Min\+Hardware.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d93/class_min_hardware_a39382d7c1fcdcec2858c01c05d4c35aa_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_min_hardware_a21e147f121461594f295852e0a856b64}\label{class_min_hardware_a21e147f121461594f295852e0a856b64}} 
+\index{Min\+Hardware@{Min\+Hardware}!flush\+Midi@{flush\+Midi}}
+\index{flush\+Midi@{flush\+Midi}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{flush\+Midi()}{flushMidi()}}
+{\footnotesize\ttfamily void Min\+Hardware\+::flush\+Midi (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 333 of file Min\+Hardware.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{d0/d93/class_min_hardware_a21e147f121461594f295852e0a856b64_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_min_hardware_a6960d088af0e6dabdd93d943a31906e3}\label{class_min_hardware_a6960d088af0e6dabdd93d943a31906e3}} 
+\index{Min\+Hardware@{Min\+Hardware}!get\+Anl\+Control@{get\+Anl\+Control}}
+\index{get\+Anl\+Control@{get\+Anl\+Control}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{get\+Anl\+Control()}{getAnlControl()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \hyperlink{class_analogue_control}{Analogue\+Control}\& Min\+Hardware\+::get\+Anl\+Control (\begin{DoxyParamCaption}\item[{unsigned char}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 98 of file Min\+Hardware.\+h.
+
+\mbox{\Hypertarget{class_min_hardware_a795eea6c8e488f0ef2700422b734f4f7}\label{class_min_hardware_a795eea6c8e488f0ef2700422b734f4f7}} 
+\index{Min\+Hardware@{Min\+Hardware}!get\+Anl\+Control@{get\+Anl\+Control}}
+\index{get\+Anl\+Control@{get\+Anl\+Control}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{get\+Anl\+Control()}{getAnlControl()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const \hyperlink{class_analogue_control}{Analogue\+Control}\& Min\+Hardware\+::get\+Anl\+Control (\begin{DoxyParamCaption}\item[{unsigned char}]{index }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 99 of file Min\+Hardware.\+h.
+
+\mbox{\Hypertarget{class_min_hardware_a8227e23999bf74110a124c889c80759e}\label{class_min_hardware_a8227e23999bf74110a124c889c80759e}} 
+\index{Min\+Hardware@{Min\+Hardware}!get\+First\+Boot@{get\+First\+Boot}}
+\index{get\+First\+Boot@{get\+First\+Boot}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{get\+First\+Boot()}{getFirstBoot()}}
+{\footnotesize\ttfamily bool Min\+Hardware\+::get\+First\+Boot (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 338 of file Min\+Hardware.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d93/class_min_hardware_a8227e23999bf74110a124c889c80759e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_min_hardware_a47f2709e0cba6ed3b9d35fdd8baf8765}\label{class_min_hardware_a47f2709e0cba6ed3b9d35fdd8baf8765}} 
+\index{Min\+Hardware@{Min\+Hardware}!get\+Instance@{get\+Instance}}
+\index{get\+Instance@{get\+Instance}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{get\+Instance()}{getInstance()}}
+{\footnotesize\ttfamily static \hyperlink{class_min_hardware}{Min\+Hardware}\& Min\+Hardware\+::get\+Instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Definition at line 92 of file Min\+Hardware.\+h.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d93/class_min_hardware_a47f2709e0cba6ed3b9d35fdd8baf8765_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_min_hardware_a1401ae874f57cc5ce31032c8eea57fbd}\label{class_min_hardware_a1401ae874f57cc5ce31032c8eea57fbd}} 
+\index{Min\+Hardware@{Min\+Hardware}!get\+Led@{get\+Led}}
+\index{get\+Led@{get\+Led}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{get\+Led()}{getLed()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \hyperlink{class_led_rgb}{Led\+Rgb}\& Min\+Hardware\+::get\+Led (\begin{DoxyParamCaption}\item[{unsigned char}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 102 of file Min\+Hardware.\+h.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d93/class_min_hardware_a1401ae874f57cc5ce31032c8eea57fbd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_min_hardware_af0f53594d24df7d75360ccccd0f582d3}\label{class_min_hardware_af0f53594d24df7d75360ccccd0f582d3}} 
+\index{Min\+Hardware@{Min\+Hardware}!get\+Led@{get\+Led}}
+\index{get\+Led@{get\+Led}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{get\+Led()}{getLed()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const \hyperlink{class_led_rgb}{Led\+Rgb}\& Min\+Hardware\+::get\+Led (\begin{DoxyParamCaption}\item[{unsigned char}]{index }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 103 of file Min\+Hardware.\+h.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d93/class_min_hardware_af0f53594d24df7d75360ccccd0f582d3_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_min_hardware_a7e3fdfca776cd833f4ab859c25232c9c}\label{class_min_hardware_a7e3fdfca776cd833f4ab859c25232c9c}} 
+\index{Min\+Hardware@{Min\+Hardware}!get\+Switch@{get\+Switch}}
+\index{get\+Switch@{get\+Switch}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{get\+Switch()}{getSwitch()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \hyperlink{class_switch}{Switch}\& Min\+Hardware\+::get\+Switch (\begin{DoxyParamCaption}\item[{unsigned char}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 100 of file Min\+Hardware.\+h.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d93/class_min_hardware_a7e3fdfca776cd833f4ab859c25232c9c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_min_hardware_a874ff2353b74b2fefadd2f9322995617}\label{class_min_hardware_a874ff2353b74b2fefadd2f9322995617}} 
+\index{Min\+Hardware@{Min\+Hardware}!get\+Switch@{get\+Switch}}
+\index{get\+Switch@{get\+Switch}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{get\+Switch()}{getSwitch()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const \hyperlink{class_switch}{Switch}\& Min\+Hardware\+::get\+Switch (\begin{DoxyParamCaption}\item[{unsigned char}]{index }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 101 of file Min\+Hardware.\+h.
+
+\mbox{\Hypertarget{class_min_hardware_afa6cdaaab625ffd44c733c6ff9e29f4d}\label{class_min_hardware_afa6cdaaab625ffd44c733c6ff9e29f4d}} 
+\index{Min\+Hardware@{Min\+Hardware}!poll\+Anl\+Controls@{poll\+Anl\+Controls}}
+\index{poll\+Anl\+Controls@{poll\+Anl\+Controls}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{poll\+Anl\+Controls()}{pollAnlControls()}}
+{\footnotesize\ttfamily void Min\+Hardware\+::poll\+Anl\+Controls (\begin{DoxyParamCaption}\item[{unsigned char}]{ticks\+Passed }\end{DoxyParamCaption})}
+
+
+
+Definition at line 263 of file Min\+Hardware.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d93/class_min_hardware_afa6cdaaab625ffd44c733c6ff9e29f4d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d93/class_min_hardware_afa6cdaaab625ffd44c733c6ff9e29f4d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_min_hardware_a4978945a745e4c2690e05789eff52976}\label{class_min_hardware_a4978945a745e4c2690e05789eff52976}} 
+\index{Min\+Hardware@{Min\+Hardware}!poll\+Midi@{poll\+Midi}}
+\index{poll\+Midi@{poll\+Midi}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{poll\+Midi()}{pollMidi()}}
+{\footnotesize\ttfamily void Min\+Hardware\+::poll\+Midi (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 293 of file Min\+Hardware.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d93/class_min_hardware_a4978945a745e4c2690e05789eff52976_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_min_hardware_a135650ade19c661a9e20f0a410722a10}\label{class_min_hardware_a135650ade19c661a9e20f0a410722a10}} 
+\index{Min\+Hardware@{Min\+Hardware}!poll\+Switches@{poll\+Switches}}
+\index{poll\+Switches@{poll\+Switches}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{poll\+Switches()}{pollSwitches()}}
+{\footnotesize\ttfamily void Min\+Hardware\+::poll\+Switches (\begin{DoxyParamCaption}\item[{unsigned char}]{ticks\+Passed }\end{DoxyParamCaption})}
+
+
+
+Definition at line 276 of file Min\+Hardware.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{d0/d93/class_min_hardware_a135650ade19c661a9e20f0a410722a10_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d93/class_min_hardware_a135650ade19c661a9e20f0a410722a10_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_min_hardware_a22017d021942bf72850a338b1522d5c2}\label{class_min_hardware_a22017d021942bf72850a338b1522d5c2}} 
+\index{Min\+Hardware@{Min\+Hardware}!refresh\+Flash@{refresh\+Flash}}
+\index{refresh\+Flash@{refresh\+Flash}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{refresh\+Flash()}{refreshFlash()}}
+{\footnotesize\ttfamily void Min\+Hardware\+::refresh\+Flash (\begin{DoxyParamCaption}\item[{unsigned char}]{ticks\+Passed }\end{DoxyParamCaption})}
+
+
+
+Definition at line 148 of file Min\+Hardware.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d93/class_min_hardware_a22017d021942bf72850a338b1522d5c2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d93/class_min_hardware_a22017d021942bf72850a338b1522d5c2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_min_hardware_a84e0d11e73681ef8b7a7e90628b827ab}\label{class_min_hardware_a84e0d11e73681ef8b7a7e90628b827ab}} 
+\index{Min\+Hardware@{Min\+Hardware}!refresh\+L\+E\+Ds@{refresh\+L\+E\+Ds}}
+\index{refresh\+L\+E\+Ds@{refresh\+L\+E\+Ds}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{refresh\+L\+E\+Ds()}{refreshLEDs()}}
+{\footnotesize\ttfamily void Min\+Hardware\+::refresh\+L\+E\+Ds (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 168 of file Min\+Hardware.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d93/class_min_hardware_a84e0d11e73681ef8b7a7e90628b827ab_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_min_hardware_a84cd3aa52662d5f6e599035a812894f9}\label{class_min_hardware_a84cd3aa52662d5f6e599035a812894f9}} 
+\index{Min\+Hardware@{Min\+Hardware}!set\+First\+Boot@{set\+First\+Boot}}
+\index{set\+First\+Boot@{set\+First\+Boot}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{set\+First\+Boot()}{setFirstBoot()}}
+{\footnotesize\ttfamily void Min\+Hardware\+::set\+First\+Boot (\begin{DoxyParamCaption}\item[{bool}]{new\+Value }\end{DoxyParamCaption})}
+
+
+
+Definition at line 349 of file Min\+Hardware.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d93/class_min_hardware_a84cd3aa52662d5f6e599035a812894f9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_min_hardware_a9a29bee58534914c24171d362e78bd2a}\label{class_min_hardware_a9a29bee58534914c24171d362e78bd2a}} 
+\index{Min\+Hardware@{Min\+Hardware}!write\+Midi@{write\+Midi}}
+\index{write\+Midi@{write\+Midi}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{write\+Midi()}{writeMidi()}}
+{\footnotesize\ttfamily void Min\+Hardware\+::write\+Midi (\begin{DoxyParamCaption}\item[{unsigned char}]{data }\end{DoxyParamCaption})}
+
+
+
+Definition at line 326 of file Min\+Hardware.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d0/d93/class_min_hardware_a9a29bee58534914c24171d362e78bd2a_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_min_hardware_ae90fda3fb4bdf7ffb4268ae487cd8334}\label{class_min_hardware_ae90fda3fb4bdf7ffb4268ae487cd8334}} 
+\index{Min\+Hardware@{Min\+Hardware}!H\+O\+L\+D\+\_\+\+E\+V\+E\+N\+T\+\_\+\+T\+I\+C\+KS@{H\+O\+L\+D\+\_\+\+E\+V\+E\+N\+T\+\_\+\+T\+I\+C\+KS}}
+\index{H\+O\+L\+D\+\_\+\+E\+V\+E\+N\+T\+\_\+\+T\+I\+C\+KS@{H\+O\+L\+D\+\_\+\+E\+V\+E\+N\+T\+\_\+\+T\+I\+C\+KS}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{H\+O\+L\+D\+\_\+\+E\+V\+E\+N\+T\+\_\+\+T\+I\+C\+KS}{HOLD\_EVENT\_TICKS}}
+{\footnotesize\ttfamily const unsigned int Min\+Hardware\+::\+H\+O\+L\+D\+\_\+\+E\+V\+E\+N\+T\+\_\+\+T\+I\+C\+KS = 2000\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 70 of file Min\+Hardware.\+h.
+
+\mbox{\Hypertarget{class_min_hardware_aaa04f82d875b684d384d9404e70bb632}\label{class_min_hardware_aaa04f82d875b684d384d9404e70bb632}} 
+\index{Min\+Hardware@{Min\+Hardware}!L\+E\+D\+\_\+\+F\+L\+A\+S\+H\+\_\+\+S\+C\+A\+LE@{L\+E\+D\+\_\+\+F\+L\+A\+S\+H\+\_\+\+S\+C\+A\+LE}}
+\index{L\+E\+D\+\_\+\+F\+L\+A\+S\+H\+\_\+\+S\+C\+A\+LE@{L\+E\+D\+\_\+\+F\+L\+A\+S\+H\+\_\+\+S\+C\+A\+LE}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{L\+E\+D\+\_\+\+F\+L\+A\+S\+H\+\_\+\+S\+C\+A\+LE}{LED\_FLASH\_SCALE}}
+{\footnotesize\ttfamily const unsigned char Min\+Hardware\+::\+L\+E\+D\+\_\+\+F\+L\+A\+S\+H\+\_\+\+S\+C\+A\+LE = 16\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 72 of file Min\+Hardware.\+h.
+
+\mbox{\Hypertarget{class_min_hardware_a22f9e8bf1d6dea2ed8b1c98bf97fecc6}\label{class_min_hardware_a22f9e8bf1d6dea2ed8b1c98bf97fecc6}} 
+\index{Min\+Hardware@{Min\+Hardware}!L\+E\+D\+\_\+\+F\+U\+NC@{L\+E\+D\+\_\+\+F\+U\+NC}}
+\index{L\+E\+D\+\_\+\+F\+U\+NC@{L\+E\+D\+\_\+\+F\+U\+NC}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{L\+E\+D\+\_\+\+F\+U\+NC}{LED\_FUNC}}
+{\footnotesize\ttfamily const unsigned char Min\+Hardware\+::\+L\+E\+D\+\_\+\+F\+U\+NC = 0\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 62 of file Min\+Hardware.\+h.
+
+\mbox{\Hypertarget{class_min_hardware_ad31c41e9a6216131acefd448c8daa305}\label{class_min_hardware_ad31c41e9a6216131acefd448c8daa305}} 
+\index{Min\+Hardware@{Min\+Hardware}!L\+E\+D\+\_\+\+V\+A\+L\+UE@{L\+E\+D\+\_\+\+V\+A\+L\+UE}}
+\index{L\+E\+D\+\_\+\+V\+A\+L\+UE@{L\+E\+D\+\_\+\+V\+A\+L\+UE}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{L\+E\+D\+\_\+\+V\+A\+L\+UE}{LED\_VALUE}}
+{\footnotesize\ttfamily const unsigned char Min\+Hardware\+::\+L\+E\+D\+\_\+\+V\+A\+L\+UE = 1\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 63 of file Min\+Hardware.\+h.
+
+\mbox{\Hypertarget{class_min_hardware_a7cbeb3696cce376d0e1922d35473faf1}\label{class_min_hardware_a7cbeb3696cce376d0e1922d35473faf1}} 
+\index{Min\+Hardware@{Min\+Hardware}!S\+W\+\_\+\+B\+A\+NK@{S\+W\+\_\+\+B\+A\+NK}}
+\index{S\+W\+\_\+\+B\+A\+NK@{S\+W\+\_\+\+B\+A\+NK}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{S\+W\+\_\+\+B\+A\+NK}{SW\_BANK}}
+{\footnotesize\ttfamily const unsigned char Min\+Hardware\+::\+S\+W\+\_\+\+B\+A\+NK = 5\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 69 of file Min\+Hardware.\+h.
+
+\mbox{\Hypertarget{class_min_hardware_a24e40d1b4dd921bcb58814c754f54d65}\label{class_min_hardware_a24e40d1b4dd921bcb58814c754f54d65}} 
+\index{Min\+Hardware@{Min\+Hardware}!S\+W\+\_\+\+F\+U\+N\+C\+\_\+\+D\+EC@{S\+W\+\_\+\+F\+U\+N\+C\+\_\+\+D\+EC}}
+\index{S\+W\+\_\+\+F\+U\+N\+C\+\_\+\+D\+EC@{S\+W\+\_\+\+F\+U\+N\+C\+\_\+\+D\+EC}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{S\+W\+\_\+\+F\+U\+N\+C\+\_\+\+D\+EC}{SW\_FUNC\_DEC}}
+{\footnotesize\ttfamily const unsigned char Min\+Hardware\+::\+S\+W\+\_\+\+F\+U\+N\+C\+\_\+\+D\+EC = 1\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 65 of file Min\+Hardware.\+h.
+
+\mbox{\Hypertarget{class_min_hardware_a012e3565b4c6eafe595bae95b9ae9dfd}\label{class_min_hardware_a012e3565b4c6eafe595bae95b9ae9dfd}} 
+\index{Min\+Hardware@{Min\+Hardware}!S\+W\+\_\+\+F\+U\+N\+C\+\_\+\+I\+NC@{S\+W\+\_\+\+F\+U\+N\+C\+\_\+\+I\+NC}}
+\index{S\+W\+\_\+\+F\+U\+N\+C\+\_\+\+I\+NC@{S\+W\+\_\+\+F\+U\+N\+C\+\_\+\+I\+NC}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{S\+W\+\_\+\+F\+U\+N\+C\+\_\+\+I\+NC}{SW\_FUNC\_INC}}
+{\footnotesize\ttfamily const unsigned char Min\+Hardware\+::\+S\+W\+\_\+\+F\+U\+N\+C\+\_\+\+I\+NC = 2\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 66 of file Min\+Hardware.\+h.
+
+\mbox{\Hypertarget{class_min_hardware_a1715e93b246055f81609acf2fafd340a}\label{class_min_hardware_a1715e93b246055f81609acf2fafd340a}} 
+\index{Min\+Hardware@{Min\+Hardware}!S\+W\+\_\+\+P\+L\+AY@{S\+W\+\_\+\+P\+L\+AY}}
+\index{S\+W\+\_\+\+P\+L\+AY@{S\+W\+\_\+\+P\+L\+AY}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{S\+W\+\_\+\+P\+L\+AY}{SW\_PLAY}}
+{\footnotesize\ttfamily const unsigned char Min\+Hardware\+::\+S\+W\+\_\+\+P\+L\+AY = 0\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 64 of file Min\+Hardware.\+h.
+
+\mbox{\Hypertarget{class_min_hardware_aa01f74ebc2750feda3252f856cb7c664}\label{class_min_hardware_aa01f74ebc2750feda3252f856cb7c664}} 
+\index{Min\+Hardware@{Min\+Hardware}!S\+W\+\_\+\+V\+A\+L\+\_\+\+D\+EC@{S\+W\+\_\+\+V\+A\+L\+\_\+\+D\+EC}}
+\index{S\+W\+\_\+\+V\+A\+L\+\_\+\+D\+EC@{S\+W\+\_\+\+V\+A\+L\+\_\+\+D\+EC}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{S\+W\+\_\+\+V\+A\+L\+\_\+\+D\+EC}{SW\_VAL\_DEC}}
+{\footnotesize\ttfamily const unsigned char Min\+Hardware\+::\+S\+W\+\_\+\+V\+A\+L\+\_\+\+D\+EC = 3\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 67 of file Min\+Hardware.\+h.
+
+\mbox{\Hypertarget{class_min_hardware_ae37680120a307b535dffa98f7aaeecf0}\label{class_min_hardware_ae37680120a307b535dffa98f7aaeecf0}} 
+\index{Min\+Hardware@{Min\+Hardware}!S\+W\+\_\+\+V\+A\+L\+\_\+\+I\+NC@{S\+W\+\_\+\+V\+A\+L\+\_\+\+I\+NC}}
+\index{S\+W\+\_\+\+V\+A\+L\+\_\+\+I\+NC@{S\+W\+\_\+\+V\+A\+L\+\_\+\+I\+NC}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{S\+W\+\_\+\+V\+A\+L\+\_\+\+I\+NC}{SW\_VAL\_INC}}
+{\footnotesize\ttfamily const unsigned char Min\+Hardware\+::\+S\+W\+\_\+\+V\+A\+L\+\_\+\+I\+NC = 4\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 68 of file Min\+Hardware.\+h.
+
+\mbox{\Hypertarget{class_min_hardware_a066765ceef59905283cebee0df489426}\label{class_min_hardware_a066765ceef59905283cebee0df489426}} 
+\index{Min\+Hardware@{Min\+Hardware}!S\+Y\+S\+E\+X\+\_\+\+P\+R\+O\+D\+U\+CT@{S\+Y\+S\+E\+X\+\_\+\+P\+R\+O\+D\+U\+CT}}
+\index{S\+Y\+S\+E\+X\+\_\+\+P\+R\+O\+D\+U\+CT@{S\+Y\+S\+E\+X\+\_\+\+P\+R\+O\+D\+U\+CT}!Min\+Hardware@{Min\+Hardware}}
+\subsubsection{\texorpdfstring{S\+Y\+S\+E\+X\+\_\+\+P\+R\+O\+D\+U\+CT}{SYSEX\_PRODUCT}}
+{\footnotesize\ttfamily const unsigned char Min\+Hardware\+::\+S\+Y\+S\+E\+X\+\_\+\+P\+R\+O\+D\+U\+CT = 0\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 71 of file Min\+Hardware.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_min_hardware_8h}{Min\+Hardware.\+h}\item 
+\hyperlink{_min_hardware_8cpp}{Min\+Hardware.\+cpp}\end{DoxyCompactItemize}

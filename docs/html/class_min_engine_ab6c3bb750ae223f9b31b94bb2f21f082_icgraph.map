@@ -1,4 +1,0 @@
-<map id="MinEngine::getMidiPtr" name="MinEngine::getMidiPtr">
-<area shape="rect" id="node2" href="$class_min.html#ae00f275ac6aeb73f932e62ae85abe5b1" title="Min::hardwareSwitchChanged" alt="" coords="204,5,397,32"/>
-<area shape="rect" id="node3" href="$class_min.html#a8d4ebe4e020e14c2457d42f33c4c9e32" title="Min::hardwareMidiReceived" alt="" coords="211,56,390,83"/>
-</map>

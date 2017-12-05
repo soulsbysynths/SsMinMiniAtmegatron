@@ -1,5 +1,0 @@
-<map id="MinEngine" name="MinEngine">
-<area shape="rect" id="node2" href="$class_midi_base.html" title="MidiBase" alt="" coords="5,5,81,32"/>
-<area shape="rect" id="node3" href="$class_step_sequencer_base.html" title="StepSequencerBase" alt="" coords="106,5,247,32"/>
-<area shape="rect" id="node4" href="$class_atm_patch_base.html" title="AtmPatchBase" alt="" coords="272,5,383,32"/>
-</map>

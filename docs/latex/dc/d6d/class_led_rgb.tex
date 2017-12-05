@@ -1,0 +1,272 @@
+\hypertarget{class_led_rgb}{}\section{Led\+Rgb Class Reference}
+\label{class_led_rgb}\index{Led\+Rgb@{Led\+Rgb}}
+
+
+{\ttfamily \#include \char`\"{}Led\+Rgb.\+h\char`\"{}}
+
+
+
+Collaboration diagram for Led\+Rgb\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=165pt]{d7/d05/class_led_rgb__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_led_rgb_af328c665510f921f0dfed643f939087b}{Led\+Rgb\+Colour} \+: unsigned char \{ \newline
+\hyperlink{class_led_rgb_af328c665510f921f0dfed643f939087bafa756b630af74b887096f90549a19eb2}{O\+FF}, 
+\hyperlink{class_led_rgb_af328c665510f921f0dfed643f939087bad4594f28e25fb32eabf7a9d648ba5486}{R\+ED}, 
+\hyperlink{class_led_rgb_af328c665510f921f0dfed643f939087ba8cabace225f1edbe38153816b604671e}{G\+R\+E\+EN}, 
+\hyperlink{class_led_rgb_af328c665510f921f0dfed643f939087ba72e005fe358740655546dd715d5b734d}{Y\+E\+L\+L\+OW}, 
+\newline
+\hyperlink{class_led_rgb_af328c665510f921f0dfed643f939087bae717dcfc60bfe087c8890aa0884b2eee}{B\+L\+UE}, 
+\hyperlink{class_led_rgb_af328c665510f921f0dfed643f939087ba05943407d36a27b34f6c2e60290061f5}{M\+A\+G\+E\+N\+TA}, 
+\hyperlink{class_led_rgb_af328c665510f921f0dfed643f939087ba1718c136915fce13ae47066acbe861ad}{C\+Y\+AN}, 
+\hyperlink{class_led_rgb_af328c665510f921f0dfed643f939087ba00db6e86f434a54a72f54a0efab84aff}{W\+H\+I\+TE}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_led_rgb_a6393b6af61bd195db3591d4e90a2b6e2}{Led\+Rgb} ()
+\item 
+\hyperlink{class_led_rgb_a4fac00de3a6801fd9da322eab7e04765}{$\sim$\+Led\+Rgb} ()
+\item 
+void \hyperlink{class_led_rgb_a1bc08ef61237fad334dcc750aa445e36}{set\+Colour} (\hyperlink{class_led_rgb_af328c665510f921f0dfed643f939087b}{Led\+Rgb\+Colour} colour)
+\item 
+\hyperlink{class_led_rgb_af328c665510f921f0dfed643f939087b}{Led\+Rgb\+Colour} \hyperlink{class_led_rgb_a542e3bf6bcf1f05df3cc442522787948}{get\+Colour} ()
+\item 
+void \hyperlink{class_led_rgb_a8d81b6020efb6e5f786542451d4dffbc}{flash} (unsigned char flashes, unsigned char on\+Ticks, unsigned char off\+Ticks, \hyperlink{class_led_rgb_af328c665510f921f0dfed643f939087b}{Led\+Rgb\+Colour} on\+\_\+col, \hyperlink{class_led_rgb_af328c665510f921f0dfed643f939087b}{Led\+Rgb\+Colour} off\+\_\+col, bool start\+On)
+\item 
+void \hyperlink{class_led_rgb_a096a0af0eb4d3c5d4c6a3f4b3aaeb9e7}{flash\+Stop} ()
+\item 
+void \hyperlink{class_led_rgb_a31cf89e0117af309c00a60a7ca1bf486}{refresh\+Flash} (unsigned char tick\+\_\+inc)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 22 of file Led\+Rgb.\+h.
+
+
+
+\subsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{class_led_rgb_af328c665510f921f0dfed643f939087b}\label{class_led_rgb_af328c665510f921f0dfed643f939087b}} 
+\index{Led\+Rgb@{Led\+Rgb}!Led\+Rgb\+Colour@{Led\+Rgb\+Colour}}
+\index{Led\+Rgb\+Colour@{Led\+Rgb\+Colour}!Led\+Rgb@{Led\+Rgb}}
+\subsubsection{\texorpdfstring{Led\+Rgb\+Colour}{LedRgbColour}}
+{\footnotesize\ttfamily enum \hyperlink{class_led_rgb_af328c665510f921f0dfed643f939087b}{Led\+Rgb\+::\+Led\+Rgb\+Colour} \+: unsigned char}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{O\+FF@{O\+FF}!Led\+Rgb@{Led\+Rgb}}\index{Led\+Rgb@{Led\+Rgb}!O\+FF@{O\+FF}}}\mbox{\Hypertarget{class_led_rgb_af328c665510f921f0dfed643f939087bafa756b630af74b887096f90549a19eb2}\label{class_led_rgb_af328c665510f921f0dfed643f939087bafa756b630af74b887096f90549a19eb2}} 
+O\+FF&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+ED@{R\+ED}!Led\+Rgb@{Led\+Rgb}}\index{Led\+Rgb@{Led\+Rgb}!R\+ED@{R\+ED}}}\mbox{\Hypertarget{class_led_rgb_af328c665510f921f0dfed643f939087bad4594f28e25fb32eabf7a9d648ba5486}\label{class_led_rgb_af328c665510f921f0dfed643f939087bad4594f28e25fb32eabf7a9d648ba5486}} 
+R\+ED&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{G\+R\+E\+EN@{G\+R\+E\+EN}!Led\+Rgb@{Led\+Rgb}}\index{Led\+Rgb@{Led\+Rgb}!G\+R\+E\+EN@{G\+R\+E\+EN}}}\mbox{\Hypertarget{class_led_rgb_af328c665510f921f0dfed643f939087ba8cabace225f1edbe38153816b604671e}\label{class_led_rgb_af328c665510f921f0dfed643f939087ba8cabace225f1edbe38153816b604671e}} 
+G\+R\+E\+EN&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Y\+E\+L\+L\+OW@{Y\+E\+L\+L\+OW}!Led\+Rgb@{Led\+Rgb}}\index{Led\+Rgb@{Led\+Rgb}!Y\+E\+L\+L\+OW@{Y\+E\+L\+L\+OW}}}\mbox{\Hypertarget{class_led_rgb_af328c665510f921f0dfed643f939087ba72e005fe358740655546dd715d5b734d}\label{class_led_rgb_af328c665510f921f0dfed643f939087ba72e005fe358740655546dd715d5b734d}} 
+Y\+E\+L\+L\+OW&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{B\+L\+UE@{B\+L\+UE}!Led\+Rgb@{Led\+Rgb}}\index{Led\+Rgb@{Led\+Rgb}!B\+L\+UE@{B\+L\+UE}}}\mbox{\Hypertarget{class_led_rgb_af328c665510f921f0dfed643f939087bae717dcfc60bfe087c8890aa0884b2eee}\label{class_led_rgb_af328c665510f921f0dfed643f939087bae717dcfc60bfe087c8890aa0884b2eee}} 
+B\+L\+UE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{M\+A\+G\+E\+N\+TA@{M\+A\+G\+E\+N\+TA}!Led\+Rgb@{Led\+Rgb}}\index{Led\+Rgb@{Led\+Rgb}!M\+A\+G\+E\+N\+TA@{M\+A\+G\+E\+N\+TA}}}\mbox{\Hypertarget{class_led_rgb_af328c665510f921f0dfed643f939087ba05943407d36a27b34f6c2e60290061f5}\label{class_led_rgb_af328c665510f921f0dfed643f939087ba05943407d36a27b34f6c2e60290061f5}} 
+M\+A\+G\+E\+N\+TA&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{C\+Y\+AN@{C\+Y\+AN}!Led\+Rgb@{Led\+Rgb}}\index{Led\+Rgb@{Led\+Rgb}!C\+Y\+AN@{C\+Y\+AN}}}\mbox{\Hypertarget{class_led_rgb_af328c665510f921f0dfed643f939087ba1718c136915fce13ae47066acbe861ad}\label{class_led_rgb_af328c665510f921f0dfed643f939087ba1718c136915fce13ae47066acbe861ad}} 
+C\+Y\+AN&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{W\+H\+I\+TE@{W\+H\+I\+TE}!Led\+Rgb@{Led\+Rgb}}\index{Led\+Rgb@{Led\+Rgb}!W\+H\+I\+TE@{W\+H\+I\+TE}}}\mbox{\Hypertarget{class_led_rgb_af328c665510f921f0dfed643f939087ba00db6e86f434a54a72f54a0efab84aff}\label{class_led_rgb_af328c665510f921f0dfed643f939087ba00db6e86f434a54a72f54a0efab84aff}} 
+W\+H\+I\+TE&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+Definition at line 26 of file Led\+Rgb.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_led_rgb_a6393b6af61bd195db3591d4e90a2b6e2}\label{class_led_rgb_a6393b6af61bd195db3591d4e90a2b6e2}} 
+\index{Led\+Rgb@{Led\+Rgb}!Led\+Rgb@{Led\+Rgb}}
+\index{Led\+Rgb@{Led\+Rgb}!Led\+Rgb@{Led\+Rgb}}
+\subsubsection{\texorpdfstring{Led\+Rgb()}{LedRgb()}}
+{\footnotesize\ttfamily Led\+Rgb\+::\+Led\+Rgb (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 20 of file Led\+Rgb.\+cpp.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d6d/class_led_rgb_a6393b6af61bd195db3591d4e90a2b6e2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_led_rgb_a4fac00de3a6801fd9da322eab7e04765}\label{class_led_rgb_a4fac00de3a6801fd9da322eab7e04765}} 
+\index{Led\+Rgb@{Led\+Rgb}!````~Led\+Rgb@{$\sim$\+Led\+Rgb}}
+\index{````~Led\+Rgb@{$\sim$\+Led\+Rgb}!Led\+Rgb@{Led\+Rgb}}
+\subsubsection{\texorpdfstring{$\sim$\+Led\+Rgb()}{~LedRgb()}}
+{\footnotesize\ttfamily Led\+Rgb\+::$\sim$\+Led\+Rgb (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 25 of file Led\+Rgb.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{dc/d6d/class_led_rgb_a4fac00de3a6801fd9da322eab7e04765_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_led_rgb_a8d81b6020efb6e5f786542451d4dffbc}\label{class_led_rgb_a8d81b6020efb6e5f786542451d4dffbc}} 
+\index{Led\+Rgb@{Led\+Rgb}!flash@{flash}}
+\index{flash@{flash}!Led\+Rgb@{Led\+Rgb}}
+\subsubsection{\texorpdfstring{flash()}{flash()}}
+{\footnotesize\ttfamily void Led\+Rgb\+::flash (\begin{DoxyParamCaption}\item[{unsigned char}]{flashes,  }\item[{unsigned char}]{on\+Ticks,  }\item[{unsigned char}]{off\+Ticks,  }\item[{\hyperlink{class_led_rgb_af328c665510f921f0dfed643f939087b}{Led\+Rgb\+Colour}}]{on\+\_\+col,  }\item[{\hyperlink{class_led_rgb_af328c665510f921f0dfed643f939087b}{Led\+Rgb\+Colour}}]{off\+\_\+col,  }\item[{bool}]{start\+On }\end{DoxyParamCaption})}
+
+
+
+Definition at line 45 of file Led\+Rgb.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=289pt]{dc/d6d/class_led_rgb_a8d81b6020efb6e5f786542451d4dffbc_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d6d/class_led_rgb_a8d81b6020efb6e5f786542451d4dffbc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_led_rgb_a096a0af0eb4d3c5d4c6a3f4b3aaeb9e7}\label{class_led_rgb_a096a0af0eb4d3c5d4c6a3f4b3aaeb9e7}} 
+\index{Led\+Rgb@{Led\+Rgb}!flash\+Stop@{flash\+Stop}}
+\index{flash\+Stop@{flash\+Stop}!Led\+Rgb@{Led\+Rgb}}
+\subsubsection{\texorpdfstring{flash\+Stop()}{flashStop()}}
+{\footnotesize\ttfamily void Led\+Rgb\+::flash\+Stop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 62 of file Led\+Rgb.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=313pt]{dc/d6d/class_led_rgb_a096a0af0eb4d3c5d4c6a3f4b3aaeb9e7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d6d/class_led_rgb_a096a0af0eb4d3c5d4c6a3f4b3aaeb9e7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_led_rgb_a542e3bf6bcf1f05df3cc442522787948}\label{class_led_rgb_a542e3bf6bcf1f05df3cc442522787948}} 
+\index{Led\+Rgb@{Led\+Rgb}!get\+Colour@{get\+Colour}}
+\index{get\+Colour@{get\+Colour}!Led\+Rgb@{Led\+Rgb}}
+\subsubsection{\texorpdfstring{get\+Colour()}{getColour()}}
+{\footnotesize\ttfamily \hyperlink{class_led_rgb_af328c665510f921f0dfed643f939087b}{Led\+Rgb\+Colour} Led\+Rgb\+::get\+Colour (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 50 of file Led\+Rgb.\+h.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d6d/class_led_rgb_a542e3bf6bcf1f05df3cc442522787948_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d6d/class_led_rgb_a542e3bf6bcf1f05df3cc442522787948_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_led_rgb_a31cf89e0117af309c00a60a7ca1bf486}\label{class_led_rgb_a31cf89e0117af309c00a60a7ca1bf486}} 
+\index{Led\+Rgb@{Led\+Rgb}!refresh\+Flash@{refresh\+Flash}}
+\index{refresh\+Flash@{refresh\+Flash}!Led\+Rgb@{Led\+Rgb}}
+\subsubsection{\texorpdfstring{refresh\+Flash()}{refreshFlash()}}
+{\footnotesize\ttfamily void Led\+Rgb\+::refresh\+Flash (\begin{DoxyParamCaption}\item[{unsigned char}]{tick\+\_\+inc }\end{DoxyParamCaption})}
+
+
+
+Definition at line 83 of file Led\+Rgb.\+cpp.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d6d/class_led_rgb_a31cf89e0117af309c00a60a7ca1bf486_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d6d/class_led_rgb_a31cf89e0117af309c00a60a7ca1bf486_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_led_rgb_a1bc08ef61237fad334dcc750aa445e36}\label{class_led_rgb_a1bc08ef61237fad334dcc750aa445e36}} 
+\index{Led\+Rgb@{Led\+Rgb}!set\+Colour@{set\+Colour}}
+\index{set\+Colour@{set\+Colour}!Led\+Rgb@{Led\+Rgb}}
+\subsubsection{\texorpdfstring{set\+Colour()}{setColour()}}
+{\footnotesize\ttfamily void Led\+Rgb\+::set\+Colour (\begin{DoxyParamCaption}\item[{\hyperlink{class_led_rgb_af328c665510f921f0dfed643f939087b}{Led\+Rgb\+Colour}}]{colour }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 49 of file Led\+Rgb.\+h.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d6d/class_led_rgb_a1bc08ef61237fad334dcc750aa445e36_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_led_rgb_8h}{Led\+Rgb.\+h}\item 
+\hyperlink{_led_rgb_8cpp}{Led\+Rgb.\+cpp}\end{DoxyCompactItemize}

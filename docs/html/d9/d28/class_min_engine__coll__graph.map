@@ -1,0 +1,5 @@
+<map id="MinEngine" name="MinEngine">
+<area shape="rect" id="node2" href="$de/def/class_midi_base.html" title="{MidiBase\n||+ midiNoteOnReceived()\l+ midiNoteOffReceived()\l+ midiClockStartReceived()\l+ midiClockStopReceived()\l+ midiSysexStartReceived()\l+ midiSysexDataReceived()\l+ midiSysexStopReceived()\l+ midiSysexWrite()\l+ midiControlChangeReceived()\l+ midiPitchBendReceived()\l+ midiProgramChangeReceived()\l}" alt="" coords="5,5,216,229"/>
+<area shape="rect" id="node3" href="$d1/d4a/class_step_sequencer_base.html" title="{StepSequencerBase\n||+ stepseqNoteEvent()\l}" alt="" coords="240,79,387,156"/>
+<area shape="rect" id="node4" href="$d4/deb/class_atm_patch_base.html" title="{AtmPatchBase\n||+ patchValueChanged()\l+ patchOptionChanged()\l+ patchCtrlChanged()\l}" alt="" coords="411,64,573,171"/>
+</map>

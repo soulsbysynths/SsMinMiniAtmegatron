@@ -1,0 +1,9 @@
+<map id="AtmAudio::resizeWavetable" name="AtmAudio::resizeWavetable">
+<area shape="rect" id="node2" href="$d2/de6/class_atm_audio.html#adef4ded5a0c213fe421025e17de0605e" title="AtmAudio::AtmAudio" alt="" coords="251,29,395,56"/>
+<area shape="rect" id="node3" href="$d2/de6/class_atm_audio.html#a9336911a6a8dd22d4030b0457270c242" title="AtmAudio::getSampleFreq" alt="" coords="236,80,411,107"/>
+<area shape="rect" id="node4" href="$d4/d0f/class_min_engine.html#af0b91eca44954cb677808c3d24659596" title="MinEngine::poll" alt="" coords="459,80,569,107"/>
+<area shape="rect" id="node5" href="$dd/d34/class_min.html#a4ed53c28c8c59dba741daf945dbc160b" title="Min::poll" alt="" coords="663,55,733,81"/>
+<area shape="rect" id="node7" href="$d4/d0f/class_min_engine.html#a461861aff0eb8271558c9c20bc040b56" title="MinEngine::getTestNote" alt="" coords="617,105,779,132"/>
+<area shape="rect" id="node6" href="$d1/d54/_ss_min_miniatmegatron_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="900,55,947,81"/>
+<area shape="rect" id="node8" href="$dd/d34/class_min.html#ae00f275ac6aeb73f932e62ae85abe5b1" title="Min::hardwareSwitchChanged" alt="" coords="827,105,1020,132"/>
+</map>

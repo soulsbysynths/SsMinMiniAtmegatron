@@ -1,0 +1,11 @@
+<map id="AtmPitch::setEnvAmount" name="AtmPitch::setEnvAmount">
+<area shape="rect" id="node2" href="$dd/d34/class_atm_pitch.html#a30b8bb597d3f1ce75a0394d2dd510004" title="AtmPitch::getOutput" alt="" coords="248,60,389,87"/>
+<area shape="rect" id="node8" href="$d4/d0f/class_min_engine.html#ad26e5e985eb56946ae93dc3274874229" title="MinEngine::patchCtrlChanged" alt="" coords="221,112,416,139"/>
+<area shape="rect" id="node3" href="$d4/d0f/class_min_engine.html#af0b91eca44954cb677808c3d24659596" title="MinEngine::poll" alt="" coords="478,56,589,83"/>
+<area shape="rect" id="node4" href="$dd/d34/class_min.html#a4ed53c28c8c59dba741daf945dbc160b" title="Min::poll" alt="" coords="715,5,785,32"/>
+<area shape="rect" id="node6" href="$d4/d0f/class_min_engine.html#a461861aff0eb8271558c9c20bc040b56" title="MinEngine::getTestNote" alt="" coords="669,56,831,83"/>
+<area shape="rect" id="node5" href="$d1/d54/_ss_min_miniatmegatron_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="971,5,1017,32"/>
+<area shape="rect" id="node7" href="$dd/d34/class_min.html#ae00f275ac6aeb73f932e62ae85abe5b1" title="Min::hardwareSwitchChanged" alt="" coords="897,56,1091,83"/>
+<area shape="rect" id="node9" href="$d4/d0f/class_min_engine.html#ae9224dca462d7a6233fb7c22210cc8a8" title="MinEngine::getBank" alt="" coords="464,113,603,140"/>
+<area shape="rect" id="node10" href="$dd/d34/class_min.html#aead3e428133f75538420c1e67c532fa7" title="Min::hardwareAnalogueControl\lChanged" alt="" coords="651,107,849,149"/>
+</map>

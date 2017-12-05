@@ -1,8 +1,0 @@
-<map id="LedRgb::refreshFlash" name="LedRgb::refreshFlash">
-<area shape="rect" id="node2" href="$class_led_rgb.html#a542e3bf6bcf1f05df3cc442522787948" title="LedRgb::getColour" alt="" coords="222,5,351,32"/>
-<area shape="rect" id="node4" href="$class_min_hardware.html#a22017d021942bf72850a338b1522d5c2" title="MinHardware::refreshFlash" alt="" coords="199,56,375,83"/>
-<area shape="rect" id="node3" href="$class_min.html#aa17c2510883d894f135d6a0582cc8bea" title="Min::hardwareSwitchHeld" alt="" coords="423,5,591,32"/>
-<area shape="rect" id="node5" href="$class_min.html#a4ed53c28c8c59dba741daf945dbc160b" title="Min::poll" alt="" coords="471,56,542,83"/>
-<area shape="rect" id="node7" href="$class_min_hardware.html#af0f53594d24df7d75360ccccd0f582d3" title="MinHardware::getLed" alt="" coords="435,107,579,133"/>
-<area shape="rect" id="node6" href="$_ss_min_miniatmegatron_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="639,56,685,83"/>
-</map>

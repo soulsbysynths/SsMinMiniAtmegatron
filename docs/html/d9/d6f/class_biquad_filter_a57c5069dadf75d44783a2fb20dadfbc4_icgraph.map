@@ -1,0 +1,6 @@
+<map id="BiquadFilter::setLfoAmount" name="BiquadFilter::setLfoAmount">
+<area shape="rect" id="node2" href="$d9/d6f/class_biquad_filter.html#a00fd6c36ca50169705ad5c00560341d9" title="BiquadFilter::getEnvAmount" alt="" coords="238,5,421,32"/>
+<area shape="rect" id="node3" href="$d4/d0f/class_min_engine.html#ad26e5e985eb56946ae93dc3274874229" title="MinEngine::patchCtrlChanged" alt="" coords="232,56,427,83"/>
+<area shape="rect" id="node4" href="$d4/d0f/class_min_engine.html#ae9224dca462d7a6233fb7c22210cc8a8" title="MinEngine::getBank" alt="" coords="475,56,613,83"/>
+<area shape="rect" id="node5" href="$dd/d34/class_min.html#aead3e428133f75538420c1e67c532fa7" title="Min::hardwareAnalogueControl\lChanged" alt="" coords="661,49,860,90"/>
+</map>

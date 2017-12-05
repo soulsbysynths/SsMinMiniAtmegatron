@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['flanger',['Flanger',['../class_flanger.html',1,'']]]
+  ['flanger',['Flanger',['../d5/d64/class_flanger.html',1,'']]]
 ];

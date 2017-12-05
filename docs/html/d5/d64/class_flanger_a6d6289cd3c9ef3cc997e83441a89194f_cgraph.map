@@ -1,0 +1,5 @@
+<map id="Flanger::getLfoAmount" name="Flanger::getLfoAmount">
+<area shape="rect" id="node2" href="$d5/d64/class_flanger.html#ac4f38ebccacae85c724fe43f13caf636" title="Flanger::setEnvAmount" alt="" coords="207,5,364,32"/>
+<area shape="rect" id="node3" href="$d5/d64/class_flanger.html#ae94929f1469d1924d24537e2b265796d" title="Flanger::clearBuffer" alt="" coords="412,5,547,32"/>
+<area shape="rect" id="node4" href="$d8/d3f/class_wavetable.html#ae4815729b57d8625a17ae0421b394217" title="Wavetable::clearSamples" alt="" coords="595,5,764,32"/>
+</map>

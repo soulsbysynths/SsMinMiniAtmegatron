@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['biquadfilter',['BiquadFilter',['../class_biquad_filter.html',1,'']]]
+  ['biquadfilter',['BiquadFilter',['../d9/d6f/class_biquad_filter.html',1,'']]]
 ];

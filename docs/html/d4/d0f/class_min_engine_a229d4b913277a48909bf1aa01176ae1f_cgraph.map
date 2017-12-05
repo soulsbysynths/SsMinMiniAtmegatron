@@ -1,0 +1,21 @@
+<map id="MinEngine::patchValueChanged" name="MinEngine::patchValueChanged">
+<area shape="rect" id="node2" href="$d8/d5f/class_atm_oscillator.html#a9f65ae9f2132c46f73b776a869b5bf21" title="AtmOscillator::setBank" alt="" coords="277,5,435,32"/>
+<area shape="rect" id="node3" href="$d8/d5f/class_atm_oscillator.html#ac4248a3cd6fceea6ee677e74faba4af0" title="AtmOscillator::setTable" alt="" coords="277,56,435,83"/>
+<area shape="rect" id="node7" href="$d9/d6f/class_biquad_filter.html#af31a36e9f121facbabf87d303642d4e2" title="BiquadFilter::setType" alt="" coords="283,107,429,133"/>
+<area shape="rect" id="node8" href="$d7/df3/class_envelope.html#a82398cacd7990d2fdb0606f454610a43" title="Envelope::setAttack" alt="" coords="287,157,425,184"/>
+<area shape="rect" id="node9" href="$d7/df3/class_envelope.html#a5ce19b4d570637216cfd8b0c31447d84" title="Envelope::setDecay" alt="" coords="287,208,425,235"/>
+<area shape="rect" id="node10" href="$d7/df3/class_envelope.html#a18deee1d88842bfbbcfb2765eb944f4d" title="Envelope::setSustain" alt="" coords="284,259,428,285"/>
+<area shape="rect" id="node11" href="$d7/df3/class_envelope.html#a7102e88984b79766c6e9dc4a3c7e278d" title="Envelope::setRelease" alt="" coords="283,309,429,336"/>
+<area shape="rect" id="node12" href="$d6/d5f/class_lfo.html#a6c0c12b49e8b69c4e839eed57130d2ad" title="Lfo::setTable" alt="" coords="308,360,404,387"/>
+<area shape="rect" id="node13" href="$d6/d5f/class_lfo.html#a525733f0ed750902b8577b08c0c55023" title="Lfo::setDivision" alt="" coords="301,411,411,437"/>
+<area shape="rect" id="node14" href="$d4/d10/class_portamento.html#ac30ccb23ee5bc0dd6bb00215eb9f0805" title="Portamento::setSpeed" alt="" coords="280,461,432,488"/>
+<area shape="rect" id="node15" href="$df/d70/class_wave_crusher.html#a61ba1c5b0cf0c3bd1f112de317f2deb3" title="WaveCrusher::setType" alt="" coords="279,512,433,539"/>
+<area shape="rect" id="node16" href="$dc/d87/class_step_sequencer.html#ac611afad54d4336977925b7f3495e8b4" title="StepSequencer::setPattern" alt="" coords="267,563,445,589"/>
+<area shape="rect" id="node18" href="$d4/d0f/class_min_engine.html#a7ef07f3911096d861e030cccfd8899b5" title="MinEngine::setIntBpm" alt="" coords="281,613,431,640"/>
+<area shape="rect" id="node20" href="$d7/d0e/class_min_engine_base.html#a35b19eb25b2bbfbcf0bc2262a63ec488" title="MinEngineBase::engineValue\lChanged" alt="" coords="260,665,452,706"/>
+<area shape="rect" id="node4" href="$d8/d5f/class_atm_oscillator.html#a08b383cd2305c232de827399aa8d2ccb" title="AtmOscillator::readUserWave" alt="" coords="500,56,693,83"/>
+<area shape="rect" id="node5" href="$d7/d5f/_atm_oscillator_8cpp.html#a9e3c9635d723f61c63b8a588c0a48fd5" title="readMemory" alt="" coords="770,31,865,57"/>
+<area shape="rect" id="node6" href="$d8/d3f/class_wavetable.html#a01485340698b4bf92f3065f31feaf4c4" title="Wavetable::setSample" alt="" coords="741,81,893,108"/>
+<area shape="rect" id="node17" href="$d1/d4a/class_step_sequencer_base.html#a9f32f8ae8eb8afb1c2ea39ed8d856657" title="StepSequencerBase::\lstepseqNoteEvent" alt="" coords="522,547,671,589"/>
+<area shape="rect" id="node19" href="$d6/dc3/class_master_clock.html#a5df4dcf8523b8186a7c73f9357376a01" title="MasterClock::setTicksPer\lCycle" alt="" coords="511,613,683,654"/>
+</map>

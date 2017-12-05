@@ -1,4 +1,0 @@
-<map id="MidiBase::midiSysexWrite" name="MidiBase::midiSysexWrite">
-<area shape="rect" id="node2" href="$class_midi.html#a57efc17c9561b9ca9763d610b4feea9e" title="Midi::writeSysex" alt="" coords="229,5,348,32"/>
-<area shape="rect" id="node3" href="$class_midi.html#a138bcab57f6cf89474d774de29be9939" title="Midi::getTotNotesOn" alt="" coords="396,5,537,32"/>
-</map>

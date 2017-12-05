@@ -1,6 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_atm_patch_base.html" title="AtmPatchBase" alt="" coords="21,5,131,32"/>
-<area shape="rect" id="node2" href="$class_min_engine.html" title="MinEngine" alt="" coords="195,56,277,83"/>
-<area shape="rect" id="node3" href="$class_midi_base.html" title="MidiBase" alt="" coords="38,56,114,83"/>
-<area shape="rect" id="node4" href="$class_step_sequencer_base.html" title="StepSequencerBase" alt="" coords="5,107,147,133"/>
+<area shape="rect" id="node1" href="$d4/deb/class_atm_patch_base.html" title="AtmPatchBase" alt="" coords="21,5,131,32"/>
+<area shape="rect" id="node2" href="$d4/d0f/class_min_engine.html" title="MinEngine" alt="" coords="195,56,277,83"/>
+<area shape="rect" id="node3" href="$de/def/class_midi_base.html" title="MidiBase" alt="" coords="38,56,114,83"/>
+<area shape="rect" id="node4" href="$d1/d4a/class_step_sequencer_base.html" title="StepSequencerBase" alt="" coords="5,107,147,133"/>
 </map>

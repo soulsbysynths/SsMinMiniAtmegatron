@@ -1,0 +1,16 @@
+<map id="Wavetable::getWaveLength" name="Wavetable::getWaveLength">
+<area shape="rect" id="node2" href="$de/d01/class_amplifier.html#a3f1ec0c50fdb0adb71e2f7576e38170a" title="Amplifier::processWavetable" alt="" coords="245,107,432,133"/>
+<area shape="rect" id="node8" href="$d9/d6f/class_biquad_filter.html#a205ea1f856a52f5d369d45cf385df801" title="BiquadFilter::processWavetable" alt="" coords="236,5,441,32"/>
+<area shape="rect" id="node10" href="$d8/da2/class_clip_distortion.html#a761af22fbd15eb8bcc9ac0fdfe4d655d" title="ClipDistortion::processWavetable" alt="" coords="232,56,445,83"/>
+<area shape="rect" id="node12" href="$d5/d64/class_flanger.html#af0c970c914193ea326ca177869f508c1" title="Flanger::processWavetable" alt="" coords="249,157,428,184"/>
+<area shape="rect" id="node14" href="$df/d70/class_wave_crusher.html#a906f0056db9847e6fafd406ab9e613a9" title="WaveCrusher::processWavetable" alt="" coords="232,208,445,235"/>
+<area shape="rect" id="node3" href="$d4/d0f/class_min_engine.html#af0b91eca44954cb677808c3d24659596" title="MinEngine::poll" alt="" coords="535,107,646,133"/>
+<area shape="rect" id="node4" href="$dd/d34/class_min.html#a4ed53c28c8c59dba741daf945dbc160b" title="Min::poll" alt="" coords="781,81,852,108"/>
+<area shape="rect" id="node6" href="$d4/d0f/class_min_engine.html#a461861aff0eb8271558c9c20bc040b56" title="MinEngine::getTestNote" alt="" coords="736,132,897,159"/>
+<area shape="rect" id="node5" href="$d1/d54/_ss_min_miniatmegatron_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="1019,81,1065,108"/>
+<area shape="rect" id="node7" href="$dd/d34/class_min.html#ae00f275ac6aeb73f932e62ae85abe5b1" title="Min::hardwareSwitchChanged" alt="" coords="945,132,1139,159"/>
+<area shape="rect" id="node9" href="$d9/d6f/class_biquad_filter.html#aa6cee8e0caed47a12edb5f58b40b0561" title="BiquadFilter::getLfoAmount" alt="" coords="501,5,680,32"/>
+<area shape="rect" id="node11" href="$d8/da2/class_clip_distortion.html#a2a2656f1baaaa42f9c240040ecee9c68" title="ClipDistortion::getDistLevel" alt="" coords="502,56,679,83"/>
+<area shape="rect" id="node13" href="$d5/d64/class_flanger.html#ae86b7a0721c3a9893f3b9ec5f4b6c0fb" title="Flanger::getEnvAmount" alt="" coords="512,157,669,184"/>
+<area shape="rect" id="node15" href="$df/d70/class_wave_crusher.html#a084b8413b14c16e4cab7f65caf9e3fd0" title="WaveCrusher::getSampleHold" alt="" coords="493,208,688,235"/>
+</map>

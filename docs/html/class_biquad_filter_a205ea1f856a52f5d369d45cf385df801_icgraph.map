@@ -1,8 +1,0 @@
-<map id="BiquadFilter::processWavetable" name="BiquadFilter::processWavetable">
-<area shape="rect" id="node2" href="$class_biquad_filter.html#aa6cee8e0caed47a12edb5f58b40b0561" title="BiquadFilter::getLfoAmount" alt="" coords="259,5,437,32"/>
-<area shape="rect" id="node3" href="$class_min_engine.html#af0b91eca44954cb677808c3d24659596" title="MinEngine::poll" alt="" coords="293,56,403,83"/>
-<area shape="rect" id="node4" href="$class_min.html#a4ed53c28c8c59dba741daf945dbc160b" title="Min::poll" alt="" coords="531,31,601,57"/>
-<area shape="rect" id="node6" href="$class_min_engine.html#a461861aff0eb8271558c9c20bc040b56" title="MinEngine::getTestNote" alt="" coords="485,81,647,108"/>
-<area shape="rect" id="node5" href="$_ss_min_miniatmegatron_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="768,31,815,57"/>
-<area shape="rect" id="node7" href="$class_min.html#ae00f275ac6aeb73f932e62ae85abe5b1" title="Min::hardwareSwitchChanged" alt="" coords="695,81,888,108"/>
-</map>

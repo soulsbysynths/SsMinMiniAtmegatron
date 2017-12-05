@@ -1,0 +1,6 @@
+<map id="Envelope::setRelease" name="Envelope::setRelease">
+<area shape="rect" id="node2" href="$d7/df3/class_envelope.html#a4cc2bb1ba420ecd053c4a1ad8ed0ab7d" title="Envelope::getSustain" alt="" coords="231,5,375,32"/>
+<area shape="rect" id="node3" href="$d4/d0f/class_min_engine.html#a229d4b913277a48909bf1aa01176ae1f" title="MinEngine::patchValueChanged" alt="" coords="200,56,407,83"/>
+<area shape="rect" id="node4" href="$d4/d0f/class_min_engine.html#ae9224dca462d7a6233fb7c22210cc8a8" title="MinEngine::getBank" alt="" coords="455,56,593,83"/>
+<area shape="rect" id="node5" href="$dd/d34/class_min.html#aead3e428133f75538420c1e67c532fa7" title="Min::hardwareAnalogueControl\lChanged" alt="" coords="641,49,840,90"/>
+</map>

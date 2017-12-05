@@ -1,0 +1,12 @@
+<map id="Midi::read" name="Midi::read">
+<area shape="rect" id="node2" href="$de/def/class_midi_base.html#aa368fed406eb62f900beb801e0552709" title="MidiBase::midiClockStart\lReceived" alt="" coords="159,5,329,47"/>
+<area shape="rect" id="node3" href="$de/def/class_midi_base.html#ab9a5c65ebffdfc31e118fef9e4dd04bb" title="MidiBase::midiClockStopReceived" alt="" coords="134,71,354,98"/>
+<area shape="rect" id="node4" href="$de/def/class_midi_base.html#a3b3e70e61a2f2fa169bf694eeefeb0fd" title="MidiBase::midiSysexStart\lReceived" alt="" coords="157,123,331,164"/>
+<area shape="rect" id="node5" href="$de/def/class_midi_base.html#a14d11f47e731a26535f855a99893d092" title="MidiBase::midiSysexStopReceived" alt="" coords="132,189,356,215"/>
+<area shape="rect" id="node6" href="$de/def/class_midi_base.html#ade00871c0c9e32bfacf34480faf0d37b" title="MidiBase::midiSysexDataReceived" alt="" coords="132,239,356,266"/>
+<area shape="rect" id="node7" href="$de/def/class_midi_base.html#a968da0cf67e9a84757cbc2dbce90bc39" title="MidiBase::midiProgramChange\lReceived" alt="" coords="143,291,345,332"/>
+<area shape="rect" id="node8" href="$de/def/class_midi_base.html#aa977f9f3db59b0a8b892ee28bcf93695" title="MidiBase::midiNoteOnReceived" alt="" coords="142,357,346,383"/>
+<area shape="rect" id="node9" href="$de/def/class_midi_base.html#aa26f04b4ead215bce201e480faf7c914" title="MidiBase::midiNoteOffReceived" alt="" coords="143,407,345,434"/>
+<area shape="rect" id="node10" href="$de/def/class_midi_base.html#a8364d72d525fd8a766a124ca3230a4c7" title="MidiBase::midiControlChange\lReceived" alt="" coords="147,459,341,500"/>
+<area shape="rect" id="node11" href="$de/def/class_midi_base.html#acfb1d2aef9901779bb53e0847121c13d" title="MidiBase::midiPitchBendReceived" alt="" coords="134,525,354,551"/>
+</map>

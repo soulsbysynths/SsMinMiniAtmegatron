@@ -1,7 +1,0 @@
-<map id="MinHardware::refreshLEDs" name="MinHardware::refreshLEDs">
-<area shape="rect" id="node2" href="$class_min.html#a0fbb740ee813f44c6b0082d9a980875c" title="Min::initialize" alt="" coords="252,5,351,32"/>
-<area shape="rect" id="node4" href="$class_min.html#a4ed53c28c8c59dba741daf945dbc160b" title="Min::poll" alt="" coords="266,56,337,83"/>
-<area shape="rect" id="node6" href="$class_min_hardware.html#af0f53594d24df7d75360ccccd0f582d3" title="MinHardware::getLed" alt="" coords="229,107,373,133"/>
-<area shape="rect" id="node3" href="$_ss_min_miniatmegatron_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="421,5,476,32"/>
-<area shape="rect" id="node5" href="$_ss_min_miniatmegatron_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="425,56,472,83"/>
-</map>

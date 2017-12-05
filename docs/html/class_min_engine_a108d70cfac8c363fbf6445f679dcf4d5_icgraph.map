@@ -1,7 +1,0 @@
-<map id="MinEngine::midiNoteOnReceived" name="MinEngine::midiNoteOnReceived">
-<area shape="rect" id="node2" href="$class_min.html#ae00f275ac6aeb73f932e62ae85abe5b1" title="Min::hardwareSwitchChanged" alt="" coords="273,5,467,32"/>
-<area shape="rect" id="node3" href="$class_min_engine.html#ad26e5e985eb56946ae93dc3274874229" title="MinEngine::patchCtrlChanged" alt="" coords="273,56,467,83"/>
-<area shape="rect" id="node6" href="$class_min_engine.html#aff5a85aae7d6f6e5edd571c73c071871" title="MinEngine::patchOptionChanged" alt="" coords="264,107,476,133"/>
-<area shape="rect" id="node4" href="$class_min_engine.html#ae9224dca462d7a6233fb7c22210cc8a8" title="MinEngine::getBank" alt="" coords="524,56,663,83"/>
-<area shape="rect" id="node5" href="$class_min.html#aead3e428133f75538420c1e67c532fa7" title="Min::hardwareAnalogueControl\lChanged" alt="" coords="711,49,909,90"/>
-</map>

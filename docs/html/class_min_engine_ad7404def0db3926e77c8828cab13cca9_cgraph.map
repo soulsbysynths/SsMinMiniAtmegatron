@@ -1,9 +1,0 @@
-<map id="MinEngine::midiControlChangeReceived" name="MinEngine::midiControlChangeReceived">
-<area shape="rect" id="node2" href="$class_atm_patch.html#a95fb3ea0dfd3369abe7518da26edb1b5" title="AtmPatch::setCtrlValue" alt="" coords="269,20,427,47"/>
-<area shape="rect" id="node4" href="$class_atm_patch.html#ad2fe7a265755afc95a36752b86b6a7e2" title="AtmPatch::setFunctionValue" alt="" coords="253,100,443,127"/>
-<area shape="rect" id="node7" href="$class_midi.html#a2b55e3e055e1076a4113374ec3c06056" title="Midi::reset" alt="" coords="307,155,389,181"/>
-<area shape="rect" id="node3" href="$class_atm_patch_base.html#a10abe1d35a241d61a83473ef8caaee33" title="AtmPatchBase::patchCtrlChanged" alt="" coords="491,5,712,32"/>
-<area shape="rect" id="node5" href="$_ss_helpers_8h.html#ae1494147f54b48ede4d411140ad5a4e8" title="compressFourBit" alt="" coords="541,56,662,83"/>
-<area shape="rect" id="node6" href="$class_atm_patch_base.html#ad561145330e0b53990f222c243ef5e89" title="AtmPatchBase::patchValue\lChanged" alt="" coords="510,107,693,149"/>
-<area shape="rect" id="node8" href="$class_midi_base.html#aa26f04b4ead215bce201e480faf7c914" title="MidiBase::midiNoteOffReceived" alt="" coords="500,173,703,200"/>
-</map>

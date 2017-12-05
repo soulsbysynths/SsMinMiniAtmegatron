@@ -1,4 +1,0 @@
-<map id="MidiBase::midiSysexDataReceived" name="MidiBase::midiSysexDataReceived">
-<area shape="rect" id="node2" href="$class_midi.html#a6003d2a28da28e44143e494faf16acd9" title="Midi::read" alt="" coords="277,5,356,32"/>
-<area shape="rect" id="node3" href="$class_min.html#a8d4ebe4e020e14c2457d42f33c4c9e32" title="Min::hardwareMidiReceived" alt="" coords="404,5,583,32"/>
-</map>

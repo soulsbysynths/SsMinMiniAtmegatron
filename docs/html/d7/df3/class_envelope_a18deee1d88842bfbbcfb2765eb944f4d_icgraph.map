@@ -1,0 +1,6 @@
+<map id="Envelope::setSustain" name="Envelope::setSustain">
+<area shape="rect" id="node2" href="$d7/df3/class_envelope.html#a6c7ba1a801512bb26e0b8114edb10544" title="Envelope::getDecay" alt="" coords="232,5,369,32"/>
+<area shape="rect" id="node3" href="$d4/d0f/class_min_engine.html#a229d4b913277a48909bf1aa01176ae1f" title="MinEngine::patchValueChanged" alt="" coords="197,56,404,83"/>
+<area shape="rect" id="node4" href="$d4/d0f/class_min_engine.html#ae9224dca462d7a6233fb7c22210cc8a8" title="MinEngine::getBank" alt="" coords="452,56,591,83"/>
+<area shape="rect" id="node5" href="$dd/d34/class_min.html#aead3e428133f75538420c1e67c532fa7" title="Min::hardwareAnalogueControl\lChanged" alt="" coords="639,49,837,90"/>
+</map>

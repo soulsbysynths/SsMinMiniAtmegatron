@@ -1,0 +1,6 @@
+<map id="Switch::setState" name="Switch::setState">
+<area shape="rect" id="node2" href="$d0/d93/class_min_hardware.html#a135650ade19c661a9e20f0a410722a10" title="MinHardware::pollSwitches" alt="" coords="172,31,351,57"/>
+<area shape="rect" id="node3" href="$dd/d34/class_min.html#a4ed53c28c8c59dba741daf945dbc160b" title="Min::poll" alt="" coords="435,5,506,32"/>
+<area shape="rect" id="node5" href="$d0/d93/class_min_hardware.html#af0f53594d24df7d75360ccccd0f582d3" title="MinHardware::getLed" alt="" coords="399,56,543,83"/>
+<area shape="rect" id="node4" href="$d1/d54/_ss_min_miniatmegatron_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="591,5,637,32"/>
+</map>

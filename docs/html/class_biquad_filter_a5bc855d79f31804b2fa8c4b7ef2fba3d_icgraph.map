@@ -1,6 +1,0 @@
-<map id="BiquadFilter::setEnvAmount" name="BiquadFilter::setEnvAmount">
-<area shape="rect" id="node2" href="$class_biquad_filter.html#a4e2b1fd4bb0af7f4bea4709b1bf51792" title="BiquadFilter::getAbsoluteFc" alt="" coords="242,5,425,32"/>
-<area shape="rect" id="node3" href="$class_min_engine.html#ad26e5e985eb56946ae93dc3274874229" title="MinEngine::patchCtrlChanged" alt="" coords="236,56,431,83"/>
-<area shape="rect" id="node4" href="$class_min_engine.html#ae9224dca462d7a6233fb7c22210cc8a8" title="MinEngine::getBank" alt="" coords="479,56,617,83"/>
-<area shape="rect" id="node5" href="$class_min.html#aead3e428133f75538420c1e67c532fa7" title="Min::hardwareAnalogueControl\lChanged" alt="" coords="665,49,864,90"/>
-</map>

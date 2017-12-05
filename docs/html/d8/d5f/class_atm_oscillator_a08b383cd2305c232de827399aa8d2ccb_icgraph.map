@@ -1,0 +1,10 @@
+<map id="AtmOscillator::readUserWave" name="AtmOscillator::readUserWave">
+<area shape="rect" id="node2" href="$d8/d5f/class_atm_oscillator.html#a864b35c83864a6d5045f9dbb42fa862e" title="AtmOscillator::AtmOscillator" alt="" coords="247,29,435,56"/>
+<area shape="rect" id="node3" href="$d8/d5f/class_atm_oscillator.html#ac4248a3cd6fceea6ee677e74faba4af0" title="AtmOscillator::setTable" alt="" coords="261,80,420,107"/>
+<area shape="rect" id="node7" href="$d8/d5f/class_atm_oscillator.html#aafaccbb54d52f2c0eb07eb968498eef4" title="AtmOscillator::setUserMode" alt="" coords="247,131,434,157"/>
+<area shape="rect" id="node9" href="$d8/d5f/class_atm_oscillator.html#a19bdaa400d57eeb24ca027febc2fd1cf" title="AtmOscillator::getUserWave\lStartAddress" alt="" coords="247,182,434,223"/>
+<area shape="rect" id="node4" href="$d4/d0f/class_min_engine.html#a229d4b913277a48909bf1aa01176ae1f" title="MinEngine::patchValueChanged" alt="" coords="483,80,689,107"/>
+<area shape="rect" id="node5" href="$d4/d0f/class_min_engine.html#ae9224dca462d7a6233fb7c22210cc8a8" title="MinEngine::getBank" alt="" coords="737,80,876,107"/>
+<area shape="rect" id="node6" href="$dd/d34/class_min.html#aead3e428133f75538420c1e67c532fa7" title="Min::hardwareAnalogueControl\lChanged" alt="" coords="924,73,1123,114"/>
+<area shape="rect" id="node8" href="$d8/d5f/class_atm_oscillator.html#a56b407e4175f4625e2e0d7a6f87c2225" title="AtmOscillator::getBank" alt="" coords="507,131,665,157"/>
+</map>

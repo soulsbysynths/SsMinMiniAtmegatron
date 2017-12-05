@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['wavecrusher',['WaveCrusher',['../class_wave_crusher.html',1,'']]],
-  ['wavetable',['Wavetable',['../class_wavetable.html',1,'']]]
+  ['wavecrusher',['WaveCrusher',['../df/d70/class_wave_crusher.html',1,'']]],
+  ['wavetable',['Wavetable',['../d8/d3f/class_wavetable.html',1,'']]]
 ];

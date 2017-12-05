@@ -1,6 +1,0 @@
-<map id="AnalogueControl::setValue" name="AnalogueControl::setValue">
-<area shape="rect" id="node2" href="$class_min_hardware.html#afa6cdaaab625ffd44c733c6ff9e29f4d" title="MinHardware::pollAnlControls" alt="" coords="229,31,421,57"/>
-<area shape="rect" id="node3" href="$class_min.html#a4ed53c28c8c59dba741daf945dbc160b" title="Min::poll" alt="" coords="506,5,577,32"/>
-<area shape="rect" id="node5" href="$class_min_hardware.html#af0f53594d24df7d75360ccccd0f582d3" title="MinHardware::getLed" alt="" coords="469,56,613,83"/>
-<area shape="rect" id="node4" href="$_ss_min_miniatmegatron_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="661,5,708,32"/>
-</map>

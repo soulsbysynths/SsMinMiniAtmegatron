@@ -1,0 +1,21 @@
+<map id="SsHelpers.h" name="SsHelpers.h">
+<area shape="rect" id="node2" href="$d1/d54/_ss_min_miniatmegatron_8ino.html" title="SsMinMiniatmegatron.ino" alt="" coords="586,304,755,331"/>
+<area shape="rect" id="node3" href="$d7/df9/_atm_patch_8h.html" title="AtmPatch.h" alt="" coords="726,80,817,107"/>
+<area shape="rect" id="node9" href="$d3/d28/_atm_pitch_8h.html" title="AtmPitch.h" alt="" coords="114,80,200,107"/>
+<area shape="rect" id="node11" href="$dc/dec/_biquad_filter_8h.html" title="BiquadFilter.h" alt="" coords="290,80,392,107"/>
+<area shape="rect" id="node13" href="$d4/dbd/_envelope_8h.html" title="Envelope.h" alt="" coords="570,80,656,107"/>
+<area shape="rect" id="node15" href="$de/dd8/_flanger_8h.html" title="Flanger.h" alt="" coords="440,80,516,107"/>
+<area shape="rect" id="node17" href="$dc/d76/_led_rgb_8h.html" title="LedRgb.h" alt="" coords="1050,80,1128,107"/>
+<area shape="rect" id="node19" href="$d8/ddd/_min_hardware_8h.html" title="MinHardware.h" alt="" coords="1210,155,1318,181"/>
+<area shape="rect" id="node4" href="$db/d14/_atm_patch_8cpp.html" title="AtmPatch.cpp" alt="" coords="812,155,918,181"/>
+<area shape="rect" id="node5" href="$de/d3f/_min_engine_8h.html" title="MinEngine.h" alt="" coords="519,155,614,181"/>
+<area shape="rect" id="node6" href="$de/ddb/_min_8h.html" title="Min.h" alt="" coords="1052,229,1107,256"/>
+<area shape="rect" id="node8" href="$df/d78/_min_engine_8cpp.html" title="MinEngine.cpp" alt="" coords="604,229,712,256"/>
+<area shape="rect" id="node7" href="$dd/d09/_min_8cpp.html" title="Min.cpp" alt="" coords="1046,304,1114,331"/>
+<area shape="rect" id="node10" href="$db/dc1/_atm_pitch_8cpp.html" title="AtmPitch.cpp" alt="" coords="36,155,137,181"/>
+<area shape="rect" id="node12" href="$d8/de0/_biquad_filter_8cpp.html" title="BiquadFilter.cpp" alt="" coords="162,155,278,181"/>
+<area shape="rect" id="node14" href="$d9/d47/_envelope_8cpp.html" title="Envelope.cpp" alt="" coords="638,155,737,181"/>
+<area shape="rect" id="node16" href="$db/d0f/_flanger_8cpp.html" title="Flanger.cpp" alt="" coords="404,155,494,181"/>
+<area shape="rect" id="node18" href="$d1/d1b/_led_rgb_8cpp.html" title="LedRgb.cpp" alt="" coords="1044,155,1134,181"/>
+<area shape="rect" id="node20" href="$d9/d99/_min_hardware_8cpp.html" title="MinHardware.cpp" alt="" coords="1202,229,1325,256"/>
+</map>
